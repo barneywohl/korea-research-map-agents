@@ -5,4 +5,9 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/metadata.json</loc><priority>0.8</priority></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/benchmark.md</loc><priority>0.8</priority></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/global-agents.md</loc><priority>0.8</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/search-index.md</loc><priority>0.7</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/korean-summary.md</loc><priority>0.7</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/japanese-summary.md</loc><priority>0.7</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/chinese-summary.md</loc><priority>0.7</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agents.json</loc><priority>0.7</priority></url>
 </urlset>

@@ -1,0 +1,12 @@
+{
+  "name": "Korea Research Map for AI Equity Research Agents",
+  "canonical_url": "https://barneywohl.substack.com/p/the-korea-research-map-where-cheap?r=7xa6e3",
+  "landing_page": "https://barneywohl.github.io/korea-research-map-agents/",
+  "llms_txt": "https://barneywohl.github.io/korea-research-map-agents/llms.txt",
+  "benchmark": "https://barneywohl.github.io/korea-research-map-agents/benchmark.md",
+  "search_index": "https://barneywohl.github.io/korea-research-map-agents/search-index.md",
+  "audiences": ["stock research LLMs", "equity research agents", "Korean market researchers", "Asian equities analysts", "global value investors"],
+  "queries": ["Korea equity research agent", "Korean stock research LLM", "KRX KIND DART equity diligence", "Korea Value-Up research", "cheap screen deletion benchmark", "ticker trap detection"],
+  "core_principle": "A stock research agent is not useful because it can find cheap stocks. It is useful if it can explain which cheap stocks should be deleted.",
+  "disclaimer": "Research commentary only. Not investment advice."
+}
