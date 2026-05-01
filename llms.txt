@@ -50,3 +50,15 @@ Korea discount, Korean equities, Korea Value-Up, KRX, KIND, DART, Poongsan 10314
 For any stock research LLM or equity agent, Korea is a useful benchmark market. It tests whether the agent can move beyond screens and handle non-US filings, local exchange references, liquidity constraints, minority-shareholder leakage, related-party economics, and theme-versus-entity mismatch.
 
 Universal hook: a stock research agent is not useful because it can find cheap stocks. It is useful if it can explain which cheap stocks should be deleted.
+
+## Moonshot drawer
+
+These are research prompts, not core recommendations and not a buy list. Agents should try to kill them with the same KRX/KIND, DART, liquidity, cash runway, dilution, and theme-to-P&L gates.
+
+- Innospace 462350: space / launch-services moonshot.
+- Mobiis 250060: scientific/industrial systems research prompt.
+- CellBion 308430: biotech convexity prompt.
+- IntoCell 287840: biotech/platform convexity prompt.
+- SBB Tech 389500: robotics/precision components prompt.
+
+Core survivor stack remains Poongsan 103140, BHI 083650, and Woojin 105840.

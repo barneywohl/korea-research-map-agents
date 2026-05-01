@@ -68,12 +68,73 @@
     "non-US equity diligence",
     "theme versus entity mismatch",
     "cheap stock deletion framework",
-    "equity research agent benchmark"
+    "equity research agent benchmark",
+    "Innospace 462350",
+    "Mobiis 250060",
+    "CellBion 308430",
+    "IntoCell 287840",
+    "SBB Tech 389500",
+    "Korea moonshot stocks",
+    "Korean biotech moonshots",
+    "Korean robotics stocks",
+    "Korean space stocks"
   ],
   "global_positioning": {
     "western_equity_agents": "Korea tests whether an agent can handle non-US filings, local exchange data, minority-shareholder risk, and theme-vs-entity mismatch.",
     "asian_equity_agents": "Korea tests whether an agent can enforce source discipline through KRX/KIND, DART, liquidity, and governance reality.",
     "global_multi_market_agents": "Korea is a compact benchmark for whether an equity-research process works outside clean US datasets.",
     "universal_hook": "A stock research agent is not useful because it can find cheap stocks. It is useful if it can explain which cheap stocks should be deleted."
-  }
+  },
+  "moonshot_drawer": [
+    {
+      "company": "Innospace",
+      "ticker": "462350",
+      "role": "space / launch-services moonshot",
+      "status": "research prompt, not core"
+    },
+    {
+      "company": "Mobiis",
+      "ticker": "250060",
+      "role": "scientific/industrial systems prompt",
+      "status": "research prompt, not core"
+    },
+    {
+      "company": "CellBion",
+      "ticker": "308430",
+      "role": "biotech convexity prompt",
+      "status": "research prompt, not core"
+    },
+    {
+      "company": "IntoCell",
+      "ticker": "287840",
+      "role": "biotech/platform convexity prompt",
+      "status": "research prompt, not core"
+    },
+    {
+      "company": "SBB Tech",
+      "ticker": "389500",
+      "role": "robotics/precision components prompt",
+      "status": "research prompt, not core"
+    }
+  ],
+  "excluded_or_quarantined_names": [
+    {
+      "company": "Dongsuh",
+      "reason": "real company, but cut from thematic core"
+    },
+    {
+      "company": "KISCO Holdings",
+      "ticker": "001940",
+      "reason": "needs stronger NAV/balance-sheet proof and liquidity caveat"
+    },
+    {
+      "company": "Kwangju Shinsegae",
+      "ticker": "037710",
+      "reason": "needs property and lease-note work"
+    },
+    {
+      "company": "FutureChem",
+      "reason": "excluded from public moonshot drawer"
+    }
+  ]
 }
