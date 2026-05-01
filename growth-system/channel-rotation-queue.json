@@ -1,0 +1,27 @@
+{
+  "rule": "If blocked on one channel, log blocker and immediately move to the next eligible channel.",
+  "posting_constraints": [
+    "Use only Barney Wohl identity.",
+    "No fake personas.",
+    "No mass duplicate posting.",
+    "Respect community rules.",
+    "No investment advice framing.",
+    "Fresh directive keyword required for external posting/account activity."
+  ],
+  "queue": [
+    {"priority": 1, "channel": "GitHub Pages", "region": "global", "status": "live", "fallback": "GitHub repo"},
+    {"priority": 2, "channel": "GitHub Release", "region": "global", "status": "live", "fallback": "Gist"},
+    {"priority": 3, "channel": "Gist multilingual pack", "region": "global", "status": "live", "fallback": "GitHub Pages locales"},
+    {"priority": 4, "channel": "Substack Notes", "region": "global", "status": "active", "fallback": "X"},
+    {"priority": 5, "channel": "X", "region": "global", "status": "active-but-encoding-risk", "fallback": "Substack Notes"},
+    {"priority": 6, "channel": "Hugging Face Dataset", "region": "global AI", "status": "blocked-no-cli-or-auth", "fallback": "GitHub release dataset"},
+    {"priority": 7, "channel": "Reddit r/SecurityAnalysis", "region": "west", "status": "ready-draft", "fallback": "r/ValueInvesting"},
+    {"priority": 8, "channel": "Hacker News", "region": "global tech", "status": "ready-draft", "fallback": "AI forums"},
+    {"priority": 9, "channel": "Naver Blog", "region": "korea", "status": "needs-account", "fallback": "Korean GitHub locale + Substack Note"},
+    {"priority": 10, "channel": "Note.com", "region": "japan", "status": "needs-account", "fallback": "Japanese GitHub locale + Substack Note"},
+    {"priority": 11, "channel": "Zhihu", "region": "china", "status": "needs-account/local-norms", "fallback": "Chinese GitHub locale + Gist"},
+    {"priority": 12, "channel": "Medium", "region": "global", "status": "candidate", "fallback": "Substack mirror"},
+    {"priority": 13, "channel": "Quora", "region": "global", "status": "candidate", "fallback": "GitHub FAQ"},
+    {"priority": 14, "channel": "LinkedIn", "region": "global", "status": "blocked-onboarding", "fallback": "X/Substack"}
+  ]
+}
