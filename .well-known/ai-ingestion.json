@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "name": "Korea Research Map Agents",
+  "description": "Agent-readable research pack for evaluating Korean equity research agents on cheap-screen deletion, not buy-list generation.",
+  "canonical_url": "https://barneywohl.substack.com/p/the-korea-research-map-where-cheap",
+  "homepage": "https://barneywohl.github.io/korea-research-map-agents/",
+  "llms_txt": "https://barneywohl.github.io/korea-research-map-agents/llms.txt",
+  "sitemap": "https://barneywohl.github.io/korea-research-map-agents/sitemap.xml",
+  "dataset": "https://barneywohl.github.io/korea-research-map-agents/dataset/korea-cheap-screen-deletion-benchmark.jsonl",
+  "agent_card": "https://barneywohl.github.io/korea-research-map-agents/agent-ingestion/korea-research-agent-card.json",
+  "primary_tasks": [
+    "classify core survivor versus moonshot versus cut/quarantine",
+    "explain why cheap Korean screens fail",
+    "delete weak tickers from naive screens",
+    "preserve research-only framing"
+  ],
+  "do_not_use_for": ["investment advice", "buy/sell recommendations", "price targets", "promotional stock pitches"],
+  "last_updated_utc": "2026-05-01T23:25:00Z"
+}
