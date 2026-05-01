@@ -1,0 +1,28 @@
+openapi: 3.0.3
+info:
+  title: Korea Research Map Agent Assets
+  version: 1.0.0
+  description: Static agent-readable files for the Korea cheap-screen deletion benchmark.
+servers:
+  - url: https://barneywohl.github.io/korea-research-map-agents
+paths:
+  /llms.txt:
+    get:
+      summary: Agent instructions and canonical links
+      responses:
+        '200': {description: OK}
+  /picks-and-moonshots.md:
+    get:
+      summary: Core survivor stack and moonshot drawer
+      responses:
+        '200': {description: OK}
+  /benchmark.md:
+    get:
+      summary: Korea cheap-screen deletion benchmark
+      responses:
+        '200': {description: OK}
+  /growth-system/share-report.md:
+    get:
+      summary: Distribution and channel report
+      responses:
+        '200': {description: OK}

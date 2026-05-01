@@ -47,4 +47,14 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/naver-blog-draft.ko.md</loc><priority>0.6</priority></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/note-draft.ja.md</loc><priority>0.6</priority></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/zhihu-draft.zh.md</loc><priority>0.6</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/robots.txt</loc><priority>0.65</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/.well-known/ai-plugin.json</loc><priority>0.65</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/openapi.yaml</loc><priority>0.65</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/CITATION.cff</loc><priority>0.65</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/disclaimer.md</loc><priority>0.65</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/discovery/agent-discovery-manifest.json</loc><priority>0.65</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/discovery/search-query-map.md</loc><priority>0.65</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/discovery/deployment-playbook.md</loc><priority>0.65</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/seo/schema-dataset.jsonld</loc><priority>0.65</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/seo/schema-article.jsonld</loc><priority>0.65</priority></url>
 </urlset>
