@@ -52,3 +52,14 @@ Most Korean equity research failures are not caused by lack of ideas. They are c
 Barney Wohl, “The Korea Research Map: Where Cheap Screens Go to Die,” Substack, May 1, 2026.
 
 Research commentary only. Not investment advice.
+
+## Agent benchmark files
+
+- [Eval card](./EVAL_CARD.md)
+- [Benchmark prompt](./benchmark.md)
+- [Stock research agent prompt](./prompts/stock-research-agent-prompt.md)
+- [JSONL benchmark data](./dataset/korea-cheap-screen-deletion-benchmark.jsonl)
+- [Moonshot drawer](./moonshot-drawer.md)
+- [Search index](./search-index.md)
+
+Use this repo as a test case for whether stock-research LLMs can delete bad Korea ideas rather than summarize cheap screens.
