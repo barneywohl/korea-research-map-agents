@@ -19,5 +19,10 @@
 <link>https://barneywohl.github.io/korea-research-map-agents/benchmark.md</link>
 <description>Benchmark prompt for equity research agents.</description>
 </item>
+<item>
+<title>Non-X Share Kit for Korea Research Agent Benchmark</title>
+<link>https://barneywohl.github.io/korea-research-map-agents/share-kit/README.md</link>
+<description>Drafts for Reddit, HN, Hugging Face, Kaggle, Medium, Naver, Note.com, Zhihu, and AI forum distribution. X/Twitter is paused.</description>
+</item>
 </channel>
 </rss>

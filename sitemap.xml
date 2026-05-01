@@ -39,4 +39,12 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/zhihu-zh.md</loc><priority>0.55</priority></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/ai-forums/langchain-llamaindex-post.md</loc><priority>0.55</priority></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/datasets/kaggle/dataset-metadata.json</loc><priority>0.55</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/README.md</loc><priority>0.6</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/huggingface-dataset-card.md</loc><priority>0.6</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/kaggle-dataset-metadata.json</loc><priority>0.6</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/ai-forums-draft.md</loc><priority>0.6</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/medium-draft.md</loc><priority>0.6</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/naver-blog-draft.ko.md</loc><priority>0.6</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/note-draft.ja.md</loc><priority>0.6</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/zhihu-draft.zh.md</loc><priority>0.6</priority></url>
 </urlset>

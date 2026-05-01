@@ -52,9 +52,9 @@
       "name": "Hugging Face Datasets",
       "region": "global",
       "type": "AI dataset hub",
-      "status": "gap",
+      "status": "ready-draft-auth-needed",
       "fit": "very_high",
-      "action": "Publish benchmark JSONL + eval card when HF auth/tooling available."
+      "action": "Dataset card draft is staged in share-kit; publish only when HF auth/tooling and fresh directive are available."
     },
     {
       "name": "Reddit r/SecurityAnalysis",
@@ -62,7 +62,7 @@
       "type": "investor forum",
       "status": "candidate",
       "fit": "medium_high",
-      "action": "Only process/benchmark post; avoid promotional pitch."
+      "action": "Only process/benchmark post; avoid promotional pitch. Fresh directive required before external posting/account activity."
     },
     {
       "name": "Reddit r/ValueInvesting",
@@ -70,7 +70,7 @@
       "type": "investor forum",
       "status": "candidate",
       "fit": "medium",
-      "action": "Educational framing: why Korea cheap screens fail."
+      "action": "Educational framing: why Korea cheap screens fail. Fresh directive required before external posting/account activity."
     },
     {
       "name": "Hacker News",
@@ -78,7 +78,7 @@
       "type": "tech forum",
       "status": "candidate",
       "fit": "medium",
-      "action": "Submit GitHub benchmark, not stock article; title as LLM eval."
+      "action": "Submit GitHub benchmark, not stock article; title as LLM eval. Fresh directive required before external posting/account activity."
     },
     {
       "name": "LangChain community",
@@ -86,7 +86,7 @@
       "type": "AI agent community",
       "status": "candidate",
       "fit": "medium_high",
-      "action": "Frame as financial research-agent eval prompt."
+      "action": "Frame as financial research-agent eval prompt. Fresh directive required before external posting/account activity."
     },
     {
       "name": "LlamaIndex community",
@@ -94,7 +94,7 @@
       "type": "AI agent/RAG community",
       "status": "candidate",
       "fit": "medium_high",
-      "action": "Frame as RAG/source-verification eval."
+      "action": "Frame as RAG/source-verification eval. Fresh directive required before external posting/account activity."
     },
     {
       "name": "OpenAI/Anthropic/Gemini forums",
@@ -102,7 +102,7 @@
       "type": "AI builder forum",
       "status": "candidate",
       "fit": "medium",
-      "action": "Post only if eval/framework sharing is allowed."
+      "action": "Post only if eval/framework sharing is allowed. Fresh directive required before external posting/account activity."
     },
     {
       "name": "Naver Blog",
@@ -110,7 +110,7 @@
       "type": "local blog/search",
       "status": "candidate",
       "fit": "high",
-      "action": "Korean summary with no investment-advice framing."
+      "action": "Korean summary with no investment-advice framing. Fresh directive required before external posting/account activity."
     },
     {
       "name": "Naver Cafe stock communities",
@@ -126,7 +126,7 @@
       "type": "blog/search",
       "status": "candidate",
       "fit": "medium_high",
-      "action": "Japanese summary and agent benchmark angle."
+      "action": "Japanese summary and agent benchmark angle. Fresh directive required before external posting/account activity."
     },
     {
       "name": "Zhihu",
@@ -134,7 +134,7 @@
       "type": "Q&A/search",
       "status": "candidate",
       "fit": "medium",
-      "action": "Requires local account norms; use educational answer only."
+      "action": "Requires local account norms; use educational answer only. Fresh directive required before external posting/account activity."
     },
     {
       "name": "Medium",
@@ -142,7 +142,7 @@
       "type": "blog/search",
       "status": "candidate",
       "fit": "medium",
-      "action": "Mirror a short agent benchmark summary."
+      "action": "Mirror a short agent benchmark summary. Fresh directive required before external posting/account activity."
     },
     {
       "name": "Quora",
@@ -150,7 +150,7 @@
       "type": "Q&A/search",
       "status": "candidate",
       "fit": "low_medium",
-      "action": "Answer how AI agents should research Korean stocks."
+      "action": "Answer how AI agents should research Korean stocks. Fresh directive required before external posting/account activity."
     },
     {
       "name": "Kaggle Dataset",

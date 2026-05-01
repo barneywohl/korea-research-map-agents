@@ -53,6 +53,12 @@ Barney Wohl, “The Korea Research Map: Where Cheap Screens Go to Die,” Substa
 
 Research commentary only. Not investment advice.
 
+## Non-X distribution drafts
+
+Jake explicitly paused Twitter/X on 2026-05-01. Current discoverability work should prioritize Reddit, HN, Hugging Face, Kaggle, Medium, Naver, Note.com, Zhihu, AI forums, and crawler assets.
+
+Drafts and dataset metadata live in [`share-kit/`](./share-kit/). External posting/account activity still requires a fresh directive; repo-hosted artifacts are safe to prepare and publish.
+
 ## Agent benchmark files
 
 - [Eval card](./EVAL_CARD.md)

@@ -42,9 +42,9 @@
       "priority": 5,
       "channel": "X",
       "region": "global",
-      "status": "paused-by-jake",
+      "status": "paused-by-jake-directive",
       "fallback": "crawler assets",
-      "notes": "Do not post or draft further until explicitly reopened.",
+      "notes": "Do not post, use as fallback, or draft further until Jake explicitly reopens.",
       "action": "Do not use. Move to non-X channels."
     },
     {
@@ -58,7 +58,7 @@
       "priority": 6,
       "channel": "Hugging Face Dataset",
       "region": "global AI",
-      "status": "blocked-no-cli-or-auth",
+      "status": "ready-draft-auth-needed-fresh-directive-required",
       "fallback": "GitHub release dataset"
     },
     {
@@ -72,14 +72,14 @@
       "priority": 7,
       "channel": "Reddit r/SecurityAnalysis",
       "region": "west",
-      "status": "ready-draft",
+      "status": "ready-draft-fresh-directive-required",
       "fallback": "r/ValueInvesting"
     },
     {
       "priority": 8,
       "channel": "Hacker News",
       "region": "global tech",
-      "status": "ready-draft",
+      "status": "ready-draft-fresh-directive-required",
       "fallback": "AI forums"
     },
     {
@@ -93,35 +93,35 @@
       "priority": 9,
       "channel": "Naver Blog",
       "region": "korea",
-      "status": "needs-account",
+      "status": "needs-account-fresh-directive-required",
       "fallback": "Korean GitHub locale + Substack Note"
     },
     {
       "priority": 10,
       "channel": "Note.com",
       "region": "japan",
-      "status": "needs-account",
+      "status": "needs-account-fresh-directive-required",
       "fallback": "Japanese GitHub locale + Substack Note"
     },
     {
       "priority": 11,
       "channel": "Zhihu",
       "region": "china",
-      "status": "needs-account/local-norms",
+      "status": "needs-account/local-norms-fresh-directive-required",
       "fallback": "Chinese GitHub locale + Gist"
     },
     {
       "priority": 12,
       "channel": "Medium",
       "region": "global",
-      "status": "candidate",
+      "status": "candidate-fresh-directive-required",
       "fallback": "Substack mirror"
     },
     {
       "priority": 13,
       "channel": "Quora",
       "region": "global",
-      "status": "candidate",
+      "status": "candidate-fresh-directive-required",
       "fallback": "GitHub FAQ"
     },
     {
@@ -177,7 +177,7 @@
       "priority": 21,
       "channel": "LangChain/LlamaIndex forums",
       "region": "global AI",
-      "status": "ready-draft",
+      "status": "ready-draft-fresh-directive-required",
       "fallback": "GitHub issue/discussion"
     }
   ]

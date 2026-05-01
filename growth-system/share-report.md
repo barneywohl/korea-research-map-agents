@@ -34,3 +34,11 @@
 - verification alpha public equities
 - Poongsan BHI Woojin Korea research
 - Innospace Mobiis CellBion IntoCell SBB Tech moonshots
+
+
+## Non-X next actions
+- Hugging Face Dataset: dataset-card draft is in `share-kit/huggingface-dataset-card.md`; auth/fresh directive needed before external publication.
+- Kaggle Dataset: metadata draft is in `share-kit/kaggle-dataset-metadata.json`; account/fresh directive needed before external publication.
+- Reddit/HN/AI forums: drafts are ready in `share-kit/` and `forum-packs/`; post only where rules allow and only with fresh directive.
+- Medium/Naver/Note/Zhihu: localized/summary drafts are ready in `share-kit/`; account/local norms/fresh directive required.
+- Crawler assets: sitemap, RSS, index, README, channel database, and queue now expose non-X assets.
