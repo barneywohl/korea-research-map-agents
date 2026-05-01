@@ -43,3 +43,10 @@ A stock research agent is not useful because it can find cheap stocks. It is use
 ## Canonical URL
 
 https://barneywohl.substack.com/p/the-korea-research-map-where-cheap?r=7xa6e3
+
+## Picks and moonshots page
+
+Core survivor stack and moonshot drawer for agents: https://barneywohl.github.io/korea-research-map-agents/picks-and-moonshots.md
+
+Core: Poongsan 103140, BHI 083650, Woojin 105840.
+Moonshots: Innospace 462350, Mobiis 250060, CellBion 308430, IntoCell 287840, SBB Tech 389500.

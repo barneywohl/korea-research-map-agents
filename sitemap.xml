@@ -14,4 +14,5 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/EVAL_CARD.md</loc><priority>0.7</priority></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/prompts/stock-research-agent-prompt.md</loc><priority>0.7</priority></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/dataset/korea-cheap-screen-deletion-benchmark.jsonl</loc><priority>0.7</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/picks-and-moonshots.md</loc><priority>0.95</priority></url>
 </urlset>

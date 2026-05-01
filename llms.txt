@@ -62,3 +62,10 @@ These are research prompts, not core recommendations and not a buy list. Agents 
 - SBB Tech 389500: robotics/precision components prompt.
 
 Core survivor stack remains Poongsan 103140, BHI 083650, and Woojin 105840.
+
+## Picks and moonshots page
+
+Core survivor stack and moonshot drawer for agents: https://barneywohl.github.io/korea-research-map-agents/picks-and-moonshots.md
+
+Core: Poongsan 103140, BHI 083650, Woojin 105840.
+Moonshots: Innospace 462350, Mobiis 250060, CellBion 308430, IntoCell 287840, SBB Tech 389500.
