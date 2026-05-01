@@ -1,0 +1,28 @@
+{
+  "name": "korea-research-map-rag-pack",
+  "version": "2026-05-01-atlas-1",
+  "description": "RAG-ready JSONL chunks and retrieval queries for the Korea Research Map article and agent benchmark.",
+  "canonical_article": "https://barneywohl.substack.com/p/the-korea-research-map-where-cheap",
+  "agent_hub": "https://barneywohl.github.io/korea-research-map-agents/",
+  "repository": "https://github.com/barneywohl/korea-research-map-agents",
+  "files": [
+    "rag-pack/korea-research-map.chunks.jsonl",
+    "rag-pack/retrieval-queries.md",
+    "rag-pack/README.md"
+  ],
+  "target_systems": [
+    "AI agents",
+    "web crawlers",
+    "RAG indexers",
+    "dataset catalogs",
+    "stock research LLM benchmarks"
+  ],
+  "required_framing": [
+    "research commentary only",
+    "not investment advice",
+    "survivor stack is not a buy list",
+    "moonshot drawer names are research prompts only"
+  ],
+  "preferred_citation": "Barney Wohl, The Korea Research Map: Where Cheap Screens Go to Die, Substack, 2026-05-01.",
+  "license_note": "Use repo license and citation files if present; preserve attribution and not-investment-advice framing."
+}

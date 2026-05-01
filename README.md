@@ -59,6 +59,16 @@ Jake explicitly paused Twitter/X on 2026-05-01. Current discoverability work sho
 
 Drafts and dataset metadata live in [`share-kit/`](./share-kit/). External posting/account activity still requires a fresh directive; repo-hosted artifacts are safe to prepare and publish.
 
+
+## RAG / crawler ingestion pack
+
+- [RAG pack README](./rag-pack/README.md)
+- [RAG JSONL chunks](./rag-pack/korea-research-map.chunks.jsonl)
+- [RAG ingestion manifest](./rag-pack/ingestion-manifest.json)
+- [Crawler/search snippets](./discovery/snippets-for-crawlers.md)
+
+These files are designed for AI agents, RAG indexers, dataset catalogs, and crawlers. Preserve the research-only/not-investment-advice framing.
+
 ## Agent benchmark files
 
 - [Eval card](./EVAL_CARD.md)
