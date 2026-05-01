@@ -3,3 +3,4 @@
 {"ts":"2026-05-01T20:55:00Z","channel":"Gist multilingual pack","result":"live","note":"Public multilingual forum-pack gist created."}
 {"ts":"2026-05-01T20:55:00Z","channel":"Hugging Face Dataset","result":"blocked","note":"HF CLI not installed/auth not available. Dataset remains packaged in GitHub release."}
 {"ts":"2026-05-01T20:55:00Z","channel":"LinkedIn","result":"blocked","note":"Onboarding/login not complete. Move to other channels."}
+{"ts": "2026-05-01T20:59:30Z", "channel": "X", "result": "paused", "note": "Jake said stop doing Twitter/X; rotate to non-X channels."}

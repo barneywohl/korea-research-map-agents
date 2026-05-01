@@ -1,7 +1,8 @@
 {
-  "priority": 4,
-  "channel": "Substack Notes",
-  "region": "global",
-  "status": "active",
-  "fallback": "X"
+  "priority": 6,
+  "channel": "Hugging Face Dataset",
+  "region": "global AI",
+  "status": "ready-draft-auth-needed",
+  "fallback": "GitHub release dataset",
+  "constraint": "No external posting/publishing without fresh directive; X/Twitter paused by Jake directive."
 }

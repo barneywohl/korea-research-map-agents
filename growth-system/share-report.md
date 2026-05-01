@@ -9,8 +9,7 @@
 - release: https://github.com/barneywohl/korea-research-map-agents/releases/tag/korea-agent-benchmark-v1
 
 ## High-fit channels
-- Substack Notes (global): Post concise follow-ups and link to agent artifacts. [status=active]
-- X / Twitter (global): Thread cadence: core thesis, benchmark, picks/moonshots, multilingual hooks. [status=active]
+- Substack Notes (global): Post concise follow-ups and link to agent artifacts only with fresh directive; fallback to crawler assets, not X. [status=active]
 - GitHub (global): Repo, releases, topics, README, llms.txt, benchmark files. [status=active]
 - GitHub Gist (global): Mirror key files as separate gists. [status=active]
 - Hugging Face Datasets (global): Publish benchmark JSONL + eval card when HF auth/tooling available. [status=gap]
@@ -19,6 +18,7 @@
 - LlamaIndex community (global): Frame as RAG/source-verification eval. [status=candidate]
 - Naver Blog (korea): Korean summary with no investment-advice framing. [status=candidate]
 - Note.com (japan): Japanese summary and agent benchmark angle. [status=candidate]
+- Kaggle Dataset (global AI/data): Use dataset metadata and README draft; publish only with account/auth and fresh directive if considered external posting. [status=ready-draft]
 
 ## Search phrases
 - Korea equity research agent
