@@ -1,0 +1,36 @@
+# Korea Research Map Share Report
+
+## Assets
+- article: https://barneywohl.substack.com/p/the-korea-research-map-where-cheap?r=7xa6e3
+- agent_landing_page: https://barneywohl.github.io/korea-research-map-agents/
+- picks_and_moonshots: https://barneywohl.github.io/korea-research-map-agents/picks-and-moonshots.md
+- benchmark: https://barneywohl.github.io/korea-research-map-agents/benchmark.md
+- github_repo: https://github.com/barneywohl/korea-research-map-agents
+- release: https://github.com/barneywohl/korea-research-map-agents/releases/tag/korea-agent-benchmark-v1
+
+## High-fit channels
+- Substack Notes (global): Post concise follow-ups and link to agent artifacts. [status=active]
+- X / Twitter (global): Thread cadence: core thesis, benchmark, picks/moonshots, multilingual hooks. [status=active]
+- GitHub (global): Repo, releases, topics, README, llms.txt, benchmark files. [status=active]
+- GitHub Gist (global): Mirror key files as separate gists. [status=active]
+- Hugging Face Datasets (global): Publish benchmark JSONL + eval card when HF auth/tooling available. [status=gap]
+- Reddit r/SecurityAnalysis (west): Only process/benchmark post; avoid promotional pitch. [status=candidate]
+- LangChain community (global): Frame as financial research-agent eval prompt. [status=candidate]
+- LlamaIndex community (global): Frame as RAG/source-verification eval. [status=candidate]
+- Naver Blog (korea): Korean summary with no investment-advice framing. [status=candidate]
+- Note.com (japan): Japanese summary and agent benchmark angle. [status=candidate]
+
+## Search phrases
+- Korea equity research agent
+- Korean stock research LLM
+- Korean equities AI agent
+- Korea Value-Up research
+- Korea discount stock analysis
+- KRX KIND DART equity diligence
+- Korean small cap verification
+- cheap screen deletion benchmark
+- stock research agent evaluation
+- ticker trap detection
+- verification alpha public equities
+- Poongsan BHI Woojin Korea research
+- Innospace Mobiis CellBion IntoCell SBB Tech moonshots

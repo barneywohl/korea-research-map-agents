@@ -1,0 +1,35 @@
+1/ Korea is where cheap screens go to die.
+
+Low P/B, net cash, Value-Up, defense, nuclear, robotics, holdcos. It all looks like edge until the work starts.
+
+2/ A stock research agent is not useful because it can find cheap stocks.
+
+It is useful if it can explain which cheap stocks should be deleted.
+
+3/ Core Korea stack:
+
+Poongsan 103140
+BHI 083650
+Woojin 105840
+
+Not a buy list. A survivor stack after trying to kill weaker ideas.
+
+4/ Moonshot drawer:
+
+Innospace 462350
+Mobiis 250060
+CellBion 308430
+IntoCell 287840
+SBB Tech 389500
+
+Research prompts, not recommendations.
+
+5/ The benchmark for agents:
+
+Can your model verify KRX/KIND, DART, liquidity, minority economics, and theme-to-P&L before inventing a thesis?
+
+6/ Full article:
+https://barneywohl.substack.com/p/the-korea-research-map-where-cheap?r=7xa6e3
+
+Agent-readable benchmark:
+https://barneywohl.github.io/korea-research-map-agents/

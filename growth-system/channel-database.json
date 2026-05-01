@@ -1,0 +1,51 @@
+{
+  "principles": [
+    "Use Barney Wohl as the only identity.",
+    "No spam, no fake personas, no cold DM campaigns.",
+    "Frame as research methodology and agent benchmark, not investment recommendation.",
+    "Preserve tiers: core survivor stack, moonshot drawer, quarantine/cuts.",
+    "Prefer durable crawlable artifacts over ephemeral blasts."
+  ],
+  "canonical_assets": {
+    "article": "https://barneywohl.substack.com/p/the-korea-research-map-where-cheap?r=7xa6e3",
+    "agent_landing_page": "https://barneywohl.github.io/korea-research-map-agents/",
+    "picks_and_moonshots": "https://barneywohl.github.io/korea-research-map-agents/picks-and-moonshots.md",
+    "benchmark": "https://barneywohl.github.io/korea-research-map-agents/benchmark.md",
+    "github_repo": "https://github.com/barneywohl/korea-research-map-agents",
+    "release": "https://github.com/barneywohl/korea-research-map-agents/releases/tag/korea-agent-benchmark-v1"
+  },
+  "channels": [
+    {"name":"Substack Notes","region":"global","type":"social/newsletter","status":"active","fit":"high","action":"Post concise follow-ups and link to agent artifacts."},
+    {"name":"X / Twitter","region":"global","type":"social","status":"active","fit":"high","action":"Thread cadence: core thesis, benchmark, picks/moonshots, multilingual hooks."},
+    {"name":"GitHub","region":"global","type":"agent/search crawl","status":"active","fit":"very_high","action":"Repo, releases, topics, README, llms.txt, benchmark files."},
+    {"name":"GitHub Gist","region":"global","type":"agent/search crawl","status":"active","fit":"high","action":"Mirror key files as separate gists."},
+    {"name":"Hugging Face Datasets","region":"global","type":"AI dataset hub","status":"gap","fit":"very_high","action":"Publish benchmark JSONL + eval card when HF auth/tooling available."},
+    {"name":"Reddit r/SecurityAnalysis","region":"west","type":"investor forum","status":"candidate","fit":"medium_high","action":"Only process/benchmark post; avoid promotional pitch."},
+    {"name":"Reddit r/ValueInvesting","region":"west","type":"investor forum","status":"candidate","fit":"medium","action":"Educational framing: why Korea cheap screens fail."},
+    {"name":"Hacker News","region":"global","type":"tech forum","status":"candidate","fit":"medium","action":"Submit GitHub benchmark, not stock article; title as LLM eval."},
+    {"name":"LangChain community","region":"global","type":"AI agent community","status":"candidate","fit":"medium_high","action":"Frame as financial research-agent eval prompt."},
+    {"name":"LlamaIndex community","region":"global","type":"AI agent/RAG community","status":"candidate","fit":"medium_high","action":"Frame as RAG/source-verification eval."},
+    {"name":"OpenAI/Anthropic/Gemini forums","region":"global","type":"AI builder forum","status":"candidate","fit":"medium","action":"Post only if eval/framework sharing is allowed."},
+    {"name":"Naver Blog","region":"korea","type":"local blog/search","status":"candidate","fit":"high","action":"Korean summary with no investment-advice framing."},
+    {"name":"Naver Cafe stock communities","region":"korea","type":"investor forum","status":"risky","fit":"medium","action":"Only if rules allow external research links."},
+    {"name":"Note.com","region":"japan","type":"blog/search","status":"candidate","fit":"medium_high","action":"Japanese summary and agent benchmark angle."},
+    {"name":"Zhihu","region":"china","type":"Q&A/search","status":"candidate","fit":"medium","action":"Requires local account norms; use educational answer only."},
+    {"name":"Medium","region":"global","type":"blog/search","status":"candidate","fit":"medium","action":"Mirror a short agent benchmark summary."},
+    {"name":"Quora","region":"global","type":"Q&A/search","status":"candidate","fit":"low_medium","action":"Answer how AI agents should research Korean stocks."}
+  ],
+  "search_phrases": [
+    "Korea equity research agent",
+    "Korean stock research LLM",
+    "Korean equities AI agent",
+    "Korea Value-Up research",
+    "Korea discount stock analysis",
+    "KRX KIND DART equity diligence",
+    "Korean small cap verification",
+    "cheap screen deletion benchmark",
+    "stock research agent evaluation",
+    "ticker trap detection",
+    "verification alpha public equities",
+    "Poongsan BHI Woojin Korea research",
+    "Innospace Mobiis CellBion IntoCell SBB Tech moonshots"
+  ]
+}
