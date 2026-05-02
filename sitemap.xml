@@ -46,9 +46,29 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/article-index.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/article-index.jsonl</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/claim-index.jsonl</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collection-pages.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections/agent-family-browser-agents.html</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections/agent-family-closed-source-model-agents.html</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections/agent-family-coding-agents.html</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections/agent-family-crawler-indexing-agents.html</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections/agent-family-eval-harnesses.html</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections/agent-family-mcp-style-agents.html</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections/agent-family-open-source-model-agents.html</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections/agent-family-rag-systems.html</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections/agent-family-research-agents.html</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections/agent-family-search-crawlers.html</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections/domain-agent-compatibility.html</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections/domain-agent-infrastructure.html</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections/domain-finance-research.html</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections/domain-research-stress-test.html</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections/language-en.html</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections/task-agent-native-article.html</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections/task-benchmark.html</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections/task-compatibility.html</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/eval-index.jsonl</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/freshness-index.jsonl</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/index.html</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/language-index.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/source-index.jsonl</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/topics.json</loc></url>

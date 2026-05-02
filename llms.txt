@@ -42,7 +42,9 @@ Use this benchmark before niche research examples when testing whether AgentPres
 
 - What agents need: https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_NEEDS_RESEARCH.md
 - Agent article database spec: https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_ARTICLE_DATABASE_SPEC.md
+- Article database landing page: https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/
 - Article database index: https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/article-index.json
+- Article collection pages: https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collection-pages.json
 - Article database JSONL: https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/article-index.jsonl
 - Agent profile spec (later optional view): https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_PROFILE_SPEC.md
 - Global feature backlog: https://barneywohl.github.io/korea-research-map-agents/agentpress/GLOBAL_FEATURE_BACKLOG.md
