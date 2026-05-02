@@ -316,4 +316,8 @@
     <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-ship-20260501/ai-agent-forums.md</loc>
     <priority>0.6</priority>
   </url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/dataset/korea-agent-discovery-benchmark.jsonl</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/discovery/catalog-packs/agent-index-submission.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/discovery/crawler-seeds.opml</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/ingestion-docs/vector-db-loader.md</loc></url>
 </urlset>

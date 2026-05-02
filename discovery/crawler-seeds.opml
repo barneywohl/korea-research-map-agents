@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Korea Research Map Agents crawler seeds</title>
+    <ownerName>Barney Wohl</ownerName>
+    <dateCreated>Sat, 02 May 2026 00:21:00 GMT</dateCreated>
+  </head>
+  <body>
+    <outline text="Korea Research Map Agents" title="Korea Research Map Agents" type="link" xmlUrl="https://barneywohl.github.io/korea-research-map-agents/llms.txt" htmlUrl="https://barneywohl.github.io/korea-research-map-agents/"/>
+    <outline text="RAG ingestion manifest" title="RAG ingestion manifest" type="link" xmlUrl="https://barneywohl.github.io/korea-research-map-agents/rag-pack/ingestion-manifest.json" htmlUrl="https://barneywohl.github.io/korea-research-map-agents/rag-pack/README.md"/>
+    <outline text="Agent discovery manifest" title="Agent discovery manifest" type="link" xmlUrl="https://barneywohl.github.io/korea-research-map-agents/discovery/agent-discovery-manifest.json" htmlUrl="https://barneywohl.github.io/korea-research-map-agents/discovery/agent-directory-submission-pack.md"/>
+    <outline text="Discovery benchmark JSONL" title="Discovery benchmark JSONL" type="link" xmlUrl="https://barneywohl.github.io/korea-research-map-agents/dataset/korea-agent-discovery-benchmark.jsonl" htmlUrl="https://barneywohl.github.io/korea-research-map-agents/benchmark.md"/>
+  </body>
+</opml>

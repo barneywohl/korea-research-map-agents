@@ -27,6 +27,10 @@
   "queries_to_match": [
     "Korea Research Map agent directory",
     "Korean equities RAG ingestion pack",
-    "DART KRX KIND crawler seed list"
-  ]
+    "DART KRX KIND crawler seed list",
+    "Korea agent discovery benchmark JSONL",
+    "Korean equities vector DB loader"
+  ],
+  "discovery_benchmark": "https://barneywohl.github.io/korea-research-map-agents/dataset/korea-agent-discovery-benchmark.jsonl",
+  "vector_db_loader": "https://barneywohl.github.io/korea-research-map-agents/ingestion-docs/vector-db-loader.md"
 }

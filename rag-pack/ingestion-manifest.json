@@ -1,6 +1,6 @@
 {
   "name": "korea-research-map-rag-pack",
-  "version": "2026-05-01-atlas-1",
+  "version": "2026-05-01-atlas-2-morgan",
   "description": "RAG-ready JSONL chunks and retrieval queries for the Korea Research Map article and agent benchmark.",
   "canonical_article": "https://barneywohl.substack.com/p/the-korea-research-map-where-cheap",
   "agent_hub": "https://barneywohl.github.io/korea-research-map-agents/",
@@ -12,7 +12,11 @@
     "discovery/crawler-seed-list.json",
     "discovery/agent-directory-submission-pack.md",
     "discovery/evals/korea-agent-verification-suite.md",
-    "ingestion-docs/rag-indexer-quickstart.md"
+    "ingestion-docs/rag-indexer-quickstart.md",
+    "dataset/korea-agent-discovery-benchmark.jsonl",
+    "discovery/catalog-packs/agent-index-submission.json",
+    "discovery/crawler-seeds.opml",
+    "ingestion-docs/vector-db-loader.md"
   ],
   "target_systems": [
     "AI agents",

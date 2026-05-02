@@ -36,3 +36,14 @@ Status: Jake authorized full shipping of Barney-owned non-X Korea agent-discover
 - Core stack remains Poongsan, BHI, Woojin.
 - Cut list remains Dongsuh, KISCO Holdings, Kwangju Shinsegae, FutureChem.
 - If a channel blocks, log it and move to the next channel.
+
+## Morgan 2026-05-02 non-X discovery additions
+
+Ready-to-commit assets added in this pack:
+
+1. `discovery/catalog-packs/agent-index-submission.json` — copy/paste metadata for agent directories, dataset catalogs, and crawler registries.
+2. `dataset/korea-agent-discovery-benchmark.jsonl` — five JSONL eval cases for retrieval routing, ticker identity, cheap-screen deletion, localized summaries, and crawler metadata.
+3. `discovery/crawler-seeds.opml` — OPML seed list for non-X crawler/feed tooling.
+4. `ingestion-docs/vector-db-loader.md` — vector DB collection names, minimum embed set, metadata fields, and guardrails.
+
+Shipping step: commit these files plus the manifest updates, then publish GitHub Pages so crawlers can fetch the new canonical URLs.

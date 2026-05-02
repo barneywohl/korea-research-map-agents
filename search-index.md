@@ -63,3 +63,9 @@ Moonshots: Innospace 462350, Mobiis 250060, CellBion 308430, IntoCell 287840, SB
 - Crawler/RAG checklist: https://barneywohl.github.io/korea-research-map-agents/discovery/CRAWLER_RAG_CHECKLIST.md
 
 Non-X only for this wave: X/Twitter is paused and should not be used as a primary channel or fallback.
+
+## Additional agent discovery assets
+- [Korea agent discovery benchmark JSONL](dataset/korea-agent-discovery-benchmark.jsonl)
+- [Agent index submission JSON](discovery/catalog-packs/agent-index-submission.json)
+- [Crawler seeds OPML](discovery/crawler-seeds.opml)
+- [Vector DB loader guide](ingestion-docs/vector-db-loader.md)

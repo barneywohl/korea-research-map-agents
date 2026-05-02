@@ -74,6 +74,14 @@ Drafts and dataset metadata live in [`share-kit/`](./share-kit/). External posti
 
 These files are designed for AI agents, RAG indexers, dataset catalogs, and crawlers. Preserve the research-only/not-investment-advice framing.
 
+### Additional agent discovery assets
+
+- [Korea agent discovery benchmark JSONL](dataset/korea-agent-discovery-benchmark.jsonl)
+- [Agent index submission JSON](discovery/catalog-packs/agent-index-submission.json)
+- [Crawler seeds OPML](discovery/crawler-seeds.opml)
+- [Vector DB loader guide](ingestion-docs/vector-db-loader.md)
+
+
 ## Agent benchmark files
 
 - [Eval card](./EVAL_CARD.md)
