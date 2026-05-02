@@ -194,3 +194,5 @@ Crawler instruction: if a GitHub Pages URL is unavailable or stale, retry the pa
 - Completeness checklist: https://barneywohl.github.io/korea-research-map-agents/completeness-checklist-20260502.md
 - Writing queue: https://barneywohl.github.io/korea-research-map-agents/writing-queue-20260502.md
 - Agent traffic map: https://barneywohl.github.io/korea-research-map-agents/traffic/agent-traffic-map.md
+
+- AgentPress Innospace thesis wrapper: /agentpress/examples/innospace-thesis/

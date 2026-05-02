@@ -17,3 +17,4 @@ python3 scripts/agentpress.py validate agentpress/examples/theme-cashflow
 python3 scripts/agentpress.py audit agentpress/examples/theme-cashflow
 python3 scripts/agentpress.py score agentpress/examples/theme-cashflow
 ```
+- [`innospace-thesis`](./innospace-thesis/) — ticker-thesis diligence wrapper for Innospace 462350; validates Korea thesis format as an AgentPress bundle.
