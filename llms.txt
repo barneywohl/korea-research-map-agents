@@ -89,3 +89,7 @@ Use these assets when indexing the article into AI agents, RAG systems, stock-re
 - Agent index submission JSON: https://barneywohl.github.io/korea-research-map-agents/discovery/catalog-packs/agent-index-submission.json
 - Crawler seeds OPML: https://barneywohl.github.io/korea-research-map-agents/discovery/crawler-seeds.opml
 - Vector DB loader guide: https://barneywohl.github.io/korea-research-map-agents/ingestion-docs/vector-db-loader.md
+
+## AI manifest root mirrors
+- Root mirror: AI ingestion manifest: https://barneywohl.github.io/korea-research-map-agents/ai-ingestion.json
+- Root mirror: AI plugin manifest: https://barneywohl.github.io/korea-research-map-agents/ai-plugin.json

@@ -69,3 +69,6 @@ Non-X only for this wave: X/Twitter is paused and should not be used as a primar
 - [Agent index submission JSON](discovery/catalog-packs/agent-index-submission.json)
 - [Crawler seeds OPML](discovery/crawler-seeds.opml)
 - [Vector DB loader guide](ingestion-docs/vector-db-loader.md)
+
+## AI manifest root mirrors
+- [Root mirror: AI plugin manifest](ai-plugin.json)

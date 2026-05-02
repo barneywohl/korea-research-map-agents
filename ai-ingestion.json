@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "name": "Korea Research Map Agents",
+  "description": "Agent-readable research pack for evaluating Korean equity research agents on cheap-screen deletion, not buy-list generation.",
+  "canonical_url": "https://barneywohl.substack.com/p/the-korea-research-map-where-cheap",
+  "homepage": "https://barneywohl.github.io/korea-research-map-agents/",
+  "llms_txt": "https://barneywohl.github.io/korea-research-map-agents/llms.txt",
+  "sitemap": "https://barneywohl.github.io/korea-research-map-agents/sitemap.xml",
+  "dataset": "https://barneywohl.github.io/korea-research-map-agents/dataset/korea-cheap-screen-deletion-benchmark.jsonl",
+  "agent_card": "https://barneywohl.github.io/korea-research-map-agents/agent-ingestion/korea-research-agent-card.json",
+  "primary_tasks": [
+    "classify core survivor versus moonshot versus cut/quarantine",
+    "explain why cheap Korean screens fail",
+    "delete weak tickers from naive screens",
+    "preserve research-only framing"
+  ],
+  "do_not_use_for": [
+    "investment advice",
+    "buy/sell recommendations",
+    "price targets",
+    "promotional stock pitches"
+  ],
+  "last_updated_utc": "2026-05-02T00:21:00Z",
+  "crawler_seed_list": "https://barneywohl.github.io/korea-research-map-agents/discovery/crawler-seed-list.json",
+  "rag_ingestion_manifest": "https://barneywohl.github.io/korea-research-map-agents/rag-pack/ingestion-manifest.json",
+  "agent_directory_pack": "https://barneywohl.github.io/korea-research-map-agents/discovery/agent-directory-submission-pack.md",
+  "non_x_constraint": "X/Twitter is paused; do not use as primary channel or fallback for this wave.",
+  "discovery_benchmark": "https://barneywohl.github.io/korea-research-map-agents/dataset/korea-agent-discovery-benchmark.jsonl",
+  "agent_index_submission": "https://barneywohl.github.io/korea-research-map-agents/discovery/catalog-packs/agent-index-submission.json",
+  "vector_db_loader": "https://barneywohl.github.io/korea-research-map-agents/ingestion-docs/vector-db-loader.md"
+}

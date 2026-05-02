@@ -324,4 +324,6 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agent-index-submission.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/crawler-seeds.opml</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/vector-db-loader.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/ai-ingestion.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/ai-plugin.json</loc></url>
 </urlset>

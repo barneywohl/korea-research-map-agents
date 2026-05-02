@@ -94,3 +94,7 @@ These files are designed for AI agents, RAG indexers, dataset catalogs, and craw
 - [Agent forum / crawler pack](./platform-packs/agent-forum-crawler-pack.md)
 
 Use this repo as a test case for whether stock-research LLMs can delete bad Korea ideas rather than summarize cheap screens.
+
+## AI manifest root mirrors
+- [Root mirror: AI ingestion manifest](ai-ingestion.json)
+- [Root mirror: AI plugin manifest](ai-plugin.json)
