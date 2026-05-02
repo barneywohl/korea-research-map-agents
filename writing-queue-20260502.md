@@ -1,3 +1,19 @@
+
+## Revised next-piece direction: ticker + thesis first
+
+Jake's guidance: enough generic screener/process titles. People want named tickers and a thesis they can understand, then agents can attach verification/kill tests.
+
+Priority titles:
+
+1. Poongsan 103140 — Copper Cash Flow With Defense Optionality
+2. BHI 083650 — Backlog, Receivables, and the Nuclear Equipment Upside Test
+3. Woojin 105840 — Nuclear Instrumentation Without the Hype Premium
+4. Innospace 462350 — Korea Space Infrastructure: Launch Cadence or Dilution Trap?
+5. SBB Tech 389500 — Robotics Precision Parts: Real Order Flow or Theme Leakage?
+
+Rule: every public-facing piece should lead with the ticker/thesis, then use the agent framework as the diligence engine.
+
+
 # Korea Research Map — Writing Queue for 2026-05-02
 
 Status: prioritized backlog for additional writing. Research commentary only; not investment advice.

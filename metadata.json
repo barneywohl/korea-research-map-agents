@@ -258,5 +258,26 @@
         "task_card": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/agent-task-card.json"
       }
     ]
+  },
+  "ticker_thesis_pack": {
+    "index": "https://barneywohl.github.io/korea-research-map-agents/ticker-theses/README.md",
+    "json": "https://barneywohl.github.io/korea-research-map-agents/ticker-theses/ticker-thesis-index.json",
+    "theses": [
+      {
+        "ticker": "103140",
+        "company": "Poongsan",
+        "url": "https://barneywohl.github.io/korea-research-map-agents/ticker-theses/poongsan-103140-copper-defense-thesis.md"
+      },
+      {
+        "ticker": "083650",
+        "company": "BHI",
+        "url": "https://barneywohl.github.io/korea-research-map-agents/ticker-theses/bhi-083650-backlog-nuclear-thesis.md"
+      },
+      {
+        "ticker": "105840",
+        "company": "Woojin",
+        "url": "https://barneywohl.github.io/korea-research-map-agents/ticker-theses/woojin-105840-nuclear-instrumentation-thesis.md"
+      }
+    ]
   }
 }

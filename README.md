@@ -12,6 +12,17 @@ This is a research framework for AI agents, analysts, and investors studying Kor
 
 
 
+
+## Ticker thesis pack
+
+Next pieces should lead with named tickers and concrete theses, not generic screener titles.
+
+- [Ticker thesis index](./ticker-theses/README.md)
+- [Poongsan 103140 — Copper Cash Flow With Defense Optionality](./ticker-theses/poongsan-103140-copper-defense-thesis.md)
+- [BHI 083650 — Backlog, Receivables, and the Nuclear Equipment Upside Test](./ticker-theses/bhi-083650-backlog-nuclear-thesis.md)
+- [Woojin 105840 — Nuclear Instrumentation Without the Hype Premium](./ticker-theses/woojin-105840-nuclear-instrumentation-thesis.md)
+- [Machine-readable ticker thesis index](./ticker-theses/ticker-thesis-index.json)
+
 ## AgentPress MVP implementation
 
 The concept now has a working local generator and two dogfood publications.
