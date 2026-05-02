@@ -1,0 +1,17 @@
+{
+  "schema_version": "0.1",
+  "publication": "{{title}}",
+  "claims": [
+    {
+      "claim_id": "claim-001",
+      "claim": "{{title}} is an agent-native publication with explicit source and citation boundaries.",
+      "confidence": "high",
+      "sources": [
+        {"title": "Agent entrypoint", "url_or_path": "AGENT_ENTRYPOINT.md", "retrieved_or_updated_at": "{{date}}", "evidence_type": "primary"},
+        {"title": "Task card", "url_or_path": "agent-task-card.json", "retrieved_or_updated_at": "{{date}}", "evidence_type": "primary"}
+      ],
+      "freshness_window_days": 30,
+      "kill_criteria": ["Required bundle files missing", "Claims lack citable source evidence"]
+    }
+  ]
+}

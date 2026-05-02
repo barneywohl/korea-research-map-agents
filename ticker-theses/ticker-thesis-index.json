@@ -24,10 +24,16 @@
       "title": "Nuclear Instrumentation Without the Hype Premium",
       "url": "https://barneywohl.github.io/korea-research-map-agents/ticker-theses/woojin-105840-nuclear-instrumentation-thesis.md",
       "decision_frame": "survive if nuclear instrumentation is material and converts to orders/revenue/cash flow; delete if it is mostly narrative"
+    },
+    {
+      "ticker": "462350",
+      "company": "Innospace",
+      "title": "Korea Space Infrastructure: Launch Cadence or Dilution Trap?",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/ticker-theses/innospace-462350-launch-cadence-dilution-thesis.md",
+      "decision_frame": "survive if launch cadence, contract materiality, cash runway, and dilution risk support measurable space-infrastructure execution; delete if financing or milestone risk dominates the evidence"
     }
   ],
   "next_queue": [
-    "Innospace 462350 — Korea Space Infrastructure: launch cadence or dilution trap?",
     "SBB Tech 389500 — Robotics precision parts: real order flow or theme leakage?",
     "CellBion 308430 / IntoCell 287840 — biotech convexity, runway, and specialist-gate checks"
   ]

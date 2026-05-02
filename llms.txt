@@ -14,6 +14,7 @@ Type: Research commentary, not investment advice
 
 Named ticker surfaces for readers and agents who want tickers + theses, not generic screener titles:
 
+- KRX/KIND/DART Verification Guide for Korea Ticker Theses: https://barneywohl.github.io/korea-research-map-agents/ticker-theses/krx-kind-dart-verification-guide.md
 - Poongsan 103140 — Copper Cash Flow With Defense Optionality: https://barneywohl.github.io/korea-research-map-agents/ticker-theses/poongsan-103140-copper-defense-thesis.md
 - BHI 083650 — Backlog, Receivables, and the Nuclear Equipment Upside Test: https://barneywohl.github.io/korea-research-map-agents/ticker-theses/bhi-083650-backlog-nuclear-thesis.md
 - Woojin 105840 — Nuclear Instrumentation Without the Hype Premium: https://barneywohl.github.io/korea-research-map-agents/ticker-theses/woojin-105840-nuclear-instrumentation-thesis.md

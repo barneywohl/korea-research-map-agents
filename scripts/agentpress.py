@@ -1,11 +1,21 @@
 #!/usr/bin/env python3
-"""Minimal AgentPress static publication generator/validator.
+"""AgentPress static publication generator/validator/scorer.
 
 Usage:
   python3 scripts/agentpress.py init out-dir --title "My Agent Benchmark"
   python3 scripts/agentpress.py validate out-dir
+  python3 scripts/agentpress.py audit out-dir
+  python3 scripts/agentpress.py score out-dir
+  python3 scripts/agentpress.py build out-dir --out public-dir
 """
-import argparse, json, pathlib, re, sys
+import argparse
+import json
+import pathlib
+import re
+import shutil
+import sys
+import xml.etree.ElementTree as ET
+from datetime import date, datetime, timezone
 
 REQUIRED = [
     "README.md",
@@ -17,21 +27,142 @@ REQUIRED = [
     "disclaimer.md",
 ]
 
+AGENTPRESS_REQUIRED = REQUIRED + [
+    "source-map.json",
+    "freshness.json",
+    "allowed-actions.json",
+    "citation-policy.md",
+    ".well-known/ai-ingestion.json",
+]
+
 DEFAULT_SCHEMA = {
     "decision": "survive | delete | needs_more_diligence",
     "reasons": ["string"],
     "verified_sources": ["string"],
     "missing_checks": ["string"],
     "confidence": "low | medium | high",
-    "disclaimer": "Research commentary only. Not investment advice."
+    "disclaimer": "Research commentary only. Not investment advice.",
 }
+
+SCORE_RUBRIC = [
+    ("obvious_entrypoint", 15, lambda r: (r/"AGENT_ENTRYPOINT.md").exists() and "Primary task" in read_text(r/"AGENT_ENTRYPOINT.md")),
+    ("machine_readable_task_card", 15, lambda r: _has_task_card(r)),
+    ("source_citation_coverage", 20, lambda r: (r/"source-map.json").exists() and (r/"citation-policy.md").exists()),
+    ("freshness_clarity", 10, lambda r: (r/"freshness.json").exists()),
+    ("allowed_actions_safety", 10, lambda r: (r/"allowed-actions.json").exists()),
+    ("eval_artifact", 10, lambda r: (r/"evals").exists() and any((r/"evals").glob("*.jsonl"))),
+    ("human_landing_parity", 10, lambda r: (r/"README.md").exists()),
+    ("ethical_telemetry_discovery", 5, lambda r: (r/".well-known/ai-ingestion.json").exists()),
+    ("sitemap_registry_readiness", 5, lambda r: (r/"sitemap.xml").exists()),
+]
+
 
 def slugify(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-") or "agent-publication"
 
-def write(path, text):
+
+def read_text(path: pathlib.Path) -> str:
+    return path.read_text(encoding="utf-8") if path.exists() else ""
+
+
+def write(path: pathlib.Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text)
+    path.write_text(text, encoding="utf-8")
+
+
+def today() -> str:
+    return date.today().isoformat()
+
+
+def canonical_join(canonical: str, asset: str = "") -> str:
+    if not canonical.endswith("/"):
+        canonical += "/"
+    return canonical + asset
+
+
+def _task_card(title: str, canonical: str, task_type: str, primary_task: str) -> dict:
+    return {
+        "schema_version": "1.0",
+        "name": title,
+        "title": title,
+        "task_type": task_type,
+        "canonical_url": canonical,
+        "target_agents": ["research agents", "RAG systems", "eval harnesses", "crawler/indexing agents"],
+        "objective": primary_task,
+        "input_contract": {"required": ["subject", "hypothesis"], "optional": ["source_url", "time_horizon", "context"]},
+        "output_contract": {"required": list(DEFAULT_SCHEMA.keys()), "decision_values": ["survive", "delete", "needs_more_diligence"]},
+        "primary_assets": ["AGENT_ENTRYPOINT.md", "README.md", "source-map.json", "citation-policy.md"],
+        "source_requirements": ["Cite primary evidence where possible", "Mark missing checks explicitly", "Do not treat this artifact as investment advice"],
+        "scoring_rubric": {
+            "source_grounding": 30,
+            "task_completion": 25,
+            "error_detection": 20,
+            "clear_decision": 15,
+            "uncertainty_and_disclaimer": 10,
+        },
+        "non_goals": ["investment recommendation", "uncited claims", "private data access"],
+        "allowed_actions": ["read", "summarize", "cite", "transform", "benchmark", "create_pull_request"],
+        "prohibited_actions": ["trading_recommendation", "deceptive_tracking", "bypass_paywall", "private_data_access"],
+        "disclaimer": "Research commentary only. Not investment advice.",
+    }
+
+
+def _source_map(title: str, canonical: str) -> dict:
+    return {
+        "schema_version": "0.1",
+        "publication": title,
+        "claims": [
+            {
+                "claim_id": "claim-001",
+                "claim": "This publication is an agent-native research artifact with explicit task, citation, and safety boundaries.",
+                "confidence": "high",
+                "sources": [
+                    {"title": "Agent entrypoint", "url_or_path": "AGENT_ENTRYPOINT.md", "retrieved_or_updated_at": today(), "evidence_type": "primary"},
+                    {"title": "Task card", "url_or_path": "agent-task-card.json", "retrieved_or_updated_at": today(), "evidence_type": "primary"},
+                ],
+                "freshness_window_days": 30,
+                "kill_criteria": ["Required files missing", "Sources cannot be cited", "Disclaimer removed"],
+            }
+        ],
+        "canonical_url": canonical,
+    }
+
+
+def _freshness(title: str) -> dict:
+    return {
+        "schema_version": "0.1",
+        "publication": title,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "last_reviewed_at": today(),
+        "refresh_policy": "Refresh when source filings, claims, or task contracts change; otherwise re-audit monthly.",
+        "stale_zones": ["market data", "filing status", "liquidity/depth", "company disclosures"],
+        "default_freshness_window_days": 30,
+    }
+
+
+def _allowed_actions() -> dict:
+    return {
+        "schema_version": "0.1",
+        "allowed": ["read", "summarize", "cite", "transform", "benchmark", "open_issue", "create_pr"],
+        "requires_human_approval": ["external_post", "investment_recommendation", "private_data_access"],
+        "prohibited": ["deceptive_tracking", "impersonation", "spam", "bypass_paywall", "trading_recommendation"],
+    }
+
+
+def _ai_ingestion(title: str, canonical: str) -> dict:
+    return {
+        "schema_version": "0.1",
+        "name": title,
+        "canonical_url": canonical,
+        "entrypoint": canonical_join(canonical, "AGENT_ENTRYPOINT.md"),
+        "llms_txt": canonical_join(canonical, "llms.txt"),
+        "task_card": canonical_join(canonical, "agent-task-card.json"),
+        "source_map": canonical_join(canonical, "source-map.json"),
+        "allowed_actions": canonical_join(canonical, "allowed-actions.json"),
+        "citation_policy": canonical_join(canonical, "citation-policy.md"),
+        "disclaimer": "Research commentary only. Not investment advice.",
+    }
+
 
 def init(args):
     out = pathlib.Path(args.out)
@@ -40,19 +171,6 @@ def init(args):
     canonical = args.canonical or f"https://example.com/{slug}/"
     summary = args.summary or "Agent-native publication with a human-readable brief, machine-readable task card, and crawler/RAG-friendly metadata."
     primary_task = args.primary_task or "Execute the task, verify claims against source evidence, and return the requested output schema without hiding uncertainty."
-    required = ["subject", "hypothesis"]
-    optional = ["source_url", "time_horizon", "context"]
-    output_contract = {
-        "required": list(DEFAULT_SCHEMA.keys()),
-        "decision_values": ["survive", "delete", "needs_more_diligence"]
-    }
-    scoring = {
-        "source_grounding": 30,
-        "task_completion": 25,
-        "error_detection": 20,
-        "clear_decision": 15,
-        "uncertainty_and_disclaimer": 10
-    }
     agent_entry = f"""# {title} — Agent Entrypoint
 
 {summary}
@@ -63,15 +181,23 @@ def init(args):
 
 ## Input contract
 
-Required: {', '.join(required)}
+Required: subject, hypothesis
 
-Optional: {', '.join(optional)}
+Optional: source_url, time_horizon, context
 
 ## Expected output schema
 
 ```json
 {json.dumps(DEFAULT_SCHEMA, indent=2)}
 ```
+
+## Citation policy
+
+Cite source evidence from `source-map.json` and canonical assets. Do not cite unsupported claims.
+
+## Allowed actions
+
+Read, summarize, cite, transform, benchmark, open an issue, or create a pull request. Do not recommend trades or access private data.
 
 ## Non-goals
 
@@ -83,50 +209,149 @@ Optional: {', '.join(optional)}
 
 Research commentary only. Not investment advice. Canonical URL: {canonical}
 """
-    card = {
-        "schema_version": "1.0",
-        "name": title,
-        "task_type": args.task_type,
-        "canonical_url": canonical,
-        "target_agents": ["research agents", "RAG systems", "eval harnesses", "crawler/indexing agents"],
-        "objective": primary_task,
-        "input_contract": {"required": required, "optional": optional},
-        "output_contract": output_contract,
-        "scoring_rubric": scoring,
-        "disclaimer": "Research commentary only. Not investment advice."
-    }
     write(out/"README.md", f"# {title}\n\n{summary}\n\nStart with [`AGENT_ENTRYPOINT.md`](./AGENT_ENTRYPOINT.md), then ingest [`agent-task-card.json`](./agent-task-card.json).\n")
     write(out/"AGENT_ENTRYPOINT.md", agent_entry)
-    write(out/"agent-task-card.json", json.dumps(card, indent=2) + "\n")
+    write(out/"agent-task-card.json", json.dumps(_task_card(title, canonical, args.task_type, primary_task), indent=2) + "\n")
+    write(out/"source-map.json", json.dumps(_source_map(title, canonical), indent=2) + "\n")
+    write(out/"freshness.json", json.dumps(_freshness(title), indent=2) + "\n")
+    write(out/"allowed-actions.json", json.dumps(_allowed_actions(), indent=2) + "\n")
+    write(out/".well-known/ai-ingestion.json", json.dumps(_ai_ingestion(title, canonical), indent=2) + "\n")
+    write(out/"citation-policy.md", f"# Citation Policy\n\nCite `{canonical}` and the source evidence listed in `source-map.json`. Mark missing checks explicitly. Research commentary only. Not investment advice.\n")
     write(out/"llms.txt", f"# {title}\n\nURL: {canonical}\nType: Agent-native publication\n\n## Summary\n\n{summary}\n\n## Primary task\n\n{primary_task}\n")
-    write(out/"sitemap.xml", f"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>{canonical}</loc></url>\n  <url><loc>{canonical}AGENT_ENTRYPOINT.md</loc></url>\n  <url><loc>{canonical}agent-task-card.json</loc></url>\n  <url><loc>{canonical}llms.txt</loc></url>\n</urlset>\n")
+    write(out/"sitemap.xml", f"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>{canonical}</loc></url>\n  <url><loc>{canonical_join(canonical, 'AGENT_ENTRYPOINT.md')}</loc></url>\n  <url><loc>{canonical_join(canonical, 'agent-task-card.json')}</loc></url>\n  <url><loc>{canonical_join(canonical, 'source-map.json')}</loc></url>\n  <url><loc>{canonical_join(canonical, 'llms.txt')}</loc></url>\n</urlset>\n")
     write(out/"CITATION.cff", f"cff-version: 1.2.0\ntitle: \"{title}\"\nmessage: \"Cite this agent-native publication.\"\n")
     write(out/"disclaimer.md", "# Disclaimer\n\nResearch commentary only. Not investment advice.\n")
+    write(out/"evals"/"smoke.jsonl", json.dumps({"input": {"subject": title, "hypothesis": "publication is agent usable"}, "expected": {"decision": "survive", "requires_citations": True}}) + "\n")
     print(f"created {out}")
+
+
+def _parse_json_files(root: pathlib.Path) -> list[str]:
+    errors = []
+    for p in root.rglob("*.json"):
+        try:
+            json.loads(p.read_text(encoding="utf-8"))
+        except Exception as e:
+            errors.append(f"{p}: {e}")
+    return errors
+
+
+def _parse_xml_files(root: pathlib.Path) -> list[str]:
+    errors = []
+    for p in root.rglob("*.xml"):
+        try:
+            ET.parse(p)
+        except Exception as e:
+            errors.append(f"{p}: {e}")
+    return errors
+
+
+def _has_task_card(root: pathlib.Path) -> bool:
+    p = root/"agent-task-card.json"
+    if not p.exists():
+        return False
+    try:
+        card = json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        return False
+    return all(k in card for k in ["task_type", "target_agents", "objective", "input_contract", "output_contract", "scoring_rubric", "disclaimer"])
+
+
+def audit_root(root: pathlib.Path, strict: bool = True) -> tuple[int, list[str], list[str]]:
+    required = AGENTPRESS_REQUIRED if strict else REQUIRED
+    errors = [f"missing required file: {f}" for f in required if not (root/f).exists()]
+    warnings = []
+    errors.extend(_parse_json_files(root))
+    errors.extend(_parse_xml_files(root))
+    if not _has_task_card(root):
+        errors.append("agent-task-card.json missing required fields")
+    entry = read_text(root/"AGENT_ENTRYPOINT.md")
+    for phrase in ["Primary task", "Input contract", "Expected output schema"]:
+        if phrase not in entry:
+            errors.append(f"AGENT_ENTRYPOINT.md missing {phrase}")
+    combined = entry + "\n" + read_text(root/"disclaimer.md") + "\n" + read_text(root/"citation-policy.md")
+    if "Not investment advice" not in combined:
+        errors.append("missing investment-advice disclaimer")
+    if not any((root/"evals").glob("*.jsonl")) if (root/"evals").exists() else True:
+        warnings.append("no evals/*.jsonl smoke test found")
+    return (0 if not errors else 1), errors, warnings
+
 
 def validate(args):
     root = pathlib.Path(args.out)
-    missing = [f for f in REQUIRED if not (root/f).exists()]
-    if missing:
-        print("missing required files:", ", ".join(missing)); return 1
-    for p in root.rglob("*.json"):
-        json.loads(p.read_text())
-    card = json.loads((root/"agent-task-card.json").read_text())
-    for key in ["name", "task_type", "target_agents", "objective", "input_contract", "output_contract", "scoring_rubric", "disclaimer"]:
-        if key not in card:
-            print(f"agent-task-card.json missing {key}"); return 1
-    text = (root/"AGENT_ENTRYPOINT.md").read_text() + "\n" + (root/"disclaimer.md").read_text()
-    if "Not investment advice" not in text:
-        print("missing disclaimer"); return 1
+    code, errors, warnings = audit_root(root, strict=False)
+    if code:
+        for e in errors:
+            print(e)
+        return 1
+    for w in warnings:
+        print(f"warning: {w}")
     print("agentpress validation ok")
     return 0
+
+
+def audit(args):
+    root = pathlib.Path(args.out)
+    code, errors, warnings = audit_root(root, strict=True)
+    for e in errors:
+        print(f"error: {e}")
+    for w in warnings:
+        print(f"warning: {w}")
+    if code == 0:
+        print("agentpress audit ok")
+    return code
+
+
+def score_value(root: pathlib.Path) -> tuple[int, dict]:
+    detail = {}
+    total = 0
+    for name, points, check in SCORE_RUBRIC:
+        ok = bool(check(root))
+        detail[name] = points if ok else 0
+        total += points if ok else 0
+    return total, detail
+
+
+def score(args):
+    root = pathlib.Path(args.out)
+    total, detail = score_value(root)
+    print(json.dumps({"path": str(root), "score": total, "detail": detail, "badge": f"![AgentPress score](https://img.shields.io/badge/AgentPress-{total}%2F100-blue)"}, indent=2))
+    return 0 if total >= 80 else 1
+
+
+def build(args):
+    src = pathlib.Path(args.out)
+    dst = pathlib.Path(args.dest)
+    code, errors, _warnings = audit_root(src, strict=False)
+    if code:
+        for e in errors:
+            print(f"error: {e}")
+        return 1
+    if dst.exists():
+        shutil.rmtree(dst)
+    shutil.copytree(src, dst)
+    title = "AgentPress Publication"
+    card_path = src/"agent-task-card.json"
+    if card_path.exists():
+        card = json.loads(card_path.read_text(encoding="utf-8"))
+        title = card.get("title") or card.get("name") or title
+    write(dst/"index.html", f"<!doctype html>\n<html><head><meta charset=\"utf-8\"><title>{title}</title></head><body><main><h1>{title}</h1><p>AgentPress publication. Start with <a href=\"AGENT_ENTRYPOINT.md\">AGENT_ENTRYPOINT.md</a>.</p><ul><li><a href=\"agent-task-card.json\">Task card</a></li><li><a href=\"llms.txt\">llms.txt</a></li><li><a href=\"source-map.json\">Source map</a></li></ul></main></body></html>\n")
+    print(f"built {dst}")
+    return 0
+
 
 def main():
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("init"); p.add_argument("out"); p.add_argument("--title", required=True); p.add_argument("--canonical"); p.add_argument("--summary"); p.add_argument("--primary-task"); p.add_argument("--task-type", default="agent_native_publication")
     p = sub.add_parser("validate"); p.add_argument("out")
+    p = sub.add_parser("audit"); p.add_argument("out")
+    p = sub.add_parser("score"); p.add_argument("out")
+    p = sub.add_parser("build"); p.add_argument("out"); p.add_argument("--out", dest="dest", required=True)
     args = ap.parse_args()
     if args.cmd == "init": init(args); return 0
     if args.cmd == "validate": return validate(args)
-if __name__ == "__main__": sys.exit(main())
+    if args.cmd == "audit": return audit(args)
+    if args.cmd == "score": return score(args)
+    if args.cmd == "build": return build(args)
+if __name__ == "__main__":
+    sys.exit(main())

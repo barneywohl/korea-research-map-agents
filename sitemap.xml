@@ -172,8 +172,28 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/CITATION.cff</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/disclaimer.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/ticker-theses/README.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/ticker-theses/krx-kind-dart-verification-guide.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/ticker-theses/poongsan-103140-copper-defense-thesis.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/ticker-theses/bhi-083650-backlog-nuclear-thesis.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/ticker-theses/woojin-105840-nuclear-instrumentation-thesis.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/ticker-theses/ticker-thesis-index.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/MASTER_SPEC.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/EXECUTION_BOARD.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_USABILITY_STANDARD.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/TODAY_CHUNKS.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/README.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/scripts/validate_agentpress_assets.py</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/source-map.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/freshness.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/allowed-actions.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/citation-policy.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/.well-known/ai-ingestion.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/evals/smoke.jsonl</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/source-map.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/freshness.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/allowed-actions.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/citation-policy.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/.well-known/ai-ingestion.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/evals/smoke.jsonl</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/ticker-theses/innospace-462350-launch-cadence-dilution-thesis.md</loc></url>
 </urlset>
