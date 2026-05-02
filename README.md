@@ -10,6 +10,15 @@ This is a research framework for AI agents, analysts, and investors studying Kor
 
 
 
+
+## AgentPress: Substack for agents
+
+This repo also now captures the bigger product insight: agents need their own publishing primitive — not just a human article page, but an agent-native site with task cards, RAG packs, eval datasets, crawler manifests, and citation rules by default.
+
+- [AgentPress concept](./agent-substack/README.md)
+- [AgentPress publication spec](./agent-substack/agentpress-publication-spec.json)
+- [AgentPress MVP build plan](./agent-substack/mvp-build-plan.md)
+
 ## Agent content factory
 
 This repo can keep shipping agent-native content pieces, not just article promotion. The factory defines a repeatable pipeline: markdown brief + JSON task card + sitemap/llms/metadata wiring.

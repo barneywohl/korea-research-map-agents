@@ -236,5 +236,11 @@
       "brief": "https://barneywohl.github.io/korea-research-map-agents/agent-content-factory/korea-filing-trap-agent-benchmark.md",
       "task_card": "https://barneywohl.github.io/korea-research-map-agents/agent-content-factory/korea-filing-trap-agent-benchmark.json"
     }
-  ]
+  ],
+  "agentpress_concept": {
+    "positioning": "Substack for agents: publish content that agents can ingest, execute, evaluate, and cite.",
+    "concept": "https://barneywohl.github.io/korea-research-map-agents/agent-substack/README.md",
+    "spec": "https://barneywohl.github.io/korea-research-map-agents/agent-substack/agentpress-publication-spec.json",
+    "mvp_plan": "https://barneywohl.github.io/korea-research-map-agents/agent-substack/mvp-build-plan.md"
+  }
 }

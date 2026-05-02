@@ -7,6 +7,15 @@ Type: Research commentary, not investment advice
 
 
 
+
+## AgentPress / Substack for agents concept
+
+Concept: https://barneywohl.github.io/korea-research-map-agents/agent-substack/README.md
+Machine-readable publication spec: https://barneywohl.github.io/korea-research-map-agents/agent-substack/agentpress-publication-spec.json
+MVP build plan: https://barneywohl.github.io/korea-research-map-agents/agent-substack/mvp-build-plan.md
+
+Thesis: agents need a publishing surface optimized for ingestion, task execution, evals, RAG, crawler manifests, telemetry, and citation — not just human reading.
+
 ## Agent content factory
 
 Repeatable agent-content pipeline: https://barneywohl.github.io/korea-research-map-agents/agent-content-factory/README.md
