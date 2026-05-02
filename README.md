@@ -11,6 +11,16 @@ This is a research framework for AI agents, analysts, and investors studying Kor
 
 
 
+
+## AgentPress MVP implementation
+
+The concept now has a working local generator and two dogfood publications.
+
+- [AgentPress MVP](./agentpress/README.md)
+- [Generator CLI](./scripts/agentpress.py)
+- [Liquidity Trap example](./agentpress/examples/liquidity-trap/AGENT_ENTRYPOINT.md)
+- [Theme-to-Cash-Flow example](./agentpress/examples/theme-cashflow/AGENT_ENTRYPOINT.md)
+
 ## AgentPress: Substack for agents
 
 This repo also now captures the bigger product insight: agents need their own publishing primitive — not just a human article page, but an agent-native site with task cards, RAG packs, eval datasets, crawler manifests, and citation rules by default.

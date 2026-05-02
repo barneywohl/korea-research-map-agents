@@ -8,6 +8,14 @@ Type: Research commentary, not investment advice
 
 
 
+
+## AgentPress MVP implementation
+
+AgentPress MVP docs: https://barneywohl.github.io/korea-research-map-agents/agentpress/README.md
+Generator CLI source: https://barneywohl.github.io/korea-research-map-agents/scripts/agentpress.py
+Liquidity Trap dogfood publication: https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/AGENT_ENTRYPOINT.md
+Theme-to-Cash-Flow dogfood publication: https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/AGENT_ENTRYPOINT.md
+
 ## AgentPress / Substack for agents concept
 
 Concept: https://barneywohl.github.io/korea-research-map-agents/agent-substack/README.md
