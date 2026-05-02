@@ -1,0 +1,36 @@
+{
+  "name": "Korea Research Map agent traffic map",
+  "canonical_article": "https://barneywohl.substack.com/p/the-korea-research-map-where-cheap",
+  "canonical_repo": "https://github.com/barneywohl/korea-research-map-agents",
+  "canonical_pages": "https://barneywohl.github.io/korea-research-map-agents/",
+  "purpose": "Drive AI agents, RAG builders, dataset indexers, and research-tool maintainers to machine-readable Korea Research Map assets.",
+  "not_investment_advice": true,
+  "primary_assets": [
+    "llms.txt",
+    "agents.json",
+    "sitemap.xml",
+    "rag-pack/ingestion-manifest.json",
+    "rag-pack/korea-research-map.chunks.jsonl",
+    "dataset/korea-agent-discovery-benchmark.jsonl",
+    "discovery/evals/korea-agent-verification-suite.md",
+    "crawler-seeds.opml",
+    "vector-db-loader.md"
+  ],
+  "traffic_loops": [
+    "RAG ingestion loop",
+    "Agent eval benchmark loop",
+    "Dataset/directory catalog loop",
+    "Agent-builder forum loop",
+    "Localized crawler discovery loop"
+  ],
+  "target_queries": [
+    "Korea cheap screen deletion benchmark",
+    "Korean stock research agent benchmark",
+    "Poongsan BHI Woojin survivor stack",
+    "Korean equities RAG dataset",
+    "KRX DART KIND research agent prompt",
+    "agent benchmark for cheap stock traps",
+    "Korea value trap deletion framework",
+    "Korea Research Map llms.txt"
+  ]
+}

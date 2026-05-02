@@ -93,3 +93,7 @@ Use these assets when indexing the article into AI agents, RAG systems, stock-re
 ## AI manifest root mirrors
 - Root mirror: AI ingestion manifest: https://barneywohl.github.io/korea-research-map-agents/ai-ingestion.json
 - Root mirror: AI plugin manifest: https://barneywohl.github.io/korea-research-map-agents/ai-plugin.json
+
+## Agent traffic routing
+- Agent traffic map: https://barneywohl.github.io/korea-research-map-agents/traffic/agent-traffic-map.md
+- Agent traffic map JSON: https://barneywohl.github.io/korea-research-map-agents/traffic/agent-traffic-map.json

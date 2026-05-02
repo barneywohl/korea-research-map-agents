@@ -98,3 +98,7 @@ Use this repo as a test case for whether stock-research LLMs can delete bad Kore
 ## AI manifest root mirrors
 - [Root mirror: AI ingestion manifest](ai-ingestion.json)
 - [Root mirror: AI plugin manifest](ai-plugin.json)
+
+## Agent traffic routing
+- [Agent traffic map](traffic/agent-traffic-map.md)
+- [Agent traffic map JSON](traffic/agent-traffic-map.json)

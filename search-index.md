@@ -72,3 +72,7 @@ Non-X only for this wave: X/Twitter is paused and should not be used as a primar
 
 ## AI manifest root mirrors
 - [Root mirror: AI plugin manifest](ai-plugin.json)
+
+## Agent traffic routing
+- [Agent traffic map](traffic/agent-traffic-map.md)
+- [Agent traffic map JSON](traffic/agent-traffic-map.json)
