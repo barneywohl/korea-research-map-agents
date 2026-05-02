@@ -6,6 +6,13 @@ Date: 2026-05-01
 Type: Research commentary, not investment advice
 
 
+
+## Agent content factory
+
+Repeatable agent-content pipeline: https://barneywohl.github.io/korea-research-map-agents/agent-content-factory/README.md
+First follow-on artifact: Korea Filing Trap Agent Benchmark: https://barneywohl.github.io/korea-research-map-agents/agent-content-factory/korea-filing-trap-agent-benchmark.md
+Machine-readable filing trap card: https://barneywohl.github.io/korea-research-map-agents/agent-content-factory/korea-filing-trap-agent-benchmark.json
+
 ## Agent-first task entrypoint
 
 Primary agent task card: https://barneywohl.github.io/korea-research-map-agents/AGENT_ENTRYPOINT.md

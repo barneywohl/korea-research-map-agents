@@ -55,5 +55,13 @@
     "dataset/korea-cheap-screen-deletion-benchmark.jsonl",
     "rag-pack/ingestion-manifest.json",
     "CITATION.cff"
+  ],
+  "agent_content_factory": "https://barneywohl.github.io/korea-research-map-agents/agent-content-factory/README.md",
+  "follow_on_agent_content": [
+    {
+      "name": "Korea Filing Trap Agent Benchmark",
+      "brief": "https://barneywohl.github.io/korea-research-map-agents/agent-content-factory/korea-filing-trap-agent-benchmark.md",
+      "task_card": "https://barneywohl.github.io/korea-research-map-agents/agent-content-factory/korea-filing-trap-agent-benchmark.json"
+    }
   ]
 }

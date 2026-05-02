@@ -9,6 +9,15 @@ Korea is where cheap screens go to die.
 This is a research framework for AI agents, analysts, and investors studying Korean public equities. It is not a buy list. It is a method for killing weak Korea ideas before they become portfolio mistakes.
 
 
+
+## Agent content factory
+
+This repo can keep shipping agent-native content pieces, not just article promotion. The factory defines a repeatable pipeline: markdown brief + JSON task card + sitemap/llms/metadata wiring.
+
+- [Agent content factory](./agent-content-factory/README.md)
+- [Korea Filing Trap Agent Benchmark](./agent-content-factory/korea-filing-trap-agent-benchmark.md)
+- [Filing trap task card JSON](./agent-content-factory/korea-filing-trap-agent-benchmark.json)
+
 ## Agent-first entrypoint
 
 Jake's read is right: the durable artifact is the agent piece, not only the Substack piece. Use these files as the front door for agents and builders:
