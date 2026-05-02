@@ -1,0 +1,12 @@
+# SK Hynix 000660 HBM Supply Constraint Thesis
+
+URL: https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/sk-hynix-hbm-supply/
+Type: Agent-native publication
+
+## Summary
+
+Agent-native diligence wrapper for the SK Hynix HBM supply constraint duration thesis. Research commentary only; not investment advice.
+
+## Primary task
+
+Verify whether SK Hynix HBM backlog, capex, and customer concentration evidence support or kill the HBM supply constraint thesis.

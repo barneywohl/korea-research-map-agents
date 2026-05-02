@@ -2,19 +2,24 @@
 
 These examples dogfood AgentPress as agent-native publications. Each example should pass `validate`, `audit`, and `score` before being referenced by the main repo.
 
-| Example | Purpose | Primary task | Current score target | Canonical files |
+## Current examples
+
+| Example | Purpose | Primary task | Score target | Canonical files |
 |---|---|---|---:|---|
 | [Korea Liquidity Trap Agent Benchmark](./liquidity-trap/) | Tests whether agents catch liquidity/access traps before repeating a Korea equity thesis. | Verify liquidity/access constraints and return survive/delete/needs-more-diligence. | >=90 | `AGENT_ENTRYPOINT.md`, `agent-task-card.json`, `source-map.json`, `freshness.json`, `allowed-actions.json`, `citation-policy.md`, `llms.txt` |
-| [Korea Theme-to-Cash-Flow Agent Benchmark](./theme-cashflow/) | Tests whether agents bridge theme claims to actual financial exposure. | Map theme narrative to revenue/backlog/cash flow evidence and return a supported verdict. | >=90 | `AGENT_ENTRYPOINT.md`, `agent-task-card.json`, `source-map.json`, `freshness.json`, `allowed-actions.json`, `citation-policy.md`, `llms.txt` |
+| [Korea Theme-to-Cash-Flow Agent Benchmark](./theme-cashflow/) | Tests whether agents bridge theme claims to actual financial exposure. | Map theme narrative to revenue/backlog/cash flow evidence and return a supported verdict. | >=90 | same bundle |
+| [Innospace Thesis](./innospace-thesis/) | Ticker-thesis diligence wrapper for Innospace 462350. | Validate Korea thesis format as an AgentPress bundle. | >=90 | same bundle |
+| [Samsung HBM Margin](./samsung-hbm-margin/) | Ticker-thesis diligence wrapper for Samsung 005930 HBM margin inflection. | Verify qualification/yield/margin evidence and kill tests. | >=90 | same bundle |
+| [SK Hynix HBM Supply](./sk-hynix-hbm-supply/) | Ticker-thesis diligence wrapper for SK Hynix 000660 HBM supply constraint. | Verify backlog/capex/customer evidence and kill tests. | >=90 | same bundle |
+| [POSCO Green Steel](./posco-green-steel/) | Ticker-thesis diligence wrapper for POSCO 005490 green steel premium. | Verify HyREX/offtake/carbon-policy evidence and kill tests. | >=90 | same bundle |
 
-## Validation
+## Registry commands
 
 ```bash
-python3 scripts/agentpress.py validate agentpress/examples/liquidity-trap
-python3 scripts/agentpress.py audit agentpress/examples/liquidity-trap
-python3 scripts/agentpress.py score agentpress/examples/liquidity-trap
-python3 scripts/agentpress.py validate agentpress/examples/theme-cashflow
-python3 scripts/agentpress.py audit agentpress/examples/theme-cashflow
-python3 scripts/agentpress.py score agentpress/examples/theme-cashflow
+python3 scripts/agentpress.py list
+python3 scripts/agentpress.py list --json
+python3 scripts/agentpress.py build-all agentpress/examples --out public/agentpress --clean
+python3 scripts/validate_agentpress_assets.py
 ```
-- [`innospace-thesis`](./innospace-thesis/) — ticker-thesis diligence wrapper for Innospace 462350; validates Korea thesis format as an AgentPress bundle.
+
+`build-all` writes a static registry with `agentpress-registry.json` so crawlers and agents can discover every shipped bundle from one path.

@@ -4,6 +4,16 @@
 
 **Current product:** AgentPress — static publishing infrastructure for agent-native websites, evals, RAG packs, crawler manifests, and citation-safe research artifacts.
 
+## AgentPress quickstart
+
+```bash
+python3 scripts/agentpress.py list
+python3 scripts/agentpress.py build-all agentpress/examples --out public/agentpress --clean
+python3 scripts/validate_agentpress_assets.py
+```
+
+Published registry bundle: [`public/agentpress/agentpress-registry.json`](./public/agentpress/agentpress-registry.json).
+
 ## Start here
 
 Korea is where cheap screens go to die.

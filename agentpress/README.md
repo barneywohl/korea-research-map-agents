@@ -36,6 +36,9 @@ python3 scripts/agentpress.py validate out-dir
 python3 scripts/agentpress.py audit out-dir
 python3 scripts/agentpress.py score out-dir
 python3 scripts/agentpress.py build out-dir --out public-dir
+python3 scripts/agentpress.py list
+python3 scripts/agentpress.py list --json
+python3 scripts/agentpress.py build-all agentpress/examples --out public/agentpress --clean
 python3 scripts/validate_agentpress_assets.py
 ```
 
@@ -49,6 +52,7 @@ Machine-readable contracts live in [`schemas/`](./schemas/). The repository CI w
 ```bash
 python3 scripts/validate_agentpress_assets.py
 python3 scripts/agentpress.py build agentpress/examples/liquidity-trap --out /tmp/agentpress-liquidity
+python3 scripts/agentpress.py build-all agentpress/examples --out /tmp/agentpress-registry --clean
 ```
 
 This keeps generated bundles parseable, auditable, scorable, and static-host deployable.
@@ -72,6 +76,10 @@ See the [examples mini-registry](./examples/README.md).
 
 - [`examples/liquidity-trap`](./examples/liquidity-trap/) — Korea Liquidity Trap Agent Benchmark
 - [`examples/theme-cashflow`](./examples/theme-cashflow/) — Korea Theme-to-Cash-Flow Agent Benchmark
+- [`examples/innospace-thesis`](./examples/innospace-thesis/) — Innospace ticker-thesis diligence wrapper
+- [`examples/samsung-hbm-margin`](./examples/samsung-hbm-margin/) — Samsung HBM margin thesis wrapper
+- [`examples/sk-hynix-hbm-supply`](./examples/sk-hynix-hbm-supply/) — SK Hynix HBM supply thesis wrapper
+- [`examples/posco-green-steel`](./examples/posco-green-steel/) — POSCO green steel premium thesis wrapper
 
 ## Why this matters
 

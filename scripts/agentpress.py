@@ -339,6 +339,62 @@ def build(args):
     return 0
 
 
+
+def list_examples(args):
+    root = pathlib.Path(args.root)
+    examples = sorted(p for p in root.iterdir() if p.is_dir() and (p/"agent-task-card.json").exists()) if root.exists() else []
+    if args.json:
+        rows = []
+        for ex in examples:
+            total, detail = score_value(ex)
+            rows.append({"slug": ex.name, "path": str(ex), "score": total, "detail": detail})
+        print(json.dumps({"root": str(root), "count": len(rows), "examples": rows}, indent=2))
+    else:
+        print(f"AgentPress examples under {root} ({len(examples)})")
+        for ex in examples:
+            total, _detail = score_value(ex)
+            print(f"- {ex.name}: {total}/100 ({ex})")
+    return 0
+
+
+def build_all(args):
+    src_root = pathlib.Path(args.root)
+    dest_root = pathlib.Path(args.dest)
+    examples = sorted(p for p in src_root.iterdir() if p.is_dir() and (p/"agent-task-card.json").exists()) if src_root.exists() else []
+    if not examples:
+        print(f"no AgentPress examples found under {src_root}", file=sys.stderr)
+        return 1
+    if dest_root.exists() and args.clean:
+        shutil.rmtree(dest_root)
+    dest_root.mkdir(parents=True, exist_ok=True)
+    registry = []
+    failures = []
+    for ex in examples:
+        code, errors, warnings = audit_root(ex, strict=True)
+        if code:
+            failures.append({"path": str(ex), "errors": errors, "warnings": warnings})
+            continue
+        out = dest_root / ex.name
+        if out.exists():
+            shutil.rmtree(out)
+        shutil.copytree(ex, out)
+        title = "AgentPress Publication"
+        card_path = ex/"agent-task-card.json"
+        if card_path.exists():
+            card = json.loads(card_path.read_text(encoding="utf-8"))
+            title = card.get("title") or card.get("name") or title
+        write(out/"index.html", f'<!doctype html>\n<html><head><meta charset="utf-8"><title>{title}</title></head><body><main><h1>{title}</h1><p>AgentPress publication. Start with <a href="AGENT_ENTRYPOINT.md">AGENT_ENTRYPOINT.md</a>.</p><ul><li><a href="agent-task-card.json">Task card</a></li><li><a href="llms.txt">llms.txt</a></li><li><a href="source-map.json">Source map</a></li><li><a href=".well-known/ai-ingestion.json">AI ingestion manifest</a></li></ul></main></body></html>\n')
+        total, detail = score_value(ex)
+        registry.append({"slug": ex.name, "title": title, "source": str(ex), "built_path": str(out), "score": total, "detail": detail})
+    if failures:
+        print(json.dumps({"status": "failed", "failures": failures}, indent=2))
+        return 1
+    write(dest_root/"agentpress-registry.json", json.dumps({"schema_version": "0.1", "generated_at": datetime.now(timezone.utc).isoformat(), "count": len(registry), "publications": registry}, indent=2) + "\n")
+    links = "\n".join(f'<li><a href="{r["slug"]}/">{r["slug"]}</a> — AgentPress score {r["score"]}/100</li>' for r in registry)
+    write(dest_root/"index.html", f'<!doctype html>\n<html><head><meta charset="utf-8"><title>AgentPress Registry</title></head><body><main><h1>AgentPress Registry</h1><p>Machine-readable registry: <a href="agentpress-registry.json">agentpress-registry.json</a></p><ul>{links}</ul></main></body></html>\n')
+    print(f"built {len(registry)} AgentPress examples into {dest_root}")
+    return 0
+
 def main():
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -347,11 +403,15 @@ def main():
     p = sub.add_parser("audit"); p.add_argument("out")
     p = sub.add_parser("score"); p.add_argument("out")
     p = sub.add_parser("build"); p.add_argument("out"); p.add_argument("--out", dest="dest", required=True)
+    p = sub.add_parser("list"); p.add_argument("root", nargs="?", default="agentpress/examples"); p.add_argument("--json", action="store_true")
+    p = sub.add_parser("build-all"); p.add_argument("root", nargs="?", default="agentpress/examples"); p.add_argument("--out", dest="dest", required=True); p.add_argument("--clean", action="store_true")
     args = ap.parse_args()
     if args.cmd == "init": init(args); return 0
     if args.cmd == "validate": return validate(args)
     if args.cmd == "audit": return audit(args)
     if args.cmd == "score": return score(args)
     if args.cmd == "build": return build(args)
+    if args.cmd == "list": return list_examples(args)
+    if args.cmd == "build-all": return build_all(args)
 if __name__ == "__main__":
     sys.exit(main())
