@@ -5,6 +5,14 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/landing-path-checklist.md</loc>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/agent-builder-cta.md</loc>
+    <priority>0.95</priority>
+  </url>
+  <url>
     <loc>https://barneywohl.github.io/korea-research-map-agents/llms.txt</loc>
     <priority>0.9</priority>
   </url>
@@ -329,4 +337,20 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/traffic/agent-traffic-map.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/traffic/agent-traffic-map.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/discovery/agent-crawl-healthcheck.json</loc></url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/dataset/README.md</loc>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/agent-metadata-feed.json</loc>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/pages-crawler-bundle.json</loc>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/forum-packs/agent-builder-forum-drop.md</loc>
+    <priority>0.8</priority>
+  </url>
 </urlset>

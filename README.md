@@ -60,6 +60,19 @@ Jake explicitly paused Twitter/X on 2026-05-01. Current discoverability work sho
 Drafts and dataset metadata live in [`share-kit/`](./share-kit/). External posting/account activity still requires a fresh directive; repo-hosted artifacts are safe to prepare and publish.
 
 
+## Productized builder funnel
+
+- [Landing-path checklist](./landing-path-checklist.md): article → dataset → benchmark → RAG pack → citation.
+- [Agent-builder CTA](./agent-builder-cta.md): task spec and integration path for stock-research agents, RAG builders, eval builders, and crawlers.
+
+
+## Shipped crawler, dataset, forum, and metadata bundle
+
+- [Dataset README](./dataset/README.md): dataset card and eval split for JSONL benchmark users.
+- [Agent metadata feed](./discovery/agent-metadata-feed.json): machine-readable directory/crawler catalog entry.
+- [Pages crawler bundle](./pages-crawler-bundle.json): root-level crawl order for Pages, dataset, RAG, and citation assets.
+- [Agent-builder forum drop](./forum-packs/agent-builder-forum-drop.md): non-X forum-ready post for AI agent and RAG builder communities.
+
 ## RAG / crawler ingestion pack
 
 - [RAG pack README](./rag-pack/README.md)

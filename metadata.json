@@ -136,5 +136,14 @@
       "company": "FutureChem",
       "reason": "excluded from public moonshot drawer"
     }
-  ]
+  ],
+  "builder_funnel": {
+    "primary_path": "article -> dataset -> benchmark -> RAG pack -> citation",
+    "landing_path_checklist": "https://barneywohl.github.io/korea-research-map-agents/landing-path-checklist.md",
+    "agent_builder_cta": "https://barneywohl.github.io/korea-research-map-agents/agent-builder-cta.md",
+    "dataset": "https://barneywohl.github.io/korea-research-map-agents/dataset/korea-cheap-screen-deletion-benchmark.jsonl",
+    "benchmark": "https://barneywohl.github.io/korea-research-map-agents/benchmark.md",
+    "rag_pack": "https://barneywohl.github.io/korea-research-map-agents/rag-pack/README.md",
+    "citation": "https://barneywohl.github.io/korea-research-map-agents/CITATION.cff"
+  }
 }

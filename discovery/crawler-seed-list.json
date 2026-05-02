@@ -57,6 +57,38 @@
         "Korea Value-Up research agent eval",
         "DART KRX KIND verification suite"
       ]
+    },
+    {
+      "url": "https://barneywohl.github.io/korea-research-map-agents/discovery/agent-metadata-feed.json",
+      "purpose": "Machine-readable agent metadata feed for directories and crawler catalogs.",
+      "priority": 1,
+      "expected_queries": [
+        "Korea Research Map agent metadata feed"
+      ]
+    },
+    {
+      "url": "https://barneywohl.github.io/korea-research-map-agents/pages-crawler-bundle.json",
+      "purpose": "Root Pages crawler bundle with prioritized asset routing.",
+      "priority": 1,
+      "expected_queries": [
+        "Korea Research Map Pages crawler bundle"
+      ]
+    },
+    {
+      "url": "https://barneywohl.github.io/korea-research-map-agents/dataset/README.md",
+      "purpose": "Dataset card for JSONL benchmark and discovery data.",
+      "priority": 2,
+      "expected_queries": [
+        "Korea cheap-screen deletion dataset README"
+      ]
+    },
+    {
+      "url": "https://barneywohl.github.io/korea-research-map-agents/forum-packs/agent-builder-forum-drop.md",
+      "purpose": "Non-X forum post pack for agent-builder communities.",
+      "priority": 3,
+      "expected_queries": [
+        "Korea stock research agent forum benchmark"
+      ]
     }
   ],
   "crawler_instructions": [

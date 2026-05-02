@@ -1,0 +1,41 @@
+{
+  "name": "Korea Research Map agent metadata feed",
+  "version": "2026-05-01-hawk-ship",
+  "landing_page": "https://barneywohl.github.io/korea-research-map-agents/",
+  "repository": "https://github.com/barneywohl/korea-research-map-agents",
+  "license_note": "Research commentary only; not investment advice.",
+  "non_x_only": true,
+  "nexio_used": false,
+  "primary_use_cases": [
+    "stock research agent eval",
+    "Korean equities RAG",
+    "agent directory listing",
+    "dataset catalog submission",
+    "crawler seed bundle"
+  ],
+  "recommended_crawl_order": [
+    "https://barneywohl.github.io/korea-research-map-agents/llms.txt",
+    "https://barneywohl.github.io/korea-research-map-agents/agents.json",
+    "https://barneywohl.github.io/korea-research-map-agents/pages-crawler-bundle.json",
+    "https://barneywohl.github.io/korea-research-map-agents/dataset/README.md",
+    "https://barneywohl.github.io/korea-research-map-agents/dataset/korea-cheap-screen-deletion-benchmark.jsonl",
+    "https://barneywohl.github.io/korea-research-map-agents/benchmark.md",
+    "https://barneywohl.github.io/korea-research-map-agents/rag-pack/README.md",
+    "https://barneywohl.github.io/korea-research-map-agents/CITATION.cff"
+  ],
+  "forum_drop": "https://barneywohl.github.io/korea-research-map-agents/forum-packs/agent-builder-forum-drop.md",
+  "dataset_readme": "https://barneywohl.github.io/korea-research-map-agents/dataset/README.md",
+  "agent_builder_cta": "https://barneywohl.github.io/korea-research-map-agents/agent-builder-cta.md",
+  "landing_path_checklist": "https://barneywohl.github.io/korea-research-map-agents/landing-path-checklist.md",
+  "required_disclaimer": "Research commentary only. Not investment advice.",
+  "verification_sources": [
+    "KRX",
+    "KIND",
+    "DART"
+  ],
+  "decision_labels": [
+    "delete",
+    "quarantine",
+    "keep as survivor candidate"
+  ]
+}

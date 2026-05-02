@@ -64,9 +64,16 @@
     "Innospace Mobiis CellBion IntoCell SBB Tech moonshots",
     "Korea agent discovery benchmark JSONL",
     "Korean stock RAG vector DB loader",
-    "KRX DART KIND agent catalog submission"
+    "KRX DART KIND agent catalog submission",
+    "Korea Research Map dataset README",
+    "Korean equities agent metadata feed",
+    "cheap-screen deletion forum benchmark"
   ],
   "not_investment_advice": true,
   "benchmark_jsonl": "https://barneywohl.github.io/korea-research-map-agents/dataset/korea-agent-discovery-benchmark.jsonl",
-  "agent_index_submission": "https://barneywohl.github.io/korea-research-map-agents/discovery/catalog-packs/agent-index-submission.json"
+  "agent_index_submission": "https://barneywohl.github.io/korea-research-map-agents/discovery/catalog-packs/agent-index-submission.json",
+  "dataset_readme": "https://barneywohl.github.io/korea-research-map-agents/dataset/README.md",
+  "agent_metadata_feed": "https://barneywohl.github.io/korea-research-map-agents/discovery/agent-metadata-feed.json",
+  "pages_crawler_bundle": "https://barneywohl.github.io/korea-research-map-agents/pages-crawler-bundle.json",
+  "forum_builder_drop": "https://barneywohl.github.io/korea-research-map-agents/forum-packs/agent-builder-forum-drop.md"
 }

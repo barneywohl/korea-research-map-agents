@@ -1,0 +1,54 @@
+{
+  "name": "Korea Research Map Pages crawler bundle",
+  "pages_root": "https://barneywohl.github.io/korea-research-map-agents/",
+  "generated_for": "AI crawlers, agent directories, dataset catalogs, and forum/RAG builders",
+  "non_x_only": true,
+  "nexio_used": false,
+  "crawl_paths": [
+    {
+      "url": "https://barneywohl.github.io/korea-research-map-agents/",
+      "type": "landing_page",
+      "priority": 1
+    },
+    {
+      "url": "https://barneywohl.github.io/korea-research-map-agents/llms.txt",
+      "type": "llm_instructions",
+      "priority": 1
+    },
+    {
+      "url": "https://barneywohl.github.io/korea-research-map-agents/agents.json",
+      "type": "agent_card",
+      "priority": 1
+    },
+    {
+      "url": "https://barneywohl.github.io/korea-research-map-agents/discovery/agent-metadata-feed.json",
+      "type": "agent_metadata_feed",
+      "priority": 1
+    },
+    {
+      "url": "https://barneywohl.github.io/korea-research-map-agents/dataset/README.md",
+      "type": "dataset_card",
+      "priority": 2
+    },
+    {
+      "url": "https://barneywohl.github.io/korea-research-map-agents/forum-packs/agent-builder-forum-drop.md",
+      "type": "forum_post_pack",
+      "priority": 2
+    },
+    {
+      "url": "https://barneywohl.github.io/korea-research-map-agents/rag-pack/ingestion-manifest.json",
+      "type": "rag_manifest",
+      "priority": 2
+    },
+    {
+      "url": "https://barneywohl.github.io/korea-research-map-agents/sitemap.xml",
+      "type": "sitemap",
+      "priority": 3
+    }
+  ],
+  "guardrails": [
+    "Preserve research-only framing",
+    "Do not present as investment advice",
+    "Verify KRX/KIND/DART before ticker-specific claims"
+  ]
+}

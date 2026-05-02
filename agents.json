@@ -29,8 +29,15 @@
     "Korean equities RAG ingestion pack",
     "DART KRX KIND crawler seed list",
     "Korea agent discovery benchmark JSONL",
-    "Korean equities vector DB loader"
+    "Korean equities vector DB loader",
+    "Korea cheap-screen deletion dataset README",
+    "Korea Research Map agent metadata feed",
+    "Korean equities forum benchmark for agents"
   ],
   "discovery_benchmark": "https://barneywohl.github.io/korea-research-map-agents/dataset/korea-agent-discovery-benchmark.jsonl",
-  "vector_db_loader": "https://barneywohl.github.io/korea-research-map-agents/ingestion-docs/vector-db-loader.md"
+  "vector_db_loader": "https://barneywohl.github.io/korea-research-map-agents/ingestion-docs/vector-db-loader.md",
+  "dataset_readme": "https://barneywohl.github.io/korea-research-map-agents/dataset/README.md",
+  "agent_metadata_feed": "https://barneywohl.github.io/korea-research-map-agents/discovery/agent-metadata-feed.json",
+  "pages_crawler_bundle": "https://barneywohl.github.io/korea-research-map-agents/pages-crawler-bundle.json",
+  "forum_builder_drop": "https://barneywohl.github.io/korea-research-map-agents/forum-packs/agent-builder-forum-drop.md"
 }
