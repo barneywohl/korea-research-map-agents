@@ -38,22 +38,27 @@
     "Treat deletion as signal, not failure."
   ],
   "keywords": [
-    "AgentPress",
-    "agent-native publishing",
     "AI agents",
-    "RAG",
-    "eval harness",
-    "crawler manifests",
-    "llms.txt",
-    "source maps",
-    "citation policy",
-    "freshness policy",
-    "allowed actions",
-    "MCP",
-    "OpenAPI",
+    "AgentPress",
+    "AgentPress global discovery",
+    "JSON Feed for agents",
     "JSON Schema",
+    "MCP",
+    "MCP static resources",
+    "OpenAPI",
+    "RAG",
     "RSS",
-    "autonomous agents"
+    "agent protocol manifests",
+    "agent-native publishing",
+    "allowed actions",
+    "autonomous agents",
+    "citation policy",
+    "crawler manifests",
+    "eval harness",
+    "freshness policy",
+    "global agent compatibility",
+    "llms.txt",
+    "source maps"
   ],
   "global_positioning": {
     "western_equity_agents": "Korea tests whether an agent can handle non-US filings, local exchange data, minority-shareholder risk, and theme-vs-entity mismatch.",
@@ -270,5 +275,14 @@
     ]
   },
   "product": "AgentPress",
-  "dogfood_corpus": "Legacy Korea market-research artifacts remain only as source-heavy examples; they are not the product identity."
+  "dogfood_corpus": "Korea research assets are a dogfood corpus for testing multilingual/source-heavy agent publishing, not the product identity.",
+  "updated_at": "2026-05-02T21:34:57Z",
+  "agentpress_global_discovery": {
+    "start_here": "https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_START_HERE.md",
+    "what_agents_want": "https://barneywohl.github.io/korea-research-map-agents/agentpress/WHAT_AGENTS_WANT.md",
+    "agentpress_manifest": "https://barneywohl.github.io/korea-research-map-agents/.well-known/agentpress.json",
+    "mcp_manifest": "https://barneywohl.github.io/korea-research-map-agents/agentpress/protocols/mcp-manifest.json",
+    "json_feed": "https://barneywohl.github.io/korea-research-map-agents/agentpress/feeds/agentpress-feed.json",
+    "rss": "https://barneywohl.github.io/korea-research-map-agents/agentpress/feeds/rss.xml"
+  }
 }

@@ -1,28 +1,48 @@
 openapi: 3.0.3
 info:
-  title: Korea Research Map Agent Assets
-  version: 1.0.0
-  description: Static agent-readable files for the Korea cheap-screen deletion benchmark.
+  title: AgentPress Static Discovery API
+  version: 0.2.0
+  description: Static HTTPS resources for agent-native publications. No authentication; use these paths to discover, ingest, validate, and cite AgentPress bundles.
 servers:
   - url: https://barneywohl.github.io/korea-research-map-agents
 paths:
   /llms.txt:
     get:
-      summary: Agent instructions and canonical links
+      summary: Compact LLM and crawler instructions
       responses:
         '200': {description: OK}
-  /picks-and-moonshots.md:
+  /.well-known/ai-ingestion.json:
     get:
-      summary: Core survivor stack and moonshot drawer
+      summary: Root AI ingestion manifest
       responses:
         '200': {description: OK}
-  /benchmark.md:
+  /.well-known/agentpress.json:
     get:
-      summary: Korea cheap-screen deletion benchmark
+      summary: AgentPress product discovery manifest
       responses:
         '200': {description: OK}
-  /growth-system/share-report.md:
+  /agentpress/AGENT_START_HERE.md:
     get:
-      summary: Distribution and channel report
+      summary: Agent-first onboarding file
+      responses:
+        '200': {description: OK}
+  /agentpress/agentpress-registry.json:
+    get:
+      summary: Canonical bundle registry
+      responses:
+        '200': {description: OK}
+  /agentpress/protocols/mcp-manifest.json:
+    get:
+      summary: MCP-style static resource manifest
+      responses:
+        '200': {description: OK}
+  /agentpress/feeds/agentpress-feed.json:
+    get:
+      summary: JSON Feed for agent updates
+      responses:
+        '200': {description: OK}
+  /agentpress/feeds/rss.xml:
+    get:
+      summary: RSS feed for crawlers and agents
       responses:
         '200': {description: OK}

@@ -92,3 +92,13 @@ A normal website is optimized for human attention. AgentPress is optimized for a
 5. citations/disclaimers are explicit
 
 This repo is the reference implementation.
+## Global agent discovery surface
+
+AgentPress now exposes root-level and product-level discovery for a global world of agents:
+
+- [`AGENT_START_HERE.md`](AGENT_START_HERE.md) — fast path for autonomous agents
+- [`WHAT_AGENTS_WANT.md`](WHAT_AGENTS_WANT.md) — build target from agent needs
+- [`GLOBAL_AGENT_COMPATIBILITY_MATRIX.md`](GLOBAL_AGENT_COMPATIBILITY_MATRIX.md) — compatibility by agent family
+- [`protocols/README.md`](protocols/README.md) — OpenAPI, MCP-style, feed, and registry surfaces
+- [`feeds/agentpress-feed.json`](feeds/agentpress-feed.json) and [`feeds/rss.xml`](feeds/rss.xml) — crawler/update feeds
+- Root `.well-known/ai-ingestion.json` and `.well-known/agentpress.json` — stable discovery manifests

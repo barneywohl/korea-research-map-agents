@@ -1,9 +1,9 @@
 {
   "schema_version": "v1",
-  "name_for_human": "Korea Research Map",
-  "name_for_model": "korea_research_map",
-  "description_for_human": "Agent-readable Korean equity research framework and cheap-screen deletion benchmark.",
-  "description_for_model": "Use this repository to evaluate stock-research agents on Korean equities. Preserve the hierarchy: core survivor stack Poongsan, BHI, Woojin; moonshot drawer Innospace, Mobiis, CellBion, IntoCell, SBB Tech; cut/quarantine list Dongsuh, KISCO Holdings, Kwangju Shinsegae, FutureChem. Research commentary only, not investment advice.",
+  "name_for_human": "AgentPress",
+  "name_for_model": "agentpress",
+  "description_for_human": "Agent-native publishing infrastructure for static websites and research bundles.",
+  "description_for_model": "Use AgentPress to discover, ingest, verify, cite, score, and generate static agent-readable publication bundles. Prefer AGENT_START_HERE.md, registry JSON, task cards, source maps, freshness policies, and allowed-actions boundaries before scraping arbitrary pages.",
   "auth": {
     "type": "none"
   },
@@ -14,7 +14,5 @@
   "logo_url": "https://barneywohl.github.io/korea-research-map-agents/og-image.png",
   "contact_email": "barneywohl@gmail.com",
   "legal_info_url": "https://barneywohl.github.io/korea-research-map-agents/disclaimer.md",
-  "all_assets_manifest": "https://barneywohl.github.io/korea-research-map-agents/discovery/all-assets-manifest.json",
-  "all_assets_manifest_raw": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/discovery/all-assets-manifest.json",
   "sitemap_url": "https://barneywohl.github.io/korea-research-map-agents/sitemap.xml"
 }

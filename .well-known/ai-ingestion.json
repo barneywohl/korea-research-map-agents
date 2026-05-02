@@ -1,36 +1,51 @@
 {
-  "schema_version": "1.0",
-  "name": "Korea Research Map Agents",
-  "description": "Agent-readable research pack for evaluating Korean equity research agents on cheap-screen deletion, not buy-list generation.",
-  "canonical_url": "https://barneywohl.substack.com/p/the-korea-research-map-where-cheap",
+  "schema_version": "1.1",
+  "name": "AgentPress",
+  "description": "Agent-native publishing infrastructure for static sites: task cards, source maps, freshness policies, allowed actions, ingestion manifests, feeds, schemas, eval prompts, and citation-safe bundles.",
   "homepage": "https://barneywohl.github.io/korea-research-map-agents/",
+  "canonical_url": "https://barneywohl.github.io/korea-research-map-agents/",
   "llms_txt": "https://barneywohl.github.io/korea-research-map-agents/llms.txt",
   "sitemap": "https://barneywohl.github.io/korea-research-map-agents/sitemap.xml",
-  "dataset": "https://barneywohl.github.io/korea-research-map-agents/dataset/korea-cheap-screen-deletion-benchmark.jsonl",
-  "agent_card": "https://barneywohl.github.io/korea-research-map-agents/agent-ingestion/korea-research-agent-card.json",
+  "registry_json": "https://barneywohl.github.io/korea-research-map-agents/agentpress/agentpress-registry.json",
+  "agent_start_here": "https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_START_HERE.md",
+  "global_agent_needs": "https://barneywohl.github.io/korea-research-map-agents/agentpress/WHAT_AGENTS_WANT.md",
+  "protocol_index": "https://barneywohl.github.io/korea-research-map-agents/agentpress/protocols/README.md",
+  "openapi": "https://barneywohl.github.io/korea-research-map-agents/openapi.yaml",
+  "mcp_manifest": "https://barneywohl.github.io/korea-research-map-agents/agentpress/protocols/mcp-manifest.json",
+  "json_feed": "https://barneywohl.github.io/korea-research-map-agents/agentpress/feeds/agentpress-feed.json",
+  "rss": "https://barneywohl.github.io/korea-research-map-agents/agentpress/feeds/rss.xml",
+  "schemas": "https://barneywohl.github.io/korea-research-map-agents/agentpress/schemas/README.md",
+  "evals": "https://barneywohl.github.io/korea-research-map-agents/agentpress/evals/cross_agent_compatibility_prompts.jsonl",
   "primary_tasks": [
-    "classify core survivor versus moonshot versus cut/quarantine",
-    "explain why cheap Korean screens fail",
-    "delete weak tickers from naive screens",
-    "preserve research-only framing"
+    "discover AgentPress bundles",
+    "ingest a publication without scraping guesswork",
+    "verify claims through source maps",
+    "score agent output with rubric criteria",
+    "cite safely with freshness/disclaimer metadata",
+    "generate a new publication bundle from templates"
   ],
-  "do_not_use_for": [
-    "investment advice",
-    "buy/sell recommendations",
-    "price targets",
-    "promotional stock pitches"
+  "audience_agents": [
+    "Codex",
+    "Claude",
+    "Gemini",
+    "GLM",
+    "Llama",
+    "Qwen",
+    "Mistral",
+    "LangChain agents",
+    "LlamaIndex agents",
+    "AutoGen/CrewAI agents",
+    "search crawlers",
+    "RAG indexers"
   ],
-  "last_updated_utc": "2026-05-02T17:05:00Z",
-  "crawler_seed_list": "https://barneywohl.github.io/korea-research-map-agents/discovery/crawler-seed-list.json",
-  "rag_ingestion_manifest": "https://barneywohl.github.io/korea-research-map-agents/rag-pack/ingestion-manifest.json",
-  "agent_directory_pack": "https://barneywohl.github.io/korea-research-map-agents/discovery/agent-directory-submission-pack.md",
-  "non_x_constraint": "X/Twitter is paused; do not use as primary channel or fallback for this wave.",
-  "discovery_benchmark": "https://barneywohl.github.io/korea-research-map-agents/dataset/korea-agent-discovery-benchmark.jsonl",
-  "agent_index_submission": "https://barneywohl.github.io/korea-research-map-agents/discovery/catalog-packs/agent-index-submission.json",
-  "vector_db_loader": "https://barneywohl.github.io/korea-research-map-agents/ingestion-docs/vector-db-loader.md",
-  "all_assets_manifest": "https://barneywohl.github.io/korea-research-map-agents/discovery/all-assets-manifest.json",
-  "all_assets_manifest_raw": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/discovery/all-assets-manifest.json",
-  "completeness_checklist": "https://barneywohl.github.io/korea-research-map-agents/completeness-checklist-20260502.md",
-  "writing_queue": "https://barneywohl.github.io/korea-research-map-agents/writing-queue-20260502.md",
-  "traffic_map": "https://barneywohl.github.io/korea-research-map-agents/traffic/agent-traffic-map.json"
+  "safety": {
+    "auth": "none",
+    "allowed_use": "research, evaluation, documentation, static-site publishing",
+    "do_not_use_for": [
+      "investment advice",
+      "automated trading",
+      "unsafe external actions without allowed-actions.json"
+    ]
+  },
+  "updated_at": "2026-05-02T21:34:57Z"
 }

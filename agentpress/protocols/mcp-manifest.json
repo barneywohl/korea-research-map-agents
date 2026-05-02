@@ -1,0 +1,42 @@
+{
+  "schema_version": "0.1-static",
+  "name": "agentpress-static-resources",
+  "description": "Static resource manifest for MCP-style agents. No auth. Resources are HTTPS files.",
+  "resources": [
+    {
+      "name": "registry",
+      "uri": "https://barneywohl.github.io/korea-research-map-agents/agentpress/agentpress-registry.json",
+      "mimeType": "application/json"
+    },
+    {
+      "name": "start_here",
+      "uri": "https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_START_HERE.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "name": "schemas",
+      "uri": "https://barneywohl.github.io/korea-research-map-agents/agentpress/schemas/README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "name": "eval_prompts",
+      "uri": "https://barneywohl.github.io/korea-research-map-agents/agentpress/evals/cross_agent_compatibility_prompts.jsonl",
+      "mimeType": "application/x-ndjson"
+    }
+  ],
+  "tools": [
+    {
+      "name": "validate_bundle",
+      "description": "Run locally: python3 scripts/agentpress.py validate <bundle>"
+    },
+    {
+      "name": "audit_bundle",
+      "description": "Run locally: python3 scripts/agentpress.py audit <bundle>"
+    },
+    {
+      "name": "score_bundle",
+      "description": "Run locally: python3 scripts/agentpress.py score <bundle>"
+    }
+  ],
+  "updated_at": "2026-05-02T21:34:57Z"
+}

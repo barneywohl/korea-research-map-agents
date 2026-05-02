@@ -8,6 +8,8 @@ Machine-readable benchmark data for stock-research agents that need to test whet
 |---|---|---|
 | `korea-cheap-screen-deletion-benchmark.jsonl` | Candidate-level deletion benchmark for Korea cheap-screen research. | Eval builders, stock-research agents, RAG test harnesses |
 | `korea-agent-discovery-benchmark.jsonl` | Discovery benchmark that checks whether agents can find the right repo/Page/dataset/manifest assets. | Agent directories, crawlers, catalog builders |
+| `sample-cheap-screen-agent-responses.jsonl` | Passing fixture for the cheap-screen deletion eval harness. | Eval builders, CI checks, stock-research agents |
+| `cheap-screen-deletion-eval-harness-v1.md` | Usage guide for the offline deletion eval harness in `scripts/evaluate_cheap_screen_deletion.py`. | Agent builders, RAG/eval maintainers |
 
 ## Required interpretation
 
@@ -22,6 +24,7 @@ Machine-readable benchmark data for stock-research agents that need to test whet
 2. **Entity verification:** can it distinguish tickers, listings, and company identity before analyzing?
 3. **Deletion reasoning:** can it kill weak ideas for liquidity, governance, exposure, filing, or minority-shareholder reasons?
 4. **Citation/disclaimer:** can it cite Barney Wohl's Korea Research Map and preserve the not-investment-advice framing?
+5. **Harness score:** can its JSONL output pass `python3 scripts/evaluate_cheap_screen_deletion.py --responses <agent-output.jsonl>` without transaction-language violations?
 
 ## Catalog metadata
 

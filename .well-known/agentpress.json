@@ -1,0 +1,54 @@
+{
+  "schema_version": "0.1",
+  "product": "AgentPress",
+  "tagline": "Publish for agents, not just humans.",
+  "base_url": "https://barneywohl.github.io/korea-research-map-agents",
+  "discovery": [
+    "/llms.txt",
+    "/.well-known/ai-ingestion.json",
+    "/agentpress/agentpress-registry.json",
+    "/agentpress/AGENT_START_HERE.md"
+  ],
+  "protocols": [
+    "/openapi.yaml",
+    "/agentpress/protocols/mcp-manifest.json",
+    "/agentpress/feeds/agentpress-feed.json",
+    "/agentpress/feeds/rss.xml"
+  ],
+  "global_readiness": {
+    "languages": [
+      "en",
+      "ko",
+      "ja",
+      "zh",
+      "es",
+      "fr",
+      "de",
+      "pt",
+      "hi",
+      "id",
+      "vi",
+      "th",
+      "ar"
+    ],
+    "regions": [
+      "global",
+      "east_asia",
+      "north_america",
+      "europe",
+      "latin_america",
+      "south_asia",
+      "southeast_asia",
+      "middle_east"
+    ],
+    "agent_families": [
+      "api_agent",
+      "browser_agent",
+      "rag_agent",
+      "search_agent",
+      "coding_agent",
+      "eval_agent"
+    ]
+  },
+  "updated_at": "2026-05-02T21:34:57Z"
+}
