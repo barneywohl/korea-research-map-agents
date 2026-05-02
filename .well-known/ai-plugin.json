@@ -15,6 +15,6 @@
   "contact_email": "barneywohl@gmail.com",
   "legal_info_url": "https://barneywohl.github.io/korea-research-map-agents/disclaimer.md",
   "all_assets_manifest": "https://barneywohl.github.io/korea-research-map-agents/discovery/all-assets-manifest.json",
-  "all_assets_manifest_raw": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/main/discovery/all-assets-manifest.json",
+  "all_assets_manifest_raw": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/HEAD/discovery/all-assets-manifest.json",
   "sitemap_url": "https://barneywohl.github.io/korea-research-map-agents/sitemap.xml"
 }

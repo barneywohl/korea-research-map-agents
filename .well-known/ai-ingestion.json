@@ -29,5 +29,5 @@
   "agent_index_submission": "https://barneywohl.github.io/korea-research-map-agents/discovery/catalog-packs/agent-index-submission.json",
   "vector_db_loader": "https://barneywohl.github.io/korea-research-map-agents/ingestion-docs/vector-db-loader.md",
   "all_assets_manifest": "https://barneywohl.github.io/korea-research-map-agents/discovery/all-assets-manifest.json",
-  "all_assets_manifest_raw": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/main/discovery/all-assets-manifest.json"
+  "all_assets_manifest_raw": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/HEAD/discovery/all-assets-manifest.json"
 }

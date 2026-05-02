@@ -127,7 +127,7 @@ Recommended crawler path: article -> dataset -> benchmark -> RAG pack -> citatio
 ## Full crawler/AI asset inventory
 
 - All-assets manifest: https://barneywohl.github.io/korea-research-map-agents/discovery/all-assets-manifest.json
-- Raw fallback: https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/main/discovery/all-assets-manifest.json
+- Raw fallback: https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/HEAD/discovery/all-assets-manifest.json
 - Sitemap: https://barneywohl.github.io/korea-research-map-agents/sitemap.xml
 
 Crawler instruction: if a GitHub Pages URL is unavailable or stale, retry the paired raw.githubusercontent.com URL from the all-assets manifest. Preserve the research-only/not-investment-advice framing for every indexed asset.
