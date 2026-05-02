@@ -65,7 +65,10 @@ Drafts and dataset metadata live in [`share-kit/`](./share-kit/). External posti
 - [RAG pack README](./rag-pack/README.md)
 - [RAG JSONL chunks](./rag-pack/korea-research-map.chunks.jsonl)
 - [RAG ingestion manifest](./rag-pack/ingestion-manifest.json)
+- [Retrieval query set](./rag-pack/retrieval-queries.md)
+- [RAG indexer quickstart](./ingestion-docs/rag-indexer-quickstart.md)
 - [Crawler/search snippets](./discovery/snippets-for-crawlers.md)
+- [Search and RAG snippets](./discovery/snippets/search-and-rag-snippets.md)
 
 These files are designed for AI agents, RAG indexers, dataset catalogs, and crawlers. Preserve the research-only/not-investment-advice framing.
 
@@ -73,9 +76,11 @@ These files are designed for AI agents, RAG indexers, dataset catalogs, and craw
 
 - [Eval card](./EVAL_CARD.md)
 - [Benchmark prompt](./benchmark.md)
+- [Agent verification suite](./discovery/evals/korea-agent-verification-suite.md)
 - [Stock research agent prompt](./prompts/stock-research-agent-prompt.md)
 - [JSONL benchmark data](./dataset/korea-cheap-screen-deletion-benchmark.jsonl)
 - [Moonshot drawer](./moonshot-drawer.md)
 - [Search index](./search-index.md)
+- [Agent forum / crawler pack](./platform-packs/agent-forum-crawler-pack.md)
 
 Use this repo as a test case for whether stock-research LLMs can delete bad Korea ideas rather than summarize cheap screens.

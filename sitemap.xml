@@ -67,4 +67,8 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/rag-pack/ingestion-manifest.json</loc><priority>0.7</priority></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/rag-pack/retrieval-queries.md</loc><priority>0.7</priority></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/discovery/snippets-for-crawlers.md</loc><priority>0.7</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/discovery/snippets/search-and-rag-snippets.md</loc><priority>0.7</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/discovery/evals/korea-agent-verification-suite.md</loc><priority>0.75</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/ingestion-docs/rag-indexer-quickstart.md</loc><priority>0.7</priority></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/agent-forum-crawler-pack.md</loc><priority>0.65</priority></url>
 </urlset>
