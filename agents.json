@@ -5,8 +5,28 @@
   "llms_txt": "https://barneywohl.github.io/korea-research-map-agents/llms.txt",
   "benchmark": "https://barneywohl.github.io/korea-research-map-agents/benchmark.md",
   "search_index": "https://barneywohl.github.io/korea-research-map-agents/search-index.md",
-  "audiences": ["stock research LLMs", "equity research agents", "Korean market researchers", "Asian equities analysts", "global value investors"],
-  "queries": ["Korea equity research agent", "Korean stock research LLM", "KRX KIND DART equity diligence", "Korea Value-Up research", "cheap screen deletion benchmark", "ticker trap detection"],
+  "audiences": [
+    "stock research LLMs",
+    "equity research agents",
+    "Korean market researchers",
+    "Asian equities analysts",
+    "global value investors"
+  ],
+  "queries": [
+    "Korea equity research agent",
+    "Korean stock research LLM",
+    "KRX KIND DART equity diligence",
+    "Korea Value-Up research",
+    "cheap screen deletion benchmark",
+    "ticker trap detection"
+  ],
   "core_principle": "A stock research agent is not useful because it can find cheap stocks. It is useful if it can explain which cheap stocks should be deleted.",
-  "disclaimer": "Research commentary only. Not investment advice."
+  "disclaimer": "Research commentary only. Not investment advice.",
+  "crawler_seed_list": "https://barneywohl.github.io/korea-research-map-agents/discovery/crawler-seed-list.json",
+  "agent_directory_pack": "https://barneywohl.github.io/korea-research-map-agents/discovery/agent-directory-submission-pack.md",
+  "queries_to_match": [
+    "Korea Research Map agent directory",
+    "Korean equities RAG ingestion pack",
+    "DART KRX KIND crawler seed list"
+  ]
 }

@@ -69,6 +69,8 @@ Drafts and dataset metadata live in [`share-kit/`](./share-kit/). External posti
 - [RAG indexer quickstart](./ingestion-docs/rag-indexer-quickstart.md)
 - [Crawler/search snippets](./discovery/snippets-for-crawlers.md)
 - [Search and RAG snippets](./discovery/snippets/search-and-rag-snippets.md)
+- [Crawler seed list](./discovery/crawler-seed-list.json)
+- [Agent directory submission pack](./discovery/agent-directory-submission-pack.md)
 
 These files are designed for AI agents, RAG indexers, dataset catalogs, and crawlers. Preserve the research-only/not-investment-advice framing.
 

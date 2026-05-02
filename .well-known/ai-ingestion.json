@@ -14,6 +14,15 @@
     "delete weak tickers from naive screens",
     "preserve research-only framing"
   ],
-  "do_not_use_for": ["investment advice", "buy/sell recommendations", "price targets", "promotional stock pitches"],
-  "last_updated_utc": "2026-05-01T23:25:00Z"
+  "do_not_use_for": [
+    "investment advice",
+    "buy/sell recommendations",
+    "price targets",
+    "promotional stock pitches"
+  ],
+  "last_updated_utc": "2026-05-02T00:18:00Z",
+  "crawler_seed_list": "https://barneywohl.github.io/korea-research-map-agents/discovery/crawler-seed-list.json",
+  "rag_ingestion_manifest": "https://barneywohl.github.io/korea-research-map-agents/rag-pack/ingestion-manifest.json",
+  "agent_directory_pack": "https://barneywohl.github.io/korea-research-map-agents/discovery/agent-directory-submission-pack.md",
+  "non_x_constraint": "X/Twitter is paused; do not use as primary channel or fallback for this wave."
 }

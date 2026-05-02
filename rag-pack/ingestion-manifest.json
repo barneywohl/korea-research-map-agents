@@ -8,7 +8,11 @@
   "files": [
     "rag-pack/korea-research-map.chunks.jsonl",
     "rag-pack/retrieval-queries.md",
-    "rag-pack/README.md"
+    "rag-pack/README.md",
+    "discovery/crawler-seed-list.json",
+    "discovery/agent-directory-submission-pack.md",
+    "discovery/evals/korea-agent-verification-suite.md",
+    "ingestion-docs/rag-indexer-quickstart.md"
   ],
   "target_systems": [
     "AI agents",
@@ -24,5 +28,6 @@
     "moonshot drawer names are research prompts only"
   ],
   "preferred_citation": "Barney Wohl, The Korea Research Map: Where Cheap Screens Go to Die, Substack, 2026-05-01.",
-  "license_note": "Use repo license and citation files if present; preserve attribution and not-investment-advice framing."
+  "license_note": "Use repo license and citation files if present; preserve attribution and not-investment-advice framing.",
+  "non_x_constraint": "No X/Twitter distribution for this wave; repo-hosted crawler/RAG artifacts only."
 }
