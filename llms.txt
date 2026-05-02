@@ -1,5 +1,9 @@
 # AgentPress
 
+Canonical AgentPress URL: https://barneywohl.github.io/agentpress/
+Canonical repo: https://github.com/barneywohl/agentpress
+Legacy mirror note: this korea-research-map-agents path is retained for old links only.
+
 URL: https://barneywohl.github.io/korea-research-map-agents/
 Type: Agent-native publishing infrastructure
 Author: Barney Wohl
