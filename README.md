@@ -92,6 +92,7 @@ These files are designed for AI agents, RAG indexers, dataset catalogs, and craw
 - [Moonshot drawer](./moonshot-drawer.md)
 - [Search index](./search-index.md)
 - [Agent forum / crawler pack](./platform-packs/agent-forum-crawler-pack.md)
+- [Agent crawl healthcheck JSON](./discovery/agent-crawl-healthcheck.json)
 
 Use this repo as a test case for whether stock-research LLMs can delete bad Korea ideas rather than summarize cheap screens.
 
