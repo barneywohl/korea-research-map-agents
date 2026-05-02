@@ -1,7 +1,7 @@
 {
   "schema_version": "2026-05-02.all-assets-manifest.v3",
   "name": "AgentPress all-assets manifest",
-  "generated_at_utc": "2026-05-02T22:05:26Z",
+  "generated_at_utc": "2026-05-02T22:07:23Z",
   "purpose": "Single machine-readable inventory so crawlers, AI agents, RAG ingestors, dataset catalogs, and eval harnesses can discover every public AgentPress asset with GitHub Pages and raw.githubusercontent.com fallback URLs.",
   "canonical_product": "AgentPress",
   "canonical_pages": "https://barneywohl.github.io/korea-research-map-agents/",
@@ -26,7 +26,8 @@
     "scripts/check_agentpress_positioning.py",
     "agentpress/DEEP_CLEANUP_AUDIT_20260502.md",
     "agentpress/schemas/article-card.schema.json",
-    "agentpress/schemas/article-index.schema.json"
+    "agentpress/schemas/article-index.schema.json",
+    "agentpress/GLM_AGENT_RESEARCH_ROUND_20260502.md"
   ],
   "required_framing": [
     "AgentPress is agent-native publishing infrastructure.",
@@ -36,7 +37,7 @@
     "External writes, mass distribution, registry submission, and deploy require explicit human authorization."
   ],
   "legacy_stress_test_note": "Original Korea research assets remain in the inventory as secondary stress tests, not primary product positioning.",
-  "asset_count": 448,
+  "asset_count": 449,
   "assets": [
     {
       "path": ".github/workflows/agentpress-validate.yml",
@@ -216,6 +217,12 @@
       "path": "agentpress/EXECUTION_BOARD.md",
       "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/EXECUTION_BOARD.md",
       "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/agentpress/EXECUTION_BOARD.md",
+      "kind": "human_and_agent_readable_page"
+    },
+    {
+      "path": "agentpress/GLM_AGENT_RESEARCH_ROUND_20260502.md",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/GLM_AGENT_RESEARCH_ROUND_20260502.md",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/agentpress/GLM_AGENT_RESEARCH_ROUND_20260502.md",
       "kind": "human_and_agent_readable_page"
     },
     {
