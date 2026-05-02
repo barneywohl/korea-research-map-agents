@@ -172,6 +172,8 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/schemas/agent-task-card.schema.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/schemas/ai-ingestion.schema.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/schemas/allowed-actions.schema.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/schemas/article-card.schema.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/schemas/article-index.schema.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/schemas/freshness.schema.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/schemas/source-map.schema.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/templates/.well-known/ai-ingestion.json.tmpl</loc></url>

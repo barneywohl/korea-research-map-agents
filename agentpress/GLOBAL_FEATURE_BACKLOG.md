@@ -23,7 +23,7 @@ This backlog turns agent-needs research into shippable features. Order matters: 
 
 - [ ] Strengthen MCP static manifest with resources/prompts/tool-like descriptors.
 - [ ] Add OpenAPI paths for every primary AgentPress artifact.
-- [ ] Add JSON Schema files for task card, source map, freshness, allowed actions, profile.
+- [x] Add JSON Schema files for task card, source map, freshness, allowed actions, article card, and article index.
 - [ ] Add RSS/JSON Feed entries for every example and future profile.
 
 ## P1 — Multilingual/global support

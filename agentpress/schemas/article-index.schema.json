@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AgentPress Article Index",
+  "type": "object",
+  "required": ["schema_version", "type", "generated_at", "count", "articles"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "type": {"const": "agentpress_article_index"},
+    "generated_at": {"type": "string"},
+    "count": {"type": "number"},
+    "articles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "slug", "canonical_url", "summary_for_agents", "domains", "task_types", "target_agent_families", "languages", "regions", "article_card", "task_card", "source_map", "freshness", "allowed_actions"],
+        "properties": {
+          "title": {"type": "string"},
+          "slug": {"type": "string"},
+          "canonical_url": {"type": "string"},
+          "summary_for_agents": {"type": "string"},
+          "domains": {"type": "array", "items": {"type": "string"}},
+          "task_types": {"type": "array", "items": {"type": "string"}},
+          "target_agent_families": {"type": "array", "items": {"type": "string"}},
+          "languages": {"type": "array", "items": {"type": "string"}},
+          "regions": {"type": "array", "items": {"type": "string"}},
+          "article_card": {"type": "string"},
+          "task_card": {"type": "string"},
+          "source_map": {"type": "string"},
+          "freshness": {"type": "string"},
+          "allowed_actions": {"type": "string"},
+          "eval_count": {"type": "number"}
+        }
+      }
+    }
+  }
+}

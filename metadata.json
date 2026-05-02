@@ -272,7 +272,7 @@
     ]
   },
   "product": "AgentPress",
-  "updated_at": "2026-05-02T21:59:09Z",
+  "updated_at": "2026-05-02T22:05:26Z",
   "agentpress_global_discovery": {
     "start_here": "https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_START_HERE.md",
     "what_agents_want": "https://barneywohl.github.io/korea-research-map-agents/agentpress/WHAT_AGENTS_WANT.md",
@@ -319,5 +319,7 @@
   "article_database_index": "https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/article-index.json",
   "article_database_jsonl": "https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/article-index.jsonl",
   "positioning_guard": "https://barneywohl.github.io/korea-research-map-agents/scripts/check_agentpress_positioning.py",
-  "deep_cleanup_audit": "https://barneywohl.github.io/korea-research-map-agents/agentpress/DEEP_CLEANUP_AUDIT_20260502.md"
+  "deep_cleanup_audit": "https://barneywohl.github.io/korea-research-map-agents/agentpress/DEEP_CLEANUP_AUDIT_20260502.md",
+  "article_card_schema": "https://barneywohl.github.io/korea-research-map-agents/agentpress/schemas/article-card.schema.json",
+  "article_index_schema": "https://barneywohl.github.io/korea-research-map-agents/agentpress/schemas/article-index.schema.json"
 }

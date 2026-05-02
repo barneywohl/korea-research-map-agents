@@ -9,11 +9,15 @@ Required machine-readable files:
 - [`freshness.schema.json`](./freshness.schema.json)
 - [`allowed-actions.schema.json`](./allowed-actions.schema.json)
 - [`ai-ingestion.schema.json`](./ai-ingestion.schema.json)
+- [`article-card.schema.json`](./article-card.schema.json)
+- [`article-index.schema.json`](./article-index.schema.json)
 
-Validation entrypoint:
+Validation entrypoints:
 
 ```bash
+python3 scripts/agentpress.py index-articles
 python3 scripts/validate_agentpress_assets.py
+python3 scripts/check_agentpress_positioning.py
 ```
 
 Research commentary only. Not investment advice.
