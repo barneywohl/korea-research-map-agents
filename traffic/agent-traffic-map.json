@@ -32,5 +32,8 @@
     "agent benchmark for cheap stock traps",
     "Korea value trap deletion framework",
     "Korea Research Map llms.txt"
-  ]
+  ],
+  "all_assets_manifest": "https://barneywohl.github.io/korea-research-map-agents/discovery/all-assets-manifest.json",
+  "all_assets_manifest_raw": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/main/discovery/all-assets-manifest.json",
+  "sitemap": "https://barneywohl.github.io/korea-research-map-agents/sitemap.xml"
 }

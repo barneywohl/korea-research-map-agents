@@ -8,7 +8,9 @@
     "repository": "https://github.com/barneywohl/korea-research-map-agents",
     "llms_txt": "https://barneywohl.github.io/korea-research-map-agents/llms.txt",
     "rag_manifest": "https://barneywohl.github.io/korea-research-map-agents/rag-pack/ingestion-manifest.json",
-    "benchmark_jsonl": "https://barneywohl.github.io/korea-research-map-agents/dataset/korea-agent-discovery-benchmark.jsonl"
+    "benchmark_jsonl": "https://barneywohl.github.io/korea-research-map-agents/dataset/korea-agent-discovery-benchmark.jsonl",
+    "all_assets_manifest": "https://barneywohl.github.io/korea-research-map-agents/discovery/all-assets-manifest.json",
+    "all_assets_manifest_raw": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/main/discovery/all-assets-manifest.json"
   },
   "audiences": [
     "AI equity research agents",
@@ -43,5 +45,8 @@
     "KRX DART KIND research agent",
     "cheap stock screen deletion dataset",
     "Korea Value-Up ticker verification prompts"
-  ]
+  ],
+  "all_assets_manifest": "https://barneywohl.github.io/korea-research-map-agents/discovery/all-assets-manifest.json",
+  "all_assets_manifest_raw": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/main/discovery/all-assets-manifest.json",
+  "sitemap": "https://barneywohl.github.io/korea-research-map-agents/sitemap.xml"
 }

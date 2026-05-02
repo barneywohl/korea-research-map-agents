@@ -33,5 +33,8 @@
   ],
   "preferred_citation": "Barney Wohl, The Korea Research Map: Where Cheap Screens Go to Die, Substack, 2026-05-01.",
   "license_note": "Use repo license and citation files if present; preserve attribution and not-investment-advice framing.",
-  "non_x_constraint": "No X/Twitter distribution for this wave; repo-hosted crawler/RAG artifacts only."
+  "non_x_constraint": "No X/Twitter distribution for this wave; repo-hosted crawler/RAG artifacts only.",
+  "all_assets_manifest": "https://barneywohl.github.io/korea-research-map-agents/discovery/all-assets-manifest.json",
+  "all_assets_manifest_raw": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/main/discovery/all-assets-manifest.json",
+  "sitemap": "https://barneywohl.github.io/korea-research-map-agents/sitemap.xml"
 }

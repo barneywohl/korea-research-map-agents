@@ -5,127 +5,171 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/landing-path-checklist.md</loc>
-    <priority>0.95</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/.well-known/ai-ingestion.json</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/.well-known/ai-plugin.json</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/CITATION.cff</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/EVAL_CARD.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/README.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://barneywohl.github.io/korea-research-map-agents/agent-builder-cta.md</loc>
-    <priority>0.95</priority>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/llms.txt</loc>
-    <priority>0.9</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/agent-index-submission.json</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/metadata.json</loc>
-    <priority>0.8</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/agent-ingestion/README.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/benchmark.md</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/global-agents.md</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/search-index.md</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/korean-summary.md</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/japanese-summary.md</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/chinese-summary.md</loc>
-    <priority>0.7</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/agent-ingestion/korea-research-agent-card.json</loc>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://barneywohl.github.io/korea-research-map-agents/agents.json</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/moonshot-drawer.md</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/EVAL_CARD.md</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/prompts/stock-research-agent-prompt.md</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/dataset/korea-cheap-screen-deletion-benchmark.jsonl</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/picks-and-moonshots.md</loc>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/growth-system/share-report.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/growth-system/channel-database.json</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/feeds/rss.xml</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/forum-packs/global-forum-posts.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/locales/es.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/locales/fr.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/locales/de.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/locales/pt.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/locales/ar.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/locales/hi.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/locales/id.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/locales/vi.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/locales/th.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/growth-system/channel-rotation-queue.json</loc>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/ai-forums/langchain-llamaindex-post.md</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/growth-system/next-channel.json</loc>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/ai-ingestion.json</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/ai-plugin.json</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/benchmark.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/chinese-summary.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/crawler-seeds.opml</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/dataset/README.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/dataset/korea-agent-discovery-benchmark.jsonl</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/dataset/korea-cheap-screen-deletion-benchmark.jsonl</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/datasets/huggingface/README.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/datasets/kaggle/dataset-metadata.json</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/disclaimer.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/AGENT_SHIP_QUEUE.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/CRAWLER_RAG_CHECKLIST.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/agent-crawl-healthcheck.json</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/agent-directory-submission-pack.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/agent-discovery-manifest.json</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/agent-metadata-feed.json</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/all-assets-manifest.json</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/catalog-packs/agent-index-submission.json</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/crawler-seed-list.json</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/crawler-seeds.opml</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/deployment-playbook.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/evals/agent-eval-queries.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/evals/korea-agent-verification-suite.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/search-query-map.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/snippets-for-crawlers.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/snippets/search-and-rag-snippets.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/feeds/rss.xml</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/forum-packs/agent-builder-forum-drop.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/forum-packs/global-forum-posts.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/global-agents.md</loc>
     <priority>0.5</priority>
   </url>
   <url>
@@ -133,313 +177,367 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/huggingface-dataset-card.md</loc>
-    <priority>0.55</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/growth-system/channel-database.json</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/medium-post.md</loc>
-    <priority>0.55</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/growth-system/channel-rotation-queue.json</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/naver-blog-ko.md</loc>
-    <priority>0.55</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/growth-system/content-calendar.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/note-jp.md</loc>
-    <priority>0.55</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/growth-system/next-channel.json</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/zhihu-zh.md</loc>
-    <priority>0.55</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/growth-system/non_x_distribution_update_20260501.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/ai-forums/langchain-llamaindex-post.md</loc>
-    <priority>0.55</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/growth-system/share-report.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/datasets/kaggle/dataset-metadata.json</loc>
-    <priority>0.55</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/README.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/huggingface-dataset-card.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/kaggle-dataset-metadata.json</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/ai-forums-draft.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/medium-draft.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/naver-blog-draft.ko.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/note-draft.ja.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/zhihu-draft.zh.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/robots.txt</loc>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/.well-known/ai-plugin.json</loc>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/openapi.yaml</loc>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/CITATION.cff</loc>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/disclaimer.md</loc>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/agent-discovery-manifest.json</loc>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/search-query-map.md</loc>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/deployment-playbook.md</loc>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/seo/schema-dataset.jsonld</loc>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/seo/schema-article.jsonld</loc>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/agent-ingestion/korea-research-agent-card.json</loc>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/.well-known/ai-ingestion.json</loc>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/AGENT_SHIP_QUEUE.md</loc>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/evals/agent-eval-queries.md</loc>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/rag-pack/README.md</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/rag-pack/korea-research-map.chunks.jsonl</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/rag-pack/ingestion-manifest.json</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/rag-pack/retrieval-queries.md</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/snippets-for-crawlers.md</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/snippets/search-and-rag-snippets.md</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/evals/korea-agent-verification-suite.md</loc>
-    <priority>0.75</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/index.html</loc>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://barneywohl.github.io/korea-research-map-agents/ingestion-docs/rag-indexer-quickstart.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/ingestion-docs/vector-db-loader.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/japanese-summary.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/korea-agent-discovery-benchmark.jsonl</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/korean-summary.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/landing-path-checklist.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/llms.txt</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/agent-forum-crawler-pack.md</loc>
-    <priority>0.65</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/locales/ar.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/crawler-seed-list.json</loc>
-    <priority>0.8</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/locales/de.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/agent-directory-submission-pack.md</loc>
-    <priority>0.75</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/locales/es.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/CRAWLER_RAG_CHECKLIST.md</loc>
-    <priority>0.75</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/locales/fr.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-ship-20260501/README.md</loc>
-    <priority>0.65</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/locales/hi.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-ship-20260501/medium.md</loc>
-    <priority>0.6</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/locales/id.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-ship-20260501/naver-blog.ko.md</loc>
-    <priority>0.6</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/locales/pt.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-ship-20260501/note.jp.md</loc>
-    <priority>0.6</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/locales/th.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-ship-20260501/zhihu.zh.md</loc>
-    <priority>0.6</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/locales/vi.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-ship-20260501/reddit.md</loc>
-    <priority>0.6</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/metadata.json</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-ship-20260501/hacker-news.md</loc>
-    <priority>0.6</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/moonshot-drawer.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-ship-20260501/ai-agent-forums.md</loc>
-    <priority>0.6</priority>
-  </url>
-  <url><loc>https://barneywohl.github.io/korea-research-map-agents/dataset/korea-agent-discovery-benchmark.jsonl</loc></url>
-  <url><loc>https://barneywohl.github.io/korea-research-map-agents/discovery/catalog-packs/agent-index-submission.json</loc></url>
-  <url><loc>https://barneywohl.github.io/korea-research-map-agents/discovery/crawler-seeds.opml</loc></url>
-  <url><loc>https://barneywohl.github.io/korea-research-map-agents/ingestion-docs/vector-db-loader.md</loc></url>
-  <url><loc>https://barneywohl.github.io/korea-research-map-agents/korea-agent-discovery-benchmark.jsonl</loc></url>
-  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agent-index-submission.json</loc></url>
-  <url><loc>https://barneywohl.github.io/korea-research-map-agents/crawler-seeds.opml</loc></url>
-  <url><loc>https://barneywohl.github.io/korea-research-map-agents/vector-db-loader.md</loc></url>
-  <url><loc>https://barneywohl.github.io/korea-research-map-agents/ai-ingestion.json</loc></url>
-  <url><loc>https://barneywohl.github.io/korea-research-map-agents/ai-plugin.json</loc></url>
-  <url><loc>https://barneywohl.github.io/korea-research-map-agents/traffic/agent-traffic-map.md</loc></url>
-  <url><loc>https://barneywohl.github.io/korea-research-map-agents/traffic/agent-traffic-map.json</loc></url>
-  <url><loc>https://barneywohl.github.io/korea-research-map-agents/discovery/agent-crawl-healthcheck.json</loc></url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/dataset/README.md</loc>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/agent-metadata-feed.json</loc>
-    <priority>0.95</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/openapi.yaml</loc>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://barneywohl.github.io/korea-research-map-agents/pages-crawler-bundle.json</loc>
-    <priority>0.95</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/forum-packs/agent-builder-forum-drop.md</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/README.md</loc>
-    <priority>0.75</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/picks-and-moonshots.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/index.json</loc>
-    <priority>0.75</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/README.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/korea-cheap-screen-deletion.md</loc>
-    <priority>0.75</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/agent-forum-crawler-pack.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/poongsan-103140-research-agent.md</loc>
-    <priority>0.75</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/huggingface-dataset-card.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/bhi-083650-backlog-dart.md</loc>
-    <priority>0.75</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/medium-post.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/woojin-105840-nuclear-instruments.md</loc>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/krx-kind-dart-verification.md</loc>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/korea-value-up-cheap-trap.md</loc>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/korea-discount-agent-benchmark.md</loc>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/moonshot-drawer-korea-agents.md</loc>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/korean-small-cap-liquidity-check.md</loc>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/dart-filing-rag-ingestion.md</loc>
-    <priority>0.75</priority>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/naver-blog-ko.md</loc>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/README.md</loc>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/index.json</loc>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/medium.md</loc>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/naver-blog.ko.md</loc>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/note.jp.md</loc>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/zhihu.zh.md</loc>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/reddit.md</loc>
-    <priority>0.65</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/hacker-news.md</loc>
-    <priority>0.65</priority>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/index.json</loc>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/langchain-forum.md</loc>
-    <priority>0.65</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/llamaindex-forum.md</loc>
-    <priority>0.65</priority>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/medium.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/naver-blog.ko.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/note.jp.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/reddit.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/zhihu.zh.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-ship-20260501/README.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-ship-20260501/ai-agent-forums.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-ship-20260501/hacker-news.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-ship-20260501/medium.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-ship-20260501/naver-blog.ko.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-ship-20260501/note.jp.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-ship-20260501/reddit.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-ship-20260501/zhihu.zh.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/note-jp.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/platform-packs/zhihu-zh.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/prompts/stock-research-agent-prompt.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/README.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/bhi-083650-backlog-dart.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/dart-filing-rag-ingestion.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/index.json</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/korea-cheap-screen-deletion.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/korea-discount-agent-benchmark.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/korea-value-up-cheap-trap.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/korean-small-cap-liquidity-check.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/krx-kind-dart-verification.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/moonshot-drawer-korea-agents.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/poongsan-103140-research-agent.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/woojin-105840-nuclear-instruments.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/rag-pack/README.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/rag-pack/ingestion-manifest.json</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/rag-pack/korea-research-map.chunks.jsonl</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/rag-pack/retrieval-queries.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/robots.txt</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/scripts/generate_share_report.py</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/scripts/next_channel.py</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/search-index.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/seo/schema-article.jsonld</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/seo/schema-dataset.jsonld</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/README.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/ai-forums-draft.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/hackernews.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/huggingface-dataset-card.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/kaggle-dataset-metadata.json</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/medium-draft.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/naver-blog-draft.ko.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/note-draft.ja.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/reddit-securityanalysis.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/x-thread.txt</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/share-kit/zhihu-draft.zh.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/sitemap.xml</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/traffic/agent-traffic-map.json</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/traffic/agent-traffic-map.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/vector-db-loader.md</loc>
+    <priority>0.5</priority>
   </url>
 </urlset>
