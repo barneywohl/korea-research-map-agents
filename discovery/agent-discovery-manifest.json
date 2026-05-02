@@ -77,6 +77,6 @@
   "pages_crawler_bundle": "https://barneywohl.github.io/korea-research-map-agents/pages-crawler-bundle.json",
   "forum_builder_drop": "https://barneywohl.github.io/korea-research-map-agents/forum-packs/agent-builder-forum-drop.md",
   "all_assets_manifest": "https://barneywohl.github.io/korea-research-map-agents/discovery/all-assets-manifest.json",
-  "all_assets_manifest_raw": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/HEAD/discovery/all-assets-manifest.json",
+  "all_assets_manifest_raw": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/discovery/all-assets-manifest.json",
   "sitemap": "https://barneywohl.github.io/korea-research-map-agents/sitemap.xml"
 }
