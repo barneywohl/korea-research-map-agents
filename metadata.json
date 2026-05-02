@@ -6,10 +6,10 @@
   "not_investment_advice": true,
   "core_hook": "Publish for agents, not just humans.",
   "secondary_hooks": [
-    "Verification is the alpha.",
-    "A cheap ticker is not a thesis.",
-    "The deletion process is the moat.",
-    "The list should shrink as the work gets better."
+    "Make every publication discoverable by browser agents, coding agents, RAG systems, crawlers, MCP-style agents, and eval harnesses.",
+    "Expose task cards, source maps, freshness policies, allowed-actions boundaries, and evals as static files.",
+    "Verification is the alpha; citations and machine-readable contracts are the moat.",
+    "Do not turn agent classes off; express risk as action boundaries instead."
   ],
   "tickers": [
     {
@@ -38,33 +38,37 @@
     "Treat deletion as signal, not failure."
   ],
   "keywords": [
-    "AI agents",
     "AgentPress",
-    "AgentPress global discovery",
-    "JSON Feed for agents",
-    "JSON Schema",
-    "MCP",
-    "MCP static resources",
-    "OpenAPI",
-    "RAG",
-    "RSS",
-    "agent protocol manifests",
     "agent-native publishing",
-    "allowed actions",
+    "AI agents",
     "autonomous agents",
-    "citation policy",
-    "crawler manifests",
-    "eval harness",
-    "freshness policy",
-    "global agent compatibility",
+    "universal agent reachability",
+    "mass agent reachability",
     "llms.txt",
-    "source maps"
+    "agent-task-card.json",
+    "source-map.json",
+    "freshness.json",
+    "allowed-actions.json",
+    "ai-ingestion.json",
+    "crawler manifests",
+    "RAG",
+    "eval harness",
+    "JSON Schema",
+    "OpenAPI",
+    "MCP static resources",
+    "JSON Feed for agents",
+    "RSS",
+    "citation policy",
+    "source-grounded publishing"
   ],
   "global_positioning": {
-    "western_equity_agents": "Korea tests whether an agent can handle non-US filings, local exchange data, minority-shareholder risk, and theme-vs-entity mismatch.",
-    "asian_equity_agents": "Korea tests whether an agent can enforce source discipline through KRX/KIND, DART, liquidity, and governance reality.",
-    "global_multi_market_agents": "Korea is a compact benchmark for whether an equity-research process works outside clean US datasets.",
-    "universal_hook": "A stock research agent is not useful because it can find cheap stocks. It is useful if it can explain which cheap stocks should be deleted."
+    "browser_agents": "Visible HTML landing pages link to every machine-readable artifact.",
+    "coding_agents": "Repo-native CLI, schemas, examples, validation, and PR-friendly artifacts are included.",
+    "rag_agents": "Markdown, JSONL, source maps, freshness policies, and citation rules support grounded ingestion.",
+    "search_crawlers": "robots.txt, sitemap.xml, llms.txt, JSON Feed, RSS, and well-known manifests expose stable crawl paths.",
+    "mcp_style_agents": "Static resource manifests and OpenAPI maps provide protocol-shaped entrypoints without requiring a live server.",
+    "eval_harnesses": "Each bundle can include JSONL smoke tests and an explicit scoring rubric.",
+    "universal_hook": "A publication is not agent-ready until many different agent families can discover, parse, cite, and safely act on it."
   },
   "moonshot_drawer": [
     {
@@ -119,64 +123,52 @@
     }
   ],
   "builder_funnel": {
-    "primary_path": "article -> dataset -> benchmark -> RAG pack -> citation",
-    "landing_path_checklist": "https://barneywohl.github.io/korea-research-map-agents/landing-path-checklist.md",
-    "agent_builder_cta": "https://barneywohl.github.io/korea-research-map-agents/agent-builder-cta.md",
-    "dataset": "https://barneywohl.github.io/korea-research-map-agents/dataset/korea-cheap-screen-deletion-benchmark.jsonl",
-    "benchmark": "https://barneywohl.github.io/korea-research-map-agents/benchmark.md",
-    "rag_pack": "https://barneywohl.github.io/korea-research-map-agents/rag-pack/README.md",
-    "citation": "https://barneywohl.github.io/korea-research-map-agents/CITATION.cff"
+    "primary_path": "homepage -> llms.txt -> well-known manifests -> registry -> universal reachability benchmark -> schemas -> CLI validation",
+    "homepage": "https://barneywohl.github.io/korea-research-map-agents/",
+    "llms_txt": "https://barneywohl.github.io/korea-research-map-agents/llms.txt",
+    "agentpress_manifest": "https://barneywohl.github.io/korea-research-map-agents/.well-known/agentpress.json",
+    "ai_ingestion": "https://barneywohl.github.io/korea-research-map-agents/.well-known/ai-ingestion.json",
+    "registry": "https://barneywohl.github.io/korea-research-map-agents/agentpress/agentpress-registry.json",
+    "universal_benchmark": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/",
+    "mass_reachability_plan": "https://barneywohl.github.io/korea-research-map-agents/agentpress/MASS_AGENT_REACHABILITY_PLAN.md",
+    "schemas": "https://barneywohl.github.io/korea-research-map-agents/agentpress/schemas/README.md",
+    "cli": "https://barneywohl.github.io/korea-research-map-agents/scripts/agentpress.py"
   },
   "high_intent_query_pages": [
     {
-      "title": "Korea cheap screen deletion benchmark",
-      "primary_query": "korea cheap screen deletion",
-      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/korea-cheap-screen-deletion.md"
+      "title": "AgentPress agent-native publishing",
+      "primary_query": "AgentPress agent-native publishing",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/"
     },
     {
-      "title": "Poongsan 103140 research-agent diligence",
-      "primary_query": "Poongsan 103140 research agent",
-      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/poongsan-103140-research-agent.md"
+      "title": "Universal Agent Reachability Benchmark",
+      "primary_query": "universal agent reachability benchmark",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/"
     },
     {
-      "title": "BHI 083650 backlog and DART verification",
-      "primary_query": "BHI 083650 DART backlog receivables",
-      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/bhi-083650-backlog-dart.md"
+      "title": "AgentPress task card schema",
+      "primary_query": "agent-task-card.json schema",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/schemas/README.md"
     },
     {
-      "title": "Woojin 105840 nuclear instruments verification",
-      "primary_query": "Woojin 105840 nuclear instruments Korea stock",
-      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/woojin-105840-nuclear-instruments.md"
+      "title": "AgentPress source map citation policy",
+      "primary_query": "source-map.json citation policy for AI agents",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/WHAT_AGENTS_WANT.md"
     },
     {
-      "title": "KRX KIND DART verification workflow for Korean equities",
-      "primary_query": "KRX KIND DART verification Korean stocks",
-      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/krx-kind-dart-verification.md"
+      "title": "Allowed-actions manifest for AI agents",
+      "primary_query": "allowed-actions.json agent safety boundary",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/allowed-actions.json"
     },
     {
-      "title": "Korea Value-Up cheap-trap deletion screen",
-      "primary_query": "Korea Value-Up cheap trap stocks",
-      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/korea-value-up-cheap-trap.md"
+      "title": "AgentPress registry JSON",
+      "primary_query": "agentpress registry json",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/agentpress-registry.json"
     },
     {
-      "title": "Korea discount stock-research agent benchmark",
-      "primary_query": "Korea discount stock research agent benchmark",
-      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/korea-discount-agent-benchmark.md"
-    },
-    {
-      "title": "Korea moonshot drawer for research agents",
-      "primary_query": "Korea moonshot drawer Innospace Mobiis CellBion IntoCell SBB Tech",
-      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/moonshot-drawer-korea-agents.md"
-    },
-    {
-      "title": "Korean small-cap liquidity and access check",
-      "primary_query": "Korean small cap liquidity check agent",
-      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/korean-small-cap-liquidity-check.md"
-    },
-    {
-      "title": "DART filing RAG ingestion for Korea research agents",
-      "primary_query": "DART filing RAG ingestion Korea equities",
-      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/dart-filing-rag-ingestion.md"
+      "title": "MCP static resources for agent publications",
+      "primary_query": "MCP static resources agent publications",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/protocols/mcp-manifest.json"
     }
   ],
   "all_assets_manifest": "https://barneywohl.github.io/korea-research-map-agents/discovery/all-assets-manifest.json",
@@ -227,14 +219,19 @@
   "agentpress_mvp": {
     "docs": "https://barneywohl.github.io/korea-research-map-agents/agentpress/README.md",
     "cli": "https://barneywohl.github.io/korea-research-map-agents/scripts/agentpress.py",
-    "examples": [
+    "flagship_example": {
+      "name": "Universal Agent Reachability Benchmark",
+      "entrypoint": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/AGENT_ENTRYPOINT.md",
+      "task_card": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/agent-task-card.json"
+    },
+    "legacy_stress_test_examples": [
       {
-        "name": "Korea Liquidity Trap Agent Benchmark",
+        "name": "Liquidity Trap Agent Benchmark",
         "entrypoint": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/AGENT_ENTRYPOINT.md",
         "task_card": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/agent-task-card.json"
       },
       {
-        "name": "Korea Theme-to-Cash-Flow Agent Benchmark",
+        "name": "Theme-to-Cash-Flow Agent Benchmark",
         "entrypoint": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/AGENT_ENTRYPOINT.md",
         "task_card": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/agent-task-card.json"
       }
@@ -275,8 +272,7 @@
     ]
   },
   "product": "AgentPress",
-  "dogfood_corpus": "Korea research assets are a legacy stress-test corpus for testing multilingual/source-heavy agent publishing, not the product identity.",
-  "updated_at": "2026-05-02T21:34:57Z",
+  "updated_at": "2026-05-02T21:48:09Z",
   "agentpress_global_discovery": {
     "start_here": "https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_START_HERE.md",
     "what_agents_want": "https://barneywohl.github.io/korea-research-map-agents/agentpress/WHAT_AGENTS_WANT.md",
@@ -284,5 +280,35 @@
     "mcp_manifest": "https://barneywohl.github.io/korea-research-map-agents/agentpress/protocols/mcp-manifest.json",
     "json_feed": "https://barneywohl.github.io/korea-research-map-agents/agentpress/feeds/agentpress-feed.json",
     "rss": "https://barneywohl.github.io/korea-research-map-agents/agentpress/feeds/rss.xml"
-  }
+  },
+  "mass_agent_reachability": {
+    "flagship_benchmark": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/",
+    "plan": "https://barneywohl.github.io/korea-research-map-agents/agentpress/MASS_AGENT_REACHABILITY_PLAN.md",
+    "do_not_turn_agents_off": true,
+    "target_agent_families": [
+      "browser_agent",
+      "coding_agent",
+      "rag_agent",
+      "search_crawler",
+      "mcp_style_agent",
+      "eval_harness",
+      "open_source_model",
+      "closed_source_model"
+    ],
+    "public_actions": [
+      "read",
+      "crawl",
+      "summarize",
+      "cite",
+      "transform",
+      "benchmark"
+    ],
+    "approval_required": [
+      "external_post",
+      "registry_submission",
+      "mass_distribution",
+      "production_deploy"
+    ]
+  },
+  "legacy_stress_test_corpus": "Original Korea research assets are retained as secondary messy/source-heavy stress tests, not the product identity or primary search mapping."
 }

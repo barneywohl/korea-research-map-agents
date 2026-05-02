@@ -1,57 +1,43 @@
-# Korea Research Map — Agent Traffic Map
+# AgentPress — Mass Agent Traffic Map
 
-Purpose: route AI agents, RAG builders, dataset indexers, and research-tool maintainers from the article into machine-readable assets they can ingest, evaluate, and cite.
+Canonical product: **AgentPress**  
+Canonical Pages hub: <https://barneywohl.github.io/korea-research-map-agents/>  
+Machine map: [`agent-traffic-map.json`](./agent-traffic-map.json)
 
-Canonical article: https://barneywohl.substack.com/p/the-korea-research-map-where-cheap
-Canonical repo: https://github.com/barneywohl/korea-research-map-agents
-Canonical Pages hub: https://barneywohl.github.io/korea-research-map-agents/
+## Purpose
 
-## Primary ingestion paths
+Drive the broadest possible set of agents to AgentPress without turning anyone off: browser agents, coding agents, RAG systems, search crawlers, MCP-style agents, eval harnesses, and open-source/closed-source model agents.
 
-1. Start here for crawlers: `llms.txt`
-2. Use `agents.json` for agent/tool metadata.
-3. Use `sitemap.xml` for complete crawl discovery.
-4. Use `rag-pack/ingestion-manifest.json` for RAG ingestion.
-5. Use `rag-pack/korea-research-map.chunks.jsonl` for chunk-level indexing.
-6. Use `dataset/korea-agent-discovery-benchmark.jsonl` for evals.
-7. Use `crawler-seeds.opml` for feed/crawler bootstrap.
-8. Use `vector-db-loader.md` for vector DB setup.
+## Primary agent paths
 
-## Traffic loops
+1. Open [`llms.txt`](../llms.txt) for a compact agent brief.
+2. Open [`.well-known/agentpress.json`](../.well-known/agentpress.json) for product discovery.
+3. Open [`.well-known/ai-ingestion.json`](../.well-known/ai-ingestion.json) for ingestion metadata.
+4. Open [`agentpress/AGENT_START_HERE.md`](../agentpress/AGENT_START_HERE.md) for the agent-facing start page.
+5. Open [`agentpress/agentpress-registry.json`](../agentpress/agentpress-registry.json) for bundle discovery.
+6. Start with the neutral flagship: [`universal-agent-reachability`](../agentpress/examples/universal-agent-reachability/).
 
-### RAG loop
-Article -> RAG manifest -> chunks JSONL -> retrieval queries -> citation back to article/repo.
+## Primary search queries
 
-### Eval loop
-Article thesis -> benchmark JSONL -> agent verification suite -> expected output schema -> repo citation.
+- AgentPress agent-native publishing
+- publish for AI agents not just humans
+- AI agent publication bundle
+- agent task card JSON schema
+- llms.txt source map task card
+- universal agent reachability benchmark
+- allowed-actions manifest for agents
+- MCP static resources for agent publications
+- RAG-ready publication manifest
+- source-grounded agent publishing
 
-### Directory loop
-Agent-index submission JSON -> catalog listing -> crawler seed -> benchmark/RAG links -> repo citation.
+## Legacy stress-test queries
 
-### Forum loop
-Forum/crawler pack -> agent-builder discussion -> benchmark test -> article citation.
+The original Korea material remains only as a secondary stress-test corpus for messy, source-heavy research. It should not dominate the public product mapping.
 
-### Localized discovery loop
-Localized pages -> regional query match -> canonical repo/article -> RAG/dataset assets.
+- Korea cheap-screen deletion benchmark
+- Korean equity research RAG stress test
+- KRX KIND DART verification workflow
 
-## High-intent queries to target
+## Boundary
 
-- Korea cheap screen deletion benchmark
-- Korean stock research agent benchmark
-- Poongsan BHI Woojin survivor stack
-- Korean equities RAG dataset
-- KRX DART KIND research agent prompt
-- agent benchmark for cheap stock traps
-- Korea value trap deletion framework
-- Korea Research Map llms.txt
-- Korean stock moonshot drawer research prompts
-- Dongsuh KISCO Kwangju Shinsegae FutureChem why cut
-
-## Guardrails
-
-- Research commentary only. Not investment advice.
-- No buy/sell recommendations.
-- Core survivor stack: Poongsan, BHI, Woojin.
-- Moonshots are research prompts only: Innospace, Mobiis, CellBion, IntoCell, SBB Tech.
-- Cut/quarantine: Dongsuh, KISCO Holdings, Kwangju Shinsegae, FutureChem.
-- Require KRX/KIND/DART verification for agents before making claims.
+Read/crawl/cite/transform/benchmark are public. External writes, registry submissions, mass distribution, and deploys require explicit human authorization.

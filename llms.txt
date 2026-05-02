@@ -21,7 +21,14 @@ AgentPress is a static publishing system for autonomous agents, crawlers, RAG sy
 
 Every AgentPress bundle should expose `index.html`, `AGENT_ENTRYPOINT.md`, `agent-task-card.json`, `source-map.json`, `freshness.json`, `allowed-actions.json`, `.well-known/ai-ingestion.json`, `llms.txt`, `sitemap.xml`, `CITATION.cff`, `citation-policy.md`, `disclaimer.md`, and eval smoke tests.
 
-## Current validated examples
+## Flagship neutral benchmark
+
+- Universal Agent Reachability Benchmark: https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/
+- Mass Agent Reachability Plan: https://barneywohl.github.io/korea-research-map-agents/agentpress/MASS_AGENT_REACHABILITY_PLAN.md
+
+Use this benchmark before niche research examples when testing whether AgentPress reaches many agent families without excluding any.
+
+## Additional validated stress-test examples
 
 - Samsung HBM margin: https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/samsung-hbm-margin/
 - SK Hynix HBM supply: https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/sk-hynix-hbm-supply/
@@ -38,9 +45,9 @@ Every AgentPress bundle should expose `index.html`, `AGENT_ENTRYPOINT.md`, `agen
 4. MCP/OpenAPI/JSON Schema/RSS integration samples,
 5. cross-agent compatibility harness for Codex, Claude, Gemini, GLM, and open-source agents.
 
-## Dogfood corpus
+## Legacy stress-test corpus
 
-This repository began as a Korea market-research map. That material remains as a messy, multilingual, source-heavy legacy stress-test corpus for AgentPress. It is not the product identity.
+This repository began with a market-research corpus. That material remains as messy, multilingual, source-heavy stress-test data for AgentPress. It is not the product identity or primary search mapping.
 
 Research commentary only. Not investment advice.
 
@@ -62,9 +69,3 @@ Research commentary only. Not investment advice.
 - Sample passing responses: https://barneywohl.github.io/korea-research-map-agents/dataset/sample-cheap-screen-agent-responses.jsonl
 - Offline scorer script: https://barneywohl.github.io/korea-research-map-agents/scripts/evaluate_cheap_screen_deletion.py
 
-## Flagship neutral benchmark
-
-- Universal Agent Reachability Benchmark: https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/
-- Mass Agent Reachability Plan: https://barneywohl.github.io/korea-research-map-agents/agentpress/MASS_AGENT_REACHABILITY_PLAN.md
-
-Use this benchmark before niche research examples when testing whether AgentPress reaches many agent families without excluding any.

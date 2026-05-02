@@ -51,7 +51,7 @@
     },
     {
       "slug": "liquidity-trap",
-      "title": "Korea Liquidity Trap Agent Benchmark",
+      "title": "Liquidity Trap Agent Benchmark",
       "url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/",
       "agent_entrypoint": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/AGENT_ENTRYPOINT.md",
       "task_card": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/agent-task-card.json",
@@ -123,7 +123,7 @@
     },
     {
       "slug": "theme-cashflow",
-      "title": "Korea Theme-to-Cash-Flow Agent Benchmark",
+      "title": "Theme-to-Cash-Flow Agent Benchmark",
       "url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/",
       "agent_entrypoint": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/AGENT_ENTRYPOINT.md",
       "task_card": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/agent-task-card.json",

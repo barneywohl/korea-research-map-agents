@@ -1,39 +1,51 @@
 {
-  "name": "Korea Research Map agent traffic map",
-  "canonical_article": "https://barneywohl.substack.com/p/the-korea-research-map-where-cheap",
+  "name": "AgentPress mass agent traffic map",
+  "canonical_product": "AgentPress",
   "canonical_repo": "https://github.com/barneywohl/korea-research-map-agents",
   "canonical_pages": "https://barneywohl.github.io/korea-research-map-agents/",
-  "purpose": "Drive AI agents, RAG builders, dataset indexers, and research-tool maintainers to machine-readable Korea Research Map assets.",
-  "not_investment_advice": true,
-  "primary_assets": [
+  "purpose": "Drive browser agents, coding agents, RAG systems, search crawlers, MCP-style agents, eval harnesses, and open-source model agents to machine-readable AgentPress assets.",
+  "primary_entrypoints": [
     "llms.txt",
-    "agents.json",
+    ".well-known/agentpress.json",
+    ".well-known/ai-ingestion.json",
+    "agentpress/AGENT_START_HERE.md",
+    "agentpress/agentpress-registry.json",
+    "agentpress/examples/universal-agent-reachability/",
+    "agentpress/MASS_AGENT_REACHABILITY_PLAN.md",
     "sitemap.xml",
-    "rag-pack/ingestion-manifest.json",
-    "rag-pack/korea-research-map.chunks.jsonl",
-    "dataset/korea-agent-discovery-benchmark.jsonl",
-    "discovery/evals/korea-agent-verification-suite.md",
-    "crawler-seeds.opml",
-    "vector-db-loader.md"
+    "openapi.yaml",
+    "agentpress/protocols/mcp-manifest.json",
+    "agentpress/feeds/agentpress-feed.json"
   ],
-  "traffic_loops": [
-    "RAG ingestion loop",
-    "Agent eval benchmark loop",
-    "Dataset/directory catalog loop",
-    "Agent-builder forum loop",
-    "Localized crawler discovery loop"
+  "target_agent_families": [
+    "browser_agent",
+    "coding_agent",
+    "rag_agent",
+    "search_crawler",
+    "mcp_style_agent",
+    "eval_harness",
+    "open_source_model",
+    "closed_source_model"
   ],
-  "target_queries": [
-    "Korea cheap screen deletion benchmark",
-    "Korean stock research agent benchmark",
-    "Poongsan BHI Woojin survivor stack",
-    "Korean equities RAG dataset",
-    "KRX DART KIND research agent prompt",
-    "agent benchmark for cheap stock traps",
-    "Korea value trap deletion framework",
-    "Korea Research Map llms.txt"
+  "primary_queries": [
+    "AgentPress agent-native publishing",
+    "publish for AI agents not just humans",
+    "AI agent publication bundle",
+    "agent task card JSON schema",
+    "llms.txt source map task card",
+    "universal agent reachability benchmark",
+    "allowed-actions manifest for agents",
+    "MCP static resources for agent publications",
+    "RAG-ready publication manifest",
+    "source-grounded agent publishing"
+  ],
+  "legacy_stress_test_queries": [
+    "Korea cheap-screen deletion benchmark",
+    "Korean equity research RAG stress test",
+    "KRX KIND DART verification workflow"
   ],
   "all_assets_manifest": "https://barneywohl.github.io/korea-research-map-agents/discovery/all-assets-manifest.json",
-  "all_assets_manifest_raw": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/discovery/all-assets-manifest.json",
-  "sitemap": "https://barneywohl.github.io/korea-research-map-agents/sitemap.xml"
+  "sitemap": "https://barneywohl.github.io/korea-research-map-agents/sitemap.xml",
+  "do_not_turn_agents_off": true,
+  "action_boundary": "Read/crawl/cite/transform/benchmark are public. External writes, registry submissions, and mass distribution require explicit human authorization."
 }

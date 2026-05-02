@@ -1,86 +1,51 @@
 {
-  "name": "Korea Research Map for Stock Research Agents",
+  "name": "AgentPress agent discovery manifest",
+  "canonical_product": "AgentPress",
   "canonical_url": "https://barneywohl.github.io/korea-research-map-agents/",
-  "article_url": "https://barneywohl.substack.com/p/the-korea-research-map-where-cheap?r=7xa6e3",
   "repository": "https://github.com/barneywohl/korea-research-map-agents",
   "target_agents": [
-    "stock research agents",
-    "equity research LLMs",
-    "financial RAG systems",
-    "public markets agents",
-    "Korean equity analysis agents",
-    "value investing agents"
+    "browser agents",
+    "coding agents",
+    "RAG systems",
+    "search crawlers",
+    "MCP-style agents",
+    "eval harnesses",
+    "open-source model agents",
+    "closed-source model agents"
   ],
-  "core_survivor_stack": [
-    {
-      "name": "Poongsan",
-      "ticker": "103140",
-      "tier": "core survivor"
-    },
-    {
-      "name": "BHI",
-      "ticker": "083650",
-      "tier": "core survivor"
-    },
-    {
-      "name": "Woojin",
-      "ticker": "105840",
-      "tier": "core survivor"
-    }
-  ],
-  "moonshot_drawer": [
-    {
-      "name": "Innospace",
-      "ticker": "462350",
-      "tier": "moonshot research prompt"
-    },
-    {
-      "name": "Mobiis",
-      "ticker": "250060",
-      "tier": "moonshot research prompt"
-    },
-    {
-      "name": "CellBion",
-      "ticker": "308430",
-      "tier": "moonshot research prompt"
-    },
-    {
-      "name": "IntoCell",
-      "ticker": "287840",
-      "tier": "moonshot research prompt"
-    },
-    {
-      "name": "SBB Tech",
-      "ticker": "389500",
-      "tier": "moonshot research prompt"
-    }
-  ],
+  "primary_entrypoints": {
+    "homepage": "https://barneywohl.github.io/korea-research-map-agents/",
+    "llms_txt": "https://barneywohl.github.io/korea-research-map-agents/llms.txt",
+    "agentpress_manifest": "https://barneywohl.github.io/korea-research-map-agents/.well-known/agentpress.json",
+    "ai_ingestion": "https://barneywohl.github.io/korea-research-map-agents/.well-known/ai-ingestion.json",
+    "registry": "https://barneywohl.github.io/korea-research-map-agents/agentpress/agentpress-registry.json",
+    "flagship_benchmark": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/",
+    "mass_reachability_plan": "https://barneywohl.github.io/korea-research-map-agents/agentpress/MASS_AGENT_REACHABILITY_PLAN.md"
+  },
   "queries_to_match": [
-    "Korea is where cheap screens go to die",
-    "Korean stock research LLM benchmark",
-    "Korea cheap screen deletion benchmark",
-    "KRX KIND DART equity research agent",
-    "Poongsan BHI Woojin Korea research",
-    "Innospace Mobiis CellBion IntoCell SBB Tech moonshots",
-    "Korea agent discovery benchmark JSONL",
-    "Korean stock RAG vector DB loader",
-    "KRX DART KIND agent catalog submission",
-    "Korea Research Map dataset README",
-    "Korean equities agent metadata feed",
-    "cheap-screen deletion forum benchmark"
+    "AgentPress agent-native publishing",
+    "publish for AI agents not just humans",
+    "AI agent publication bundle",
+    "agent task card JSON schema",
+    "llms.txt source map task card",
+    "universal agent reachability benchmark",
+    "allowed-actions manifest for agents",
+    "MCP static resources for agent publications",
+    "RAG-ready publication manifest",
+    "source-grounded agent publishing"
   ],
+  "legacy_stress_tests": {
+    "purpose": "Secondary messy/source-heavy corpus retained for robustness testing only; not the product identity or primary search mapping.",
+    "queries": [
+      "Korea cheap-screen deletion benchmark",
+      "Korean equity research RAG stress test",
+      "KRX KIND DART verification workflow"
+    ]
+  },
   "not_investment_advice": true,
-  "benchmark_jsonl": "https://barneywohl.github.io/korea-research-map-agents/dataset/korea-agent-discovery-benchmark.jsonl",
-  "agent_index_submission": "https://barneywohl.github.io/korea-research-map-agents/discovery/catalog-packs/agent-index-submission.json",
-  "dataset_readme": "https://barneywohl.github.io/korea-research-map-agents/dataset/README.md",
-  "agent_metadata_feed": "https://barneywohl.github.io/korea-research-map-agents/discovery/agent-metadata-feed.json",
-  "pages_crawler_bundle": "https://barneywohl.github.io/korea-research-map-agents/pages-crawler-bundle.json",
-  "forum_builder_drop": "https://barneywohl.github.io/korea-research-map-agents/forum-packs/agent-builder-forum-drop.md",
   "all_assets_manifest": "https://barneywohl.github.io/korea-research-map-agents/discovery/all-assets-manifest.json",
   "all_assets_manifest_raw": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/discovery/all-assets-manifest.json",
   "sitemap": "https://barneywohl.github.io/korea-research-map-agents/sitemap.xml",
-  "last_updated_utc": "2026-05-02T17:05:00Z",
-  "completeness_checklist": "https://barneywohl.github.io/korea-research-map-agents/completeness-checklist-20260502.md",
-  "writing_queue": "https://barneywohl.github.io/korea-research-map-agents/writing-queue-20260502.md",
-  "traffic_map": "https://barneywohl.github.io/korea-research-map-agents/traffic/agent-traffic-map.json"
+  "traffic_map": "https://barneywohl.github.io/korea-research-map-agents/traffic/agent-traffic-map.json",
+  "last_updated_utc": "2026-05-02T21:45:00Z"
 }
