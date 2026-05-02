@@ -11,22 +11,26 @@ Purpose: make AgentPress understandable and usable by any autonomous agent, craw
 - CLI validation/audit/score/list/build-all commands.
 - Six validated example publications scoring 100/100.
 - Public GitHub Pages root available.
+- Public AgentPress registry path verified live at `/agentpress/` and `/agentpress/agentpress-registry.json` after deploy.
+- Per-publication HTML landing pages verified live for all six example bundles.
+- Dotfile serving verified live for root and per-example `.well-known/ai-ingestion.json` via `.nojekyll`.
+- Registry/task-card language and region metadata present for current examples.
+- East/West source-adapter matrix documented.
+- Agent protocol integration notes/samples documented.
 
 ## Missing / needs build
-1. **Public AgentPress registry path** — `/agentpress/` and `/agentpress/agentpress-registry.json` must be served directly, not only under `/public/agentpress/`.
-2. **Per-publication HTML landing pages** — each bundle needs `index.html` for human/browser discovery plus links to machine assets.
-3. **Dotfile serving** — GitHub Pages needs `.nojekyll` so `.well-known/ai-ingestion.json` is available.
-4. **Global language metadata** — add `languages`, `regions`, and `translation_policy` to registry/task cards; start with English but explicit global readiness.
-5. **East/West source adapters** — document source families for Korea/Japan/China/HK/Singapore and US/UK/EU: DART/KRX/KIND, EDINET/TDnet, HKEX/SGX, SEC EDGAR, Companies House, ESMA/issuer sites.
-6. **Agent protocol integrations** — add examples for MCP resource, OpenAPI endpoint, JSON Schema, RSS/Atom feed, and optional ActivityPub-style discovery.
-7. **Package/install distribution** — publishable Python package metadata is present but needs release notes and package smoke test in CI.
-8. **Cross-agent compatibility tests** — create fixture prompts and expected outputs for Codex/Claude/Gemini/GLM/open-source agents.
-9. **Availability monitor** — cron/check script should curl root, registry, llms, sitemap, and representative ingestion manifests after deploy.
-10. **Deployment gate** — CI should fail if registry URLs 404, JSON/XML invalid, score <100 for required examples, or disclaimer missing.
+1. **CI deployment gate** — add a GitHub Actions workflow that fails if registry URLs 404, JSON/XML invalid, required examples score <100, disclaimers are missing, or `.well-known` assets are not served.
+2. **Availability monitor** — promote the post-deploy curl check into a reusable script/cron that checks root, registry, llms, sitemap, representative task cards, and ingestion manifests.
+3. **Package/install distribution** — publishable Python package metadata is present but needs release notes, package build, and install smoke test in CI.
+4. **Cross-agent compatibility tests** — create fixture prompts and expected outputs for Codex/Claude/Gemini/GLM/open-source agents.
+5. **Protocol integration fixtures** — turn MCP/OpenAPI/RSS/Atom examples into machine-testable fixtures with expected discovery outputs.
+6. **Internationalization pass** — define explicit translation policy fields and add at least one non-English metadata fixture while preserving English canonical research text.
+7. **Crawler politeness/telemetry profile** — document user-agent expectations, cache hints, rate limits, and non-invasive optional discovery telemetry.
+8. **Versioning and changelog policy** — define how `schema_version`, generated timestamps, and bundle freshness dates change across releases.
 
 ## Build order
-1. Fix public availability paths and `.nojekyll`.
-2. Add global registry metadata and per-example `index.html`.
-3. Add source-adapter matrix for East/West markets.
-4. Add agent-protocol integration docs/samples.
-5. Add compatibility eval harness and CI deploy gate.
+1. Add CI deployment gate and reusable availability monitor.
+2. Add package build/install smoke test and release notes.
+3. Add cross-agent compatibility fixture harness.
+4. Convert protocol integrations into machine-testable fixtures.
+5. Add internationalization and crawler-politeness metadata pass.
