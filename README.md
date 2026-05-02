@@ -113,6 +113,12 @@ Use this repo as a test case for whether stock-research LLMs can delete bad Kore
 - [Root mirror: AI ingestion manifest](ai-ingestion.json)
 - [Root mirror: AI plugin manifest](ai-plugin.json)
 
+## High-intent query landing pages
+
+- [Query landing page index](./query-pages/README.md) and [machine-readable index](./query-pages/index.json).
+- Ten crawler/RAG landing pages target Korea cheap-screen deletion, Poongsan 103140, BHI 083650, Woojin 105840, KRX/KIND/DART verification, Value-Up cheap traps, Korea discount agent benchmarks, moonshot drawer routing, Korean small-cap liquidity, and DART filing RAG ingestion.
+- These are repo-hosted artifacts only; no X/Twitter or Nexio distribution is required.
+
 ## Agent traffic routing
 - [Agent traffic map](traffic/agent-traffic-map.md)
 - [Agent traffic map JSON](traffic/agent-traffic-map.json)

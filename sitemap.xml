@@ -353,4 +353,53 @@
     <loc>https://barneywohl.github.io/korea-research-map-agents/forum-packs/agent-builder-forum-drop.md</loc>
     <priority>0.8</priority>
   </url>
+
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/README.md</loc>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/index.json</loc>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/korea-cheap-screen-deletion.md</loc>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/poongsan-103140-research-agent.md</loc>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/bhi-083650-backlog-dart.md</loc>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/woojin-105840-nuclear-instruments.md</loc>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/krx-kind-dart-verification.md</loc>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/korea-value-up-cheap-trap.md</loc>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/korea-discount-agent-benchmark.md</loc>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/moonshot-drawer-korea-agents.md</loc>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/korean-small-cap-liquidity-check.md</loc>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/dart-filing-rag-ingestion.md</loc>
+    <priority>0.75</priority>
+  </url>
 </urlset>

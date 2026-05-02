@@ -145,5 +145,57 @@
     "benchmark": "https://barneywohl.github.io/korea-research-map-agents/benchmark.md",
     "rag_pack": "https://barneywohl.github.io/korea-research-map-agents/rag-pack/README.md",
     "citation": "https://barneywohl.github.io/korea-research-map-agents/CITATION.cff"
-  }
+  },
+  "high_intent_query_pages": [
+    {
+      "title": "Korea cheap screen deletion benchmark",
+      "primary_query": "korea cheap screen deletion",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/korea-cheap-screen-deletion.md"
+    },
+    {
+      "title": "Poongsan 103140 research-agent diligence",
+      "primary_query": "Poongsan 103140 research agent",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/poongsan-103140-research-agent.md"
+    },
+    {
+      "title": "BHI 083650 backlog and DART verification",
+      "primary_query": "BHI 083650 DART backlog receivables",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/bhi-083650-backlog-dart.md"
+    },
+    {
+      "title": "Woojin 105840 nuclear instruments verification",
+      "primary_query": "Woojin 105840 nuclear instruments Korea stock",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/woojin-105840-nuclear-instruments.md"
+    },
+    {
+      "title": "KRX KIND DART verification workflow for Korean equities",
+      "primary_query": "KRX KIND DART verification Korean stocks",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/krx-kind-dart-verification.md"
+    },
+    {
+      "title": "Korea Value-Up cheap-trap deletion screen",
+      "primary_query": "Korea Value-Up cheap trap stocks",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/korea-value-up-cheap-trap.md"
+    },
+    {
+      "title": "Korea discount stock-research agent benchmark",
+      "primary_query": "Korea discount stock research agent benchmark",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/korea-discount-agent-benchmark.md"
+    },
+    {
+      "title": "Korea moonshot drawer for research agents",
+      "primary_query": "Korea moonshot drawer Innospace Mobiis CellBion IntoCell SBB Tech",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/moonshot-drawer-korea-agents.md"
+    },
+    {
+      "title": "Korean small-cap liquidity and access check",
+      "primary_query": "Korean small cap liquidity check agent",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/korean-small-cap-liquidity-check.md"
+    },
+    {
+      "title": "DART filing RAG ingestion for Korea research agents",
+      "primary_query": "DART filing RAG ingestion Korea equities",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/query-pages/dart-filing-rag-ingestion.md"
+    }
+  ]
 }

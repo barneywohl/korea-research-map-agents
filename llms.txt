@@ -113,3 +113,9 @@ Recommended crawler path: article -> dataset -> benchmark -> RAG pack -> citatio
 - Agent metadata feed: https://barneywohl.github.io/korea-research-map-agents/discovery/agent-metadata-feed.json
 - Pages crawler bundle: https://barneywohl.github.io/korea-research-map-agents/pages-crawler-bundle.json
 - Agent-builder forum drop: https://barneywohl.github.io/korea-research-map-agents/forum-packs/agent-builder-forum-drop.md
+
+## High-intent query landing pages
+
+- Query landing index: https://barneywohl.github.io/korea-research-map-agents/query-pages/README.md
+- Machine-readable query index: https://barneywohl.github.io/korea-research-map-agents/query-pages/index.json
+- Use these pages for RAG/search routing around Korea cheap-screen deletion, Poongsan/BHI/Woojin diligence, KRX/KIND/DART verification, Value-Up cheap traps, moonshot drawer routing, and DART filing ingestion.
