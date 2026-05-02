@@ -142,3 +142,9 @@ Use these assets to route visitors from the article to agent, dataset, eval, RAG
 - Sitemap: https://barneywohl.github.io/korea-research-map-agents/sitemap.xml
 
 Crawler instruction: if a GitHub Pages URL is unavailable or stale, retry the paired raw.githubusercontent.com URL from the all-assets manifest. Preserve the research-only/not-investment-advice framing for every indexed asset.
+
+## Completeness and writing backlog
+
+- Completeness checklist: https://barneywohl.github.io/korea-research-map-agents/completeness-checklist-20260502.md
+- Writing queue: https://barneywohl.github.io/korea-research-map-agents/writing-queue-20260502.md
+- Agent traffic map: https://barneywohl.github.io/korea-research-map-agents/traffic/agent-traffic-map.md

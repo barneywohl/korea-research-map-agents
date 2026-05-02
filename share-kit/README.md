@@ -9,6 +9,7 @@ External posting/account activity requires a fresh directive. These files are sa
 - `hackernews.md`
 - `reddit-securityanalysis.md`
 - `ai-forums-draft.md`
+- `substack-notes-agent-discovery-drafts.md`
 - `huggingface-dataset-card.md`
 - `kaggle-dataset-metadata.json`
 - `medium-draft.md`
