@@ -70,7 +70,7 @@ agentpress init /tmp/my-agent-site --title "My Agent Site"
 
 The direct repo command remains supported for zero-install usage.
 
-## Dogfood examples
+## Reference examples
 
 See the [examples mini-registry](./examples/README.md).
 

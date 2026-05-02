@@ -1,9 +1,36 @@
 {
   "schema_version": "0.2",
-  "generated_at": "2026-05-02T21:09:05.059424+00:00",
+  "generated_at": "2026-05-02T21:43:40.031846+00:00",
   "base_url": "https://barneywohl.github.io/korea-research-map-agents",
-  "count": 6,
+  "count": 7,
   "publications": [
+    {
+      "slug": "universal-agent-reachability",
+      "title": "Universal Agent Reachability Benchmark",
+      "url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/",
+      "agent_entrypoint": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/AGENT_ENTRYPOINT.md",
+      "task_card": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/agent-task-card.json",
+      "ai_ingestion": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/.well-known/ai-ingestion.json",
+      "llms_txt": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/llms.txt",
+      "score": 100,
+      "languages": [
+        "en"
+      ],
+      "regions": [
+        "global"
+      ],
+      "agent_families": [
+        "browser_agent",
+        "coding_agent",
+        "rag_agent",
+        "search_crawler",
+        "mcp_style_agent",
+        "eval_harness",
+        "open_source_model",
+        "closed_source_model"
+      ],
+      "flagship": true
+    },
     {
       "slug": "innospace-thesis",
       "title": "Innospace 462350 Launch Cadence Dilution Thesis",

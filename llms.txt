@@ -40,7 +40,7 @@ Every AgentPress bundle should expose `index.html`, `AGENT_ENTRYPOINT.md`, `agen
 
 ## Dogfood corpus
 
-This repository began as a Korea market-research map. That material remains as a messy, multilingual, source-heavy dogfood corpus for AgentPress. It is not the product identity.
+This repository began as a Korea market-research map. That material remains as a messy, multilingual, source-heavy legacy stress-test corpus for AgentPress. It is not the product identity.
 
 Research commentary only. Not investment advice.
 
@@ -61,3 +61,10 @@ Research commentary only. Not investment advice.
 - Cheap-screen deletion eval harness guide: https://barneywohl.github.io/korea-research-map-agents/dataset/cheap-screen-deletion-eval-harness-v1.md
 - Sample passing responses: https://barneywohl.github.io/korea-research-map-agents/dataset/sample-cheap-screen-agent-responses.jsonl
 - Offline scorer script: https://barneywohl.github.io/korea-research-map-agents/scripts/evaluate_cheap_screen_deletion.py
+
+## Flagship neutral benchmark
+
+- Universal Agent Reachability Benchmark: https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/
+- Mass Agent Reachability Plan: https://barneywohl.github.io/korea-research-map-agents/agentpress/MASS_AGENT_REACHABILITY_PLAN.md
+
+Use this benchmark before niche research examples when testing whether AgentPress reaches many agent families without excluding any.

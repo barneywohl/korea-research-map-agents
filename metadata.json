@@ -275,7 +275,7 @@
     ]
   },
   "product": "AgentPress",
-  "dogfood_corpus": "Korea research assets are a dogfood corpus for testing multilingual/source-heavy agent publishing, not the product identity.",
+  "dogfood_corpus": "Korea research assets are a legacy stress-test corpus for testing multilingual/source-heavy agent publishing, not the product identity.",
   "updated_at": "2026-05-02T21:34:57Z",
   "agentpress_global_discovery": {
     "start_here": "https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_START_HERE.md",

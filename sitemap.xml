@@ -207,4 +207,15 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/dataset/cheap-screen-deletion-eval-harness-v1.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/dataset/sample-cheap-screen-agent-responses.jsonl</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/scripts/evaluate_cheap_screen_deletion.py</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/MASS_AGENT_REACHABILITY_PLAN.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/AGENT_ENTRYPOINT.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/agent-task-card.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/source-map.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/freshness.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/allowed-actions.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/.well-known/ai-ingestion.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/llms.txt</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/sitemap.xml</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/evals/reachability-smoke.jsonl</loc></url>
 </urlset>
