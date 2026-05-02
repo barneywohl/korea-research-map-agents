@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "name": "SEMICON-DRA DRAM Cycle Trough Recovery Thesis",
+  "title": "SEMICON-DRA DRAM Cycle Trough Recovery Thesis",
+  "task_type": "agent_native_article",
+  "canonical_url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/semicon-dra/",
+  "target_agents": [
+    "research agents",
+    "RAG systems",
+    "eval harnesses",
+    "crawler/indexing agents"
+  ],
+  "objective": "Verify whether DRAM price, HBM mix, OEM inventory, and China capacity evidence support or kill the DRAM cycle trough recovery thesis.",
+  "input_contract": {
+    "required": [
+      "ticker",
+      "thesis",
+      "source_urls"
+    ],
+    "optional": [
+      "source_url",
+      "time_horizon",
+      "context"
+    ]
+  },
+  "output_contract": {
+    "required": [
+      "decision",
+      "reasons",
+      "verified_sources",
+      "missing_checks",
+      "kill_tests_triggered",
+      "confidence",
+      "disclaimer"
+    ],
+    "decision_values": [
+      "survive",
+      "delete",
+      "needs_more_diligence"
+    ]
+  },
+  "primary_assets": [
+    "AGENT_ENTRYPOINT.md",
+    "README.md",
+    "source-map.json",
+    "citation-policy.md"
+  ],
+  "source_requirements": [
+    "DRAM spot/DXI or equivalent pricing data",
+    "Samsung and SK Hynix HBM disclosures/calls",
+    "OEM/server inventory disclosures",
+    "China capacity evidence",
+    "Explicitly mark unavailable or stale sources"
+  ],
+  "scoring_rubric": {
+    "source_grounding": 30,
+    "task_completion": 25,
+    "error_detection": 20,
+    "clear_decision": 15,
+    "uncertainty_and_disclaimer": 10
+  },
+  "non_goals": [
+    "buy/sell recommendation",
+    "uncited semiconductor-cycle claims",
+    "private data access"
+  ],
+  "allowed_actions": [
+    "read",
+    "summarize",
+    "cite",
+    "transform",
+    "benchmark",
+    "create_pull_request"
+  ],
+  "prohibited_actions": [
+    "trading_recommendation",
+    "deceptive_tracking",
+    "bypass_paywall",
+    "private_data_access"
+  ],
+  "disclaimer": "Research commentary only. Not investment advice."
+}

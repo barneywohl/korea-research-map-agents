@@ -1,0 +1,22 @@
+# SEMICON-DRA DRAM Cycle Trough Recovery Thesis
+
+URL: https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/semicon-dra/
+Type: Agent-native ticker/thesis article
+Ticker proxy: SEMICON-DRA
+
+## Summary
+
+Ticker/thesis-led AgentPress article for testing whether DRAM spot prices can recover as HBM demand absorbs legacy capacity and OEM inventory normalizes. Research commentary only; not investment advice.
+
+## Primary task
+
+Verify whether DRAM price, HBM mix, OEM inventory, and China capacity evidence support or kill the DRAM cycle trough recovery thesis.
+
+## Kill tests
+
+- DRAM spot prices decline or stay flat for 6+ months.
+- HBM mix remains below 25%.
+- OEM/server inventory remains elevated.
+- New China capacity overwhelms supply absorption.
+
+Research commentary only. Not investment advice.

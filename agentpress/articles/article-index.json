@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1",
   "type": "agentpress_article_index",
-  "generated_at": "2026-05-02T22:27:48.785863+00:00",
-  "count": 8,
+  "generated_at": "2026-05-02T22:47:43.921426+00:00",
+  "count": 9,
   "articles": [
     {
       "title": "Innospace 462350 Launch Cadence Dilution Thesis",
@@ -163,6 +163,38 @@
       "source_map": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/samsung-hbm-margin/source-map.json",
       "freshness": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/samsung-hbm-margin/freshness.json",
       "allowed_actions": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/samsung-hbm-margin/allowed-actions.json",
+      "eval_count": 2
+    },
+    {
+      "title": "SEMICON-DRA DRAM Cycle Trough Recovery Thesis",
+      "slug": "semicon-dra",
+      "canonical_url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/semicon-dra/",
+      "summary_for_agents": "Verify whether DRAM price, HBM mix, OEM inventory, and China capacity evidence support or kill the DRAM cycle trough recovery thesis.",
+      "domains": [
+        "research_stress_test",
+        "finance_research"
+      ],
+      "task_types": [
+        "agent_native_article"
+      ],
+      "target_agent_families": [
+        "research agents",
+        "RAG systems",
+        "eval harnesses",
+        "crawler/indexing agents"
+      ],
+      "languages": [
+        "en"
+      ],
+      "regions": [
+        "global",
+        "korea_stress_test"
+      ],
+      "article_card": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/semicon-dra/article-card.json",
+      "task_card": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/semicon-dra/agent-task-card.json",
+      "source_map": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/semicon-dra/source-map.json",
+      "freshness": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/semicon-dra/freshness.json",
+      "allowed_actions": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/semicon-dra/allowed-actions.json",
       "eval_count": 2
     },
     {

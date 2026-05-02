@@ -13,6 +13,7 @@ These examples dogfood AgentPress as agent-native publications. Each example sho
 | [SK Hynix HBM Supply](./sk-hynix-hbm-supply/) | Ticker-thesis diligence wrapper for SK Hynix 000660 HBM supply constraint. | Verify backlog/capex/customer evidence and kill tests. | >=90 | same bundle |
 | [POSCO Green Steel](./posco-green-steel/) | Ticker-thesis diligence wrapper for POSCO 005490 green steel premium. | Verify HyREX/offtake/carbon-policy evidence and kill tests. | >=90 | same bundle |
 | [KB-FINRATE Korean Bank NIM Compression](./kb-finrate/) | Ticker/thesis diligence wrapper for Korean bank NIM compression under BOK easing. | Verify BOK rate path, KB/Shinhan/Hana NIM disclosures, funding mix, and kill tests. | >=90 | same bundle |
+| [SEMICON-DRA DRAM Cycle Trough Recovery](./semicon-dra/) | Ticker/thesis diligence wrapper for DRAM trough recovery as HBM demand absorbs legacy capacity. | Verify DRAM spot pricing, HBM mix, OEM inventory, supply additions, and kill tests. | >=90 | same bundle |
 | [Universal Agent Reachability](./universal-agent-reachability/) | Compatibility article for global agent/crawler discovery needs. | Verify whether an AgentPress bundle is reachable by browser, coding, RAG, crawler, MCP-style, and eval agents. | >=90 | same bundle |
 
 ## Registry commands

@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1",
+  "publication": "SEMICON-DRA DRAM Cycle Trough Recovery Thesis",
+  "canonical_url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/semicon-dra/",
+  "claims": [
+    {
+      "claim_id": "semicon-dra-claim-001",
+      "claim": "DRAM recovery thesis depends on spot-price recovery, HBM capacity absorption, and inventory normalization.",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Samsung Electronics investor relations",
+          "url_or_path": "https://www.samsung.com/global/ir/",
+          "retrieved_or_updated_at": "2026-05-02",
+          "evidence_type": "company_disclosure"
+        },
+        {
+          "title": "SK Hynix investor relations",
+          "url_or_path": "https://www.skhynix.com/ir/UI-FR-IR01",
+          "retrieved_or_updated_at": "2026-05-02",
+          "evidence_type": "company_disclosure"
+        }
+      ],
+      "freshness_window_days": 14,
+      "kill_criteria": [
+        "DRAM spot prices do not recover",
+        "HBM mix/capacity remains below thesis threshold",
+        "inventory remains elevated"
+      ]
+    },
+    {
+      "claim_id": "semicon-dra-claim-002",
+      "claim": "Agents must validate supply/demand with both semiconductor company disclosures and downstream OEM/server inventory evidence.",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Dell investor relations",
+          "url_or_path": "https://investors.delltechnologies.com/",
+          "retrieved_or_updated_at": "2026-05-02",
+          "evidence_type": "company_disclosure"
+        },
+        {
+          "title": "HPE investor relations",
+          "url_or_path": "https://investors.hpe.com/",
+          "retrieved_or_updated_at": "2026-05-02",
+          "evidence_type": "company_disclosure"
+        },
+        {
+          "title": "Micron investor relations",
+          "url_or_path": "https://investors.micron.com/",
+          "retrieved_or_updated_at": "2026-05-02",
+          "evidence_type": "company_disclosure"
+        }
+      ],
+      "freshness_window_days": 30,
+      "kill_criteria": [
+        "OEM/server inventory evidence contradicts normalization",
+        "New supply additions overwhelm demand"
+      ]
+    }
+  ]
+}
