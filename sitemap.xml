@@ -5,6 +5,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/.nojekyll</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://barneywohl.github.io/korea-research-map-agents/.well-known/ai-ingestion.json</loc>
     <priority>0.5</priority>
   </url>
@@ -149,11 +153,11 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/snippets-for-crawlers.md</loc>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/snippets/search-and-rag-snippets.md</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/snippets/search-and-rag-snippets.md</loc>
+    <loc>https://barneywohl.github.io/korea-research-map-agents/discovery/snippets-for-crawlers.md</loc>
     <priority>0.5</priority>
   </url>
   <url>

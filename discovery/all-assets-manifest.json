@@ -12,8 +12,14 @@
     "Moonshot names are research prompts only.",
     "X/Twitter is paused for this wave; use repo-hosted non-X discovery surfaces."
   ],
-  "asset_count": 134,
+  "asset_count": 135,
   "assets": [
+    {
+      "path": ".nojekyll",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/.nojekyll",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/main/.nojekyll",
+      "kind": "machine_manifest_or_data"
+    },
     {
       "path": ".well-known/ai-ingestion.json",
       "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/.well-known/ai-ingestion.json",
@@ -231,16 +237,16 @@
       "kind": "human_and_agent_readable_page"
     },
     {
-      "path": "discovery/snippets-for-crawlers.md",
-      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/discovery/snippets-for-crawlers.md",
-      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/main/discovery/snippets-for-crawlers.md",
-      "kind": "machine_manifest_or_data"
-    },
-    {
       "path": "discovery/snippets/search-and-rag-snippets.md",
       "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/discovery/snippets/search-and-rag-snippets.md",
       "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/main/discovery/snippets/search-and-rag-snippets.md",
       "kind": "human_and_agent_readable_page"
+    },
+    {
+      "path": "discovery/snippets-for-crawlers.md",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/discovery/snippets-for-crawlers.md",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/main/discovery/snippets-for-crawlers.md",
+      "kind": "machine_manifest_or_data"
     },
     {
       "path": "feeds/rss.xml",
