@@ -29,3 +29,18 @@ jobs:
           rm -rf /tmp/agentpress-liquidity
           python3 scripts/agentpress.py build agentpress/examples/liquidity-trap --out /tmp/agentpress-liquidity
           test -f /tmp/agentpress-liquidity/index.html
+      - name: Local availability gate
+        run: python3 scripts/check_agentpress_availability.py --root .
+      - name: Cross-agent eval prompt parse gate
+        run: |
+          python3 - <<'PY'
+          import json, pathlib
+          path = pathlib.Path('agentpress/evals/cross_agent_compatibility_prompts.jsonl')
+          rows = [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
+          assert rows, 'no cross-agent compatibility prompts'
+          families = {r['agent_family'] for r in rows}
+          required = {'codex', 'claude', 'gemini', 'glm', 'open_source_instruct'}
+          missing = required - families
+          assert not missing, f'missing agent families: {missing}'
+          print(f'cross-agent prompts ok: {len(rows)} rows')
+          PY
