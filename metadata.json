@@ -272,7 +272,7 @@
     ]
   },
   "product": "AgentPress",
-  "updated_at": "2026-05-02T21:48:09Z",
+  "updated_at": "2026-05-02T21:53:58Z",
   "agentpress_global_discovery": {
     "start_here": "https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_START_HERE.md",
     "what_agents_want": "https://barneywohl.github.io/korea-research-map-agents/agentpress/WHAT_AGENTS_WANT.md",
@@ -310,5 +310,8 @@
       "production_deploy"
     ]
   },
-  "legacy_stress_test_corpus": "Original Korea research assets are retained as secondary messy/source-heavy stress tests, not the product identity or primary search mapping."
+  "legacy_stress_test_corpus": "Original Korea research assets are retained as secondary messy/source-heavy stress tests, not the product identity or primary search mapping.",
+  "agent_needs_research": "https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_NEEDS_RESEARCH.md",
+  "agent_profile_spec": "https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_PROFILE_SPEC.md",
+  "global_feature_backlog": "https://barneywohl.github.io/korea-research-map-agents/agentpress/GLOBAL_FEATURE_BACKLOG.md"
 }

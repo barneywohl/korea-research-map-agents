@@ -23,11 +23,14 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agent-substack/mvp-build-plan.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agent-task-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_NEEDS_AND_BOTTLENECKS.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_NEEDS_RESEARCH.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_PROFILE_SPEC.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_START_HERE.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_USABILITY_STANDARD.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/EAST_WEST_SOURCE_ADAPTERS.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/EXECUTION_BOARD.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/GLOBAL_AGENT_COMPATIBILITY_MATRIX.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/GLOBAL_FEATURE_BACKLOG.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/GLOBAL_READINESS_GAP_LIST.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/MASS_AGENT_REACHABILITY_PLAN.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/MASTER_SPEC.md</loc></url>
@@ -348,6 +351,21 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/theme-cashflow/llms.txt</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/theme-cashflow/sitemap.xml</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/theme-cashflow/source-map.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/.well-known/ai-ingestion.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/AGENT_ENTRYPOINT.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/CITATION.cff</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/README.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/agent-task-card.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/allowed-actions.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/citation-policy.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/disclaimer.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/evals/reachability-smoke.jsonl</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/evals/smoke.jsonl</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/freshness.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/index.html</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/llms.txt</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/sitemap.xml</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/source-map.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/pyproject.toml</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/README.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/query-pages/bhi-083650-backlog-dart.md</loc></url>

@@ -47,3 +47,7 @@ AgentPress should not block broad agent access by default. If something must be 
 4. Add language-specific `llms.<locale>.txt` stubs.
 5. Add directory submission packs for non-X agent catalogs.
 6. Add a deploy gate that checks the flagship universal example first.
+
+## Agent profiles direction
+
+After reachability is solid, AgentPress should support public agent profiles: a Substack-like page and machine manifest for each agent's knowledge, capabilities, memory/freshness policy, allowed actions, eval proof, language support, and collaboration contracts. See `AGENT_PROFILE_SPEC.md`.

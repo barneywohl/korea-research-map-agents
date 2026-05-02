@@ -1,7 +1,7 @@
 {
   "schema_version": "2026-05-02.all-assets-manifest.v3",
   "name": "AgentPress all-assets manifest",
-  "generated_at_utc": "2026-05-02T21:48:54Z",
+  "generated_at_utc": "2026-05-02T21:53:58Z",
   "purpose": "Single machine-readable inventory so crawlers, AI agents, RAG ingestors, dataset catalogs, and eval harnesses can discover every public AgentPress asset with GitHub Pages and raw.githubusercontent.com fallback URLs.",
   "canonical_product": "AgentPress",
   "canonical_pages": "https://barneywohl.github.io/korea-research-map-agents/",
@@ -16,7 +16,10 @@
     "agentpress/examples/universal-agent-reachability/AGENT_ENTRYPOINT.md",
     "agentpress/MASS_AGENT_REACHABILITY_PLAN.md",
     "sitemap.xml",
-    "openapi.yaml"
+    "openapi.yaml",
+    "agentpress/AGENT_NEEDS_RESEARCH.md",
+    "agentpress/AGENT_PROFILE_SPEC.md",
+    "agentpress/GLOBAL_FEATURE_BACKLOG.md"
   ],
   "required_framing": [
     "AgentPress is agent-native publishing infrastructure.",
@@ -26,7 +29,7 @@
     "External writes, mass distribution, registry submission, and deploy require explicit human authorization."
   ],
   "legacy_stress_test_note": "Original Korea research assets remain in the inventory as secondary stress tests, not primary product positioning.",
-  "asset_count": 401,
+  "asset_count": 419,
   "assets": [
     {
       "path": ".github/workflows/agentpress-validate.yml",
@@ -161,6 +164,18 @@
       "kind": "human_and_agent_readable_page"
     },
     {
+      "path": "agentpress/AGENT_NEEDS_RESEARCH.md",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_NEEDS_RESEARCH.md",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/agentpress/AGENT_NEEDS_RESEARCH.md",
+      "kind": "human_and_agent_readable_page"
+    },
+    {
+      "path": "agentpress/AGENT_PROFILE_SPEC.md",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_PROFILE_SPEC.md",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/agentpress/AGENT_PROFILE_SPEC.md",
+      "kind": "human_and_agent_readable_page"
+    },
+    {
       "path": "agentpress/AGENT_START_HERE.md",
       "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_START_HERE.md",
       "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/agentpress/AGENT_START_HERE.md",
@@ -188,6 +203,12 @@
       "path": "agentpress/GLOBAL_AGENT_COMPATIBILITY_MATRIX.md",
       "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/GLOBAL_AGENT_COMPATIBILITY_MATRIX.md",
       "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/agentpress/GLOBAL_AGENT_COMPATIBILITY_MATRIX.md",
+      "kind": "human_and_agent_readable_page"
+    },
+    {
+      "path": "agentpress/GLOBAL_FEATURE_BACKLOG.md",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/GLOBAL_FEATURE_BACKLOG.md",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/agentpress/GLOBAL_FEATURE_BACKLOG.md",
       "kind": "human_and_agent_readable_page"
     },
     {
@@ -2108,6 +2129,96 @@
       "path": "public/agentpress/theme-cashflow/source-map.json",
       "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/public/agentpress/theme-cashflow/source-map.json",
       "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/public/agentpress/theme-cashflow/source-map.json",
+      "kind": "machine_manifest_or_data"
+    },
+    {
+      "path": "public/agentpress/universal-agent-reachability/.well-known/ai-ingestion.json",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/.well-known/ai-ingestion.json",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/public/agentpress/universal-agent-reachability/.well-known/ai-ingestion.json",
+      "kind": "machine_manifest_or_data"
+    },
+    {
+      "path": "public/agentpress/universal-agent-reachability/AGENT_ENTRYPOINT.md",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/AGENT_ENTRYPOINT.md",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/public/agentpress/universal-agent-reachability/AGENT_ENTRYPOINT.md",
+      "kind": "human_and_agent_readable_page"
+    },
+    {
+      "path": "public/agentpress/universal-agent-reachability/CITATION.cff",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/CITATION.cff",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/public/agentpress/universal-agent-reachability/CITATION.cff",
+      "kind": "machine_manifest_or_data"
+    },
+    {
+      "path": "public/agentpress/universal-agent-reachability/README.md",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/README.md",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/public/agentpress/universal-agent-reachability/README.md",
+      "kind": "human_and_agent_readable_page"
+    },
+    {
+      "path": "public/agentpress/universal-agent-reachability/agent-task-card.json",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/agent-task-card.json",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/public/agentpress/universal-agent-reachability/agent-task-card.json",
+      "kind": "machine_manifest_or_data"
+    },
+    {
+      "path": "public/agentpress/universal-agent-reachability/allowed-actions.json",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/allowed-actions.json",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/public/agentpress/universal-agent-reachability/allowed-actions.json",
+      "kind": "machine_manifest_or_data"
+    },
+    {
+      "path": "public/agentpress/universal-agent-reachability/citation-policy.md",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/citation-policy.md",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/public/agentpress/universal-agent-reachability/citation-policy.md",
+      "kind": "human_and_agent_readable_page"
+    },
+    {
+      "path": "public/agentpress/universal-agent-reachability/disclaimer.md",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/disclaimer.md",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/public/agentpress/universal-agent-reachability/disclaimer.md",
+      "kind": "human_and_agent_readable_page"
+    },
+    {
+      "path": "public/agentpress/universal-agent-reachability/evals/reachability-smoke.jsonl",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/evals/reachability-smoke.jsonl",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/public/agentpress/universal-agent-reachability/evals/reachability-smoke.jsonl",
+      "kind": "machine_manifest_or_data"
+    },
+    {
+      "path": "public/agentpress/universal-agent-reachability/evals/smoke.jsonl",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/evals/smoke.jsonl",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/public/agentpress/universal-agent-reachability/evals/smoke.jsonl",
+      "kind": "machine_manifest_or_data"
+    },
+    {
+      "path": "public/agentpress/universal-agent-reachability/freshness.json",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/freshness.json",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/public/agentpress/universal-agent-reachability/freshness.json",
+      "kind": "machine_manifest_or_data"
+    },
+    {
+      "path": "public/agentpress/universal-agent-reachability/index.html",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/index.html",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/public/agentpress/universal-agent-reachability/index.html",
+      "kind": "human_and_agent_readable_page"
+    },
+    {
+      "path": "public/agentpress/universal-agent-reachability/llms.txt",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/llms.txt",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/public/agentpress/universal-agent-reachability/llms.txt",
+      "kind": "machine_manifest_or_data"
+    },
+    {
+      "path": "public/agentpress/universal-agent-reachability/sitemap.xml",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/sitemap.xml",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/public/agentpress/universal-agent-reachability/sitemap.xml",
+      "kind": "machine_manifest_or_data"
+    },
+    {
+      "path": "public/agentpress/universal-agent-reachability/source-map.json",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/source-map.json",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/public/agentpress/universal-agent-reachability/source-map.json",
       "kind": "machine_manifest_or_data"
     },
     {
