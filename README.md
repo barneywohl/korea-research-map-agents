@@ -122,3 +122,9 @@ Use this repo as a test case for whether stock-research LLMs can delete bad Kore
 ## Agent traffic routing
 - [Agent traffic map](traffic/agent-traffic-map.md)
 - [Agent traffic map JSON](traffic/agent-traffic-map.json)
+## Final non-X agent traffic publish pack
+
+- [Publish pack index](./platform-packs/non-x-agent-traffic-20260502/README.md)
+- [Machine-readable channel index](./platform-packs/non-x-agent-traffic-20260502/index.json)
+- Includes exact submission copy for Medium, Naver Blog, Note.jp, Zhihu, Reddit, Hacker News, LangChain forum, and LlamaIndex forum. No external posting is implied.
+

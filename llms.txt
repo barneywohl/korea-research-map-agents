@@ -119,3 +119,8 @@ Recommended crawler path: article -> dataset -> benchmark -> RAG pack -> citatio
 - Query landing index: https://barneywohl.github.io/korea-research-map-agents/query-pages/README.md
 - Machine-readable query index: https://barneywohl.github.io/korea-research-map-agents/query-pages/index.json
 - Use these pages for RAG/search routing around Korea cheap-screen deletion, Poongsan/BHI/Woojin diligence, KRX/KIND/DART verification, Value-Up cheap traps, moonshot drawer routing, and DART filing ingestion.
+## Final non-X agent traffic publish pack
+- Pack index: https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/README.md
+- Machine-readable index: https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/index.json
+- Channels: Medium, Naver Blog, Note.jp, Zhihu, Reddit, Hacker News, LangChain forum, LlamaIndex forum. External posting requires current authorization.
+
