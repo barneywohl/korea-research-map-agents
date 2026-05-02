@@ -357,6 +357,85 @@ def list_examples(args):
     return 0
 
 
+def index_articles(args):
+    """Build a machine-readable article database from AgentPress examples."""
+    src_root = pathlib.Path(args.root)
+    dest = pathlib.Path(args.out)
+    base_url = args.base_url.rstrip("/")
+    dest.mkdir(parents=True, exist_ok=True)
+    articles = []
+    claims = []
+    sources = []
+    freshness_rows = []
+    eval_rows = []
+    languages = {}
+    examples = sorted(p for p in src_root.iterdir() if p.is_dir() and (p/"agent-task-card.json").exists()) if src_root.exists() else []
+    for ex in examples:
+        slug = ex.name
+        card = json.loads((ex/"agent-task-card.json").read_text(encoding="utf-8"))
+        source_map = json.loads((ex/"source-map.json").read_text(encoding="utf-8")) if (ex/"source-map.json").exists() else {"claims": []}
+        fresh = json.loads((ex/"freshness.json").read_text(encoding="utf-8")) if (ex/"freshness.json").exists() else {}
+        allowed = json.loads((ex/"allowed-actions.json").read_text(encoding="utf-8")) if (ex/"allowed-actions.json").exists() else {}
+        title = card.get("title") or card.get("name") or slug.replace("-", " ").title()
+        url = f"{base_url}/agentpress/examples/{slug}/"
+        summary = card.get("objective") or title
+        domains = ["agent_infrastructure", "agent_compatibility"] if slug == "universal-agent-reachability" else ["research_stress_test", "finance_research"]
+        task_type = str(card.get("task_type", "agent_native_publication"))
+        task_types = sorted(set(["agent_native_article"] + (["benchmark"] if "benchmark" in task_type else []) + (["compatibility"] if "reachability" in task_type else [])))
+        evals = [str(p.relative_to(ex)) for p in sorted((ex/"evals").glob("*.jsonl"))] if (ex/"evals").exists() else []
+        article_card = {
+            "schema_version": "0.1",
+            "type": "agentpress_article",
+            "title": title,
+            "slug": slug,
+            "canonical_url": url,
+            "summary_for_agents": summary,
+            "human_summary": read_text(ex/"README.md").replace("\n", " ")[:500] or summary,
+            "domains": domains,
+            "task_types": task_types,
+            "target_agent_families": card.get("target_agents") or ["browser_agent", "coding_agent", "rag_agent", "search_crawler"],
+            "languages": ["en"],
+            "regions": ["global"] if slug == "universal-agent-reachability" else ["global", "korea_stress_test"],
+            "claims": [{"claim_id": c.get("claim_id"), "source_map_url": "source-map.json"} for c in source_map.get("claims", []) if c.get("claim_id")],
+            "freshness": {"last_reviewed_at": fresh.get("last_reviewed_at") or str(fresh.get("generated_at", ""))[:10], "stale_zones": fresh.get("stale_zones", []), "freshness_window_days": fresh.get("default_freshness_window_days") or 30},
+            "actions": {"allowed_actions_url": "allowed-actions.json", "allowed": allowed.get("allowed") or card.get("allowed_actions", []), "requires_human_approval": allowed.get("requires_human_approval", []), "prohibited": allowed.get("prohibited") or card.get("prohibited_actions", [])},
+            "evals": evals,
+            "related_articles": [],
+            "machine_entrypoints": {"task_card": "agent-task-card.json", "source_map": "source-map.json", "llms_txt": "llms.txt", "ai_ingestion": ".well-known/ai-ingestion.json", "article_card": "article-card.json"},
+            "disclaimer": card.get("disclaimer", "Research commentary only. Not investment advice."),
+        }
+        write(ex/"article-card.json", json.dumps(article_card, indent=2, ensure_ascii=False) + "\n")
+        row = {k: article_card[k] for k in ["title", "slug", "canonical_url", "summary_for_agents", "domains", "task_types", "target_agent_families", "languages", "regions"]}
+        row.update({"article_card": url + "article-card.json", "task_card": url + "agent-task-card.json", "source_map": url + "source-map.json", "freshness": url + "freshness.json", "allowed_actions": url + "allowed-actions.json", "eval_count": len(evals)})
+        articles.append(row)
+        languages.setdefault("en", []).append(slug)
+        for c in source_map.get("claims", []):
+            cid = c.get("claim_id") or f"{slug}-claim"
+            claims.append({"article_slug": slug, "article_url": url, "claim_id": cid, "claim": c.get("claim", ""), "confidence": c.get("confidence"), "sources": [s.get("url_or_path") for s in c.get("sources", [])], "freshness_window_days": c.get("freshness_window_days")})
+            for src in c.get("sources", []):
+                row_src = {"article_slug": slug, "claim_id": cid}; row_src.update(src); sources.append(row_src)
+        freshness_rows.append({"article_slug": slug, "article_url": url, **article_card["freshness"]})
+        for ev in evals:
+            eval_rows.append({"article_slug": slug, "article_url": url, "eval": ev, "url": url + ev})
+    generated_at = datetime.now(timezone.utc).isoformat()
+    write(dest/"article-index.json", json.dumps({"schema_version": "0.1", "type": "agentpress_article_index", "generated_at": generated_at, "count": len(articles), "articles": articles}, indent=2, ensure_ascii=False) + "\n")
+    write(dest/"article-index.jsonl", "".join(json.dumps(a, ensure_ascii=False) + "\n" for a in articles))
+    write(dest/"claim-index.jsonl", "".join(json.dumps(x, ensure_ascii=False) + "\n" for x in claims))
+    write(dest/"source-index.jsonl", "".join(json.dumps(x, ensure_ascii=False) + "\n" for x in sources))
+    write(dest/"freshness-index.jsonl", "".join(json.dumps(x, ensure_ascii=False) + "\n" for x in freshness_rows))
+    write(dest/"eval-index.jsonl", "".join(json.dumps(x, ensure_ascii=False) + "\n" for x in eval_rows))
+    write(dest/"collections.json", json.dumps({"schema_version": "0.1", "generated_at": generated_at, "collections": [{"slug": "flagship-agent-infrastructure", "title": "Flagship Agent Infrastructure", "article_slugs": [a["slug"] for a in articles if "agent_infrastructure" in a["domains"]]}, {"slug": "legacy-research-stress-tests", "title": "Legacy Research Stress Tests", "article_slugs": [a["slug"] for a in articles if "research_stress_test" in a["domains"]]}]}, indent=2, ensure_ascii=False) + "\n")
+    topics = {}
+    for a in articles:
+        for key in a["domains"] + a["task_types"] + a["target_agent_families"]:
+            topics.setdefault(slugify(str(key)), []).append(a["slug"])
+    write(dest/"topics.json", json.dumps({"schema_version": "0.1", "generated_at": generated_at, "topics": topics}, indent=2, ensure_ascii=False) + "\n")
+    write(dest/"language-index.json", json.dumps({"schema_version": "0.1", "generated_at": generated_at, "languages": languages}, indent=2, ensure_ascii=False) + "\n")
+    write(dest/"README.md", f"# AgentPress Article Database\n\nGenerated index of agent-native articles.\n\nCurrent article count: {len(articles)}.\n")
+    print(f"indexed {len(articles)} AgentPress articles into {dest}")
+    return 0
+
+
 def build_all(args):
     src_root = pathlib.Path(args.root)
     dest_root = pathlib.Path(args.dest)
@@ -405,6 +484,7 @@ def main():
     p = sub.add_parser("build"); p.add_argument("out"); p.add_argument("--out", dest="dest", required=True)
     p = sub.add_parser("list"); p.add_argument("root", nargs="?", default="agentpress/examples"); p.add_argument("--json", action="store_true")
     p = sub.add_parser("build-all"); p.add_argument("root", nargs="?", default="agentpress/examples"); p.add_argument("--out", dest="dest", required=True); p.add_argument("--clean", action="store_true")
+    p = sub.add_parser("index-articles"); p.add_argument("root", nargs="?", default="agentpress/examples"); p.add_argument("--out", default="agentpress/articles"); p.add_argument("--base-url", default="https://barneywohl.github.io/korea-research-map-agents")
     args = ap.parse_args()
     if args.cmd == "init": init(args); return 0
     if args.cmd == "validate": return validate(args)
@@ -413,5 +493,6 @@ def main():
     if args.cmd == "build": return build(args)
     if args.cmd == "list": return list_examples(args)
     if args.cmd == "build-all": return build_all(args)
+    if args.cmd == "index-articles": return index_articles(args)
 if __name__ == "__main__":
     sys.exit(main())

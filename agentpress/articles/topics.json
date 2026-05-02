@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-05-02T21:58:34.462689+00:00",
+  "topics": {
+    "research-stress-test": [
+      "innospace-thesis",
+      "liquidity-trap",
+      "posco-green-steel",
+      "samsung-hbm-margin",
+      "sk-hynix-hbm-supply",
+      "theme-cashflow"
+    ],
+    "finance-research": [
+      "innospace-thesis",
+      "liquidity-trap",
+      "posco-green-steel",
+      "samsung-hbm-margin",
+      "sk-hynix-hbm-supply",
+      "theme-cashflow"
+    ],
+    "agent-native-article": [
+      "innospace-thesis",
+      "liquidity-trap",
+      "posco-green-steel",
+      "samsung-hbm-margin",
+      "sk-hynix-hbm-supply",
+      "theme-cashflow",
+      "universal-agent-reachability"
+    ],
+    "research-agents": [
+      "innospace-thesis",
+      "liquidity-trap",
+      "posco-green-steel",
+      "samsung-hbm-margin",
+      "sk-hynix-hbm-supply",
+      "theme-cashflow"
+    ],
+    "rag-systems": [
+      "innospace-thesis",
+      "liquidity-trap",
+      "posco-green-steel",
+      "samsung-hbm-margin",
+      "sk-hynix-hbm-supply",
+      "theme-cashflow",
+      "universal-agent-reachability"
+    ],
+    "eval-harnesses": [
+      "innospace-thesis",
+      "liquidity-trap",
+      "posco-green-steel",
+      "samsung-hbm-margin",
+      "sk-hynix-hbm-supply",
+      "theme-cashflow",
+      "universal-agent-reachability"
+    ],
+    "crawler-indexing-agents": [
+      "innospace-thesis",
+      "liquidity-trap",
+      "posco-green-steel",
+      "samsung-hbm-margin",
+      "sk-hynix-hbm-supply",
+      "theme-cashflow"
+    ],
+    "benchmark": [
+      "liquidity-trap",
+      "theme-cashflow",
+      "universal-agent-reachability"
+    ],
+    "agent-infrastructure": [
+      "universal-agent-reachability"
+    ],
+    "agent-compatibility": [
+      "universal-agent-reachability"
+    ],
+    "compatibility": [
+      "universal-agent-reachability"
+    ],
+    "browser-agents": [
+      "universal-agent-reachability"
+    ],
+    "coding-agents": [
+      "universal-agent-reachability"
+    ],
+    "search-crawlers": [
+      "universal-agent-reachability"
+    ],
+    "mcp-style-agents": [
+      "universal-agent-reachability"
+    ],
+    "open-source-model-agents": [
+      "universal-agent-reachability"
+    ],
+    "closed-source-model-agents": [
+      "universal-agent-reachability"
+    ]
+  }
+}

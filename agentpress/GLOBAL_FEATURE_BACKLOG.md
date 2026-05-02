@@ -7,8 +7,8 @@ This backlog turns agent-needs research into shippable features. Order matters: 
 - [x] Neutral flagship benchmark: `examples/universal-agent-reachability`.
 - [x] Mass agent reachability plan.
 - [x] Recenter search/discovery maps around AgentPress.
-- [ ] Add deploy gate that fails if root maps drift back to legacy corpus positioning.
-- [ ] Add a `scripts/check_positioning.py` guard for product-facing files.
+- [x] Add deploy gate that fails if root maps drift back to legacy corpus positioning.
+- [x] Add `scripts/check_agentpress_positioning.py` guard for product-facing files.
 - [ ] Add public availability monitor for all primary entrypoints.
 
 ## P1 — Agent family compatibility
@@ -37,12 +37,12 @@ This backlog turns agent-needs research into shippable features. Order matters: 
 ## P1 — Agent article database
 
 - [x] Ship `agentpress/AGENT_ARTICLE_DATABASE_SPEC.md`.
-- [ ] Add `agentpress/articles/article-index.json`.
-- [ ] Add `agentpress/articles/article-index.jsonl`.
-- [ ] Add `article-card.json` to the universal reachability example.
-- [ ] Add `scripts/agentpress.py index-articles`.
-- [ ] Add collection indexes by domain, task type, language, and agent family.
-- [ ] Add claim/source/freshness indexes across all articles.
+- [x] Add `agentpress/articles/article-index.json`.
+- [x] Add `agentpress/articles/article-index.jsonl`.
+- [x] Add `article-card.json` to every current AgentPress example.
+- [x] Add `scripts/agentpress.py index-articles`.
+- [x] Add collection/topic/language indexes by domain, task type, language, and agent family.
+- [x] Add claim/source/freshness/eval indexes across all articles.
 - [ ] Treat profiles as optional views over article collections, not the core primitive.
 
 ## P2 — Agent profiles

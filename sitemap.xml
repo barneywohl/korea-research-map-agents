@@ -28,6 +28,7 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_PROFILE_SPEC.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_START_HERE.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_USABILITY_STANDARD.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/DEEP_CLEANUP_AUDIT_20260502.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/EAST_WEST_SOURCE_ADAPTERS.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/EXECUTION_BOARD.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/GLOBAL_AGENT_COMPATIBILITY_MATRIX.md</loc></url>
@@ -40,6 +41,16 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/TODAY_CHUNKS.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/WHAT_AGENTS_WANT.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/agentpress-registry.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/README.md</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/article-index.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/article-index.jsonl</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/claim-index.jsonl</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/collections.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/eval-index.jsonl</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/freshness-index.jsonl</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/language-index.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/source-index.jsonl</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/articles/topics.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/evals/cross_agent_compatibility_prompts.jsonl</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/README.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/innospace-thesis/.well-known/ai-ingestion.json</loc></url>
@@ -48,6 +59,7 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/innospace-thesis/README.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/innospace-thesis/agent-task-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/innospace-thesis/allowed-actions.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/innospace-thesis/article-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/innospace-thesis/citation-policy.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/innospace-thesis/disclaimer.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/innospace-thesis/evals/smoke.jsonl</loc></url>
@@ -62,6 +74,7 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/README.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/agent-task-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/allowed-actions.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/article-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/citation-policy.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/disclaimer.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/liquidity-trap/evals/smoke.jsonl</loc></url>
@@ -76,6 +89,7 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/posco-green-steel/README.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/posco-green-steel/agent-task-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/posco-green-steel/allowed-actions.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/posco-green-steel/article-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/posco-green-steel/citation-policy.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/posco-green-steel/disclaimer.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/posco-green-steel/evals/smoke.jsonl</loc></url>
@@ -91,6 +105,7 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/samsung-hbm-margin/README.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/samsung-hbm-margin/agent-task-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/samsung-hbm-margin/allowed-actions.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/samsung-hbm-margin/article-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/samsung-hbm-margin/citation-policy.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/samsung-hbm-margin/disclaimer.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/samsung-hbm-margin/evals/smoke.jsonl</loc></url>
@@ -106,6 +121,7 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/sk-hynix-hbm-supply/README.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/sk-hynix-hbm-supply/agent-task-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/sk-hynix-hbm-supply/allowed-actions.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/sk-hynix-hbm-supply/article-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/sk-hynix-hbm-supply/citation-policy.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/sk-hynix-hbm-supply/disclaimer.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/sk-hynix-hbm-supply/evals/smoke.jsonl</loc></url>
@@ -121,6 +137,7 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/README.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/agent-task-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/allowed-actions.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/article-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/citation-policy.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/disclaimer.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/theme-cashflow/evals/smoke.jsonl</loc></url>
@@ -135,6 +152,7 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/README.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/agent-task-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/allowed-actions.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/article-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/citation-policy.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/disclaimer.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/universal-agent-reachability/evals/reachability-smoke.jsonl</loc></url>
@@ -271,6 +289,7 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/innospace-thesis/README.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/innospace-thesis/agent-task-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/innospace-thesis/allowed-actions.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/innospace-thesis/article-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/innospace-thesis/citation-policy.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/innospace-thesis/disclaimer.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/innospace-thesis/evals/smoke.jsonl</loc></url>
@@ -285,6 +304,7 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/liquidity-trap/README.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/liquidity-trap/agent-task-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/liquidity-trap/allowed-actions.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/liquidity-trap/article-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/liquidity-trap/citation-policy.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/liquidity-trap/disclaimer.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/liquidity-trap/evals/smoke.jsonl</loc></url>
@@ -299,6 +319,7 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/posco-green-steel/README.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/posco-green-steel/agent-task-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/posco-green-steel/allowed-actions.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/posco-green-steel/article-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/posco-green-steel/citation-policy.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/posco-green-steel/disclaimer.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/posco-green-steel/evals/smoke.jsonl</loc></url>
@@ -314,6 +335,7 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/samsung-hbm-margin/README.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/samsung-hbm-margin/agent-task-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/samsung-hbm-margin/allowed-actions.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/samsung-hbm-margin/article-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/samsung-hbm-margin/citation-policy.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/samsung-hbm-margin/disclaimer.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/samsung-hbm-margin/evals/smoke.jsonl</loc></url>
@@ -329,6 +351,7 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/sk-hynix-hbm-supply/README.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/sk-hynix-hbm-supply/agent-task-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/sk-hynix-hbm-supply/allowed-actions.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/sk-hynix-hbm-supply/article-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/sk-hynix-hbm-supply/citation-policy.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/sk-hynix-hbm-supply/disclaimer.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/sk-hynix-hbm-supply/evals/smoke.jsonl</loc></url>
@@ -344,6 +367,7 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/theme-cashflow/README.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/theme-cashflow/agent-task-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/theme-cashflow/allowed-actions.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/theme-cashflow/article-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/theme-cashflow/citation-policy.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/theme-cashflow/disclaimer.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/theme-cashflow/evals/smoke.jsonl</loc></url>
@@ -358,6 +382,7 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/README.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/agent-task-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/allowed-actions.json</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/article-card.json</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/citation-policy.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/disclaimer.md</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/public/agentpress/universal-agent-reachability/evals/reachability-smoke.jsonl</loc></url>
@@ -388,6 +413,7 @@
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/scripts/__init__.py</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/scripts/agentpress.py</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/scripts/check_agentpress_availability.py</loc></url>
+  <url><loc>https://barneywohl.github.io/korea-research-map-agents/scripts/check_agentpress_positioning.py</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/scripts/evaluate_cheap_screen_deletion.py</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/scripts/generate_share_report.py</loc></url>
   <url><loc>https://barneywohl.github.io/korea-research-map-agents/scripts/next_channel.py</loc></url>

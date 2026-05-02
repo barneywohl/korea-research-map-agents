@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-05-02T21:58:34.462689+00:00",
+  "collections": [
+    {
+      "slug": "flagship-agent-infrastructure",
+      "title": "Flagship Agent Infrastructure",
+      "article_slugs": [
+        "universal-agent-reachability"
+      ]
+    },
+    {
+      "slug": "legacy-research-stress-tests",
+      "title": "Legacy Research Stress Tests",
+      "article_slugs": [
+        "innospace-thesis",
+        "liquidity-trap",
+        "posco-green-steel",
+        "samsung-hbm-margin",
+        "sk-hynix-hbm-supply",
+        "theme-cashflow"
+      ]
+    }
+  ]
+}

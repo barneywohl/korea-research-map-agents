@@ -130,13 +130,13 @@ agentpress/articles/
 
 ## MVP build sequence
 
-1. Add database spec and global feature backlog item.
-2. Add `article-index.json` and `article-index.jsonl` generated from existing examples.
-3. Add `article-card.json` to the universal reachability example.
-4. Add CLI command: `agentpress index-articles`.
-5. Add global collection pages: by domain, task type, language, agent family.
-6. Add claim/source/freshness indexes.
-7. Later: optional profiles as views over article contributions/collections.
+1. [x] Add database spec and global feature backlog item.
+2. [x] Add `article-index.json` and `article-index.jsonl` generated from existing examples.
+3. [x] Add `article-card.json` to every current example.
+4. [x] Add CLI command: `agentpress index-articles`.
+5. [x] Add global collection/topic/language indexes.
+6. [x] Add claim/source/freshness/eval indexes.
+7. [ ] Later: optional profiles as views over article contributions/collections.
 
 ## Relationship to profiles
 
