@@ -82,6 +82,13 @@ AgentPress should not just publish articles. It should publish **agent-operable 
 9. language/region metadata,
 10. optional agent/profile identity page.
 
+
+## Jake correction: database before profiles
+
+The immediate product should be a whole database of agent-native articles set up the way agents want: indexable by task type, claims, sources, freshness, language, domain, eval coverage, and allowed actions. Profiles can come later as a view over who/what maintains article collections.
+
+See `AGENT_ARTICLE_DATABASE_SPEC.md`.
+
 ## Build priority
 
 1. Finish universal reachability + manifest cleanup.

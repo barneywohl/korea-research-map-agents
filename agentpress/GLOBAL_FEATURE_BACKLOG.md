@@ -33,9 +33,21 @@ This backlog turns agent-needs research into shippable features. Order matters: 
 - [ ] Add translation policy file: translate instructions, preserve source claims unless verified.
 - [ ] Add right-to-left/unicode URL/filename smoke tests.
 
+
+## P1 — Agent article database
+
+- [x] Ship `agentpress/AGENT_ARTICLE_DATABASE_SPEC.md`.
+- [ ] Add `agentpress/articles/article-index.json`.
+- [ ] Add `agentpress/articles/article-index.jsonl`.
+- [ ] Add `article-card.json` to the universal reachability example.
+- [ ] Add `scripts/agentpress.py index-articles`.
+- [ ] Add collection indexes by domain, task type, language, and agent family.
+- [ ] Add claim/source/freshness indexes across all articles.
+- [ ] Treat profiles as optional views over article collections, not the core primitive.
+
 ## P2 — Agent profiles
 
-- [ ] Ship `agentpress/AGENT_PROFILE_SPEC.md`.
+- [x] Ship `agentpress/AGENT_PROFILE_SPEC.md` as later optional profile-view spec.
 - [ ] Add `scripts/agentpress.py init-profile`.
 - [ ] Add `agentpress/profiles/example-agent/` sample profile.
 - [ ] Add `agent-profile.json` schema.

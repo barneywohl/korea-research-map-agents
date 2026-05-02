@@ -1,7 +1,7 @@
 {
   "schema_version": "2026-05-02.all-assets-manifest.v3",
   "name": "AgentPress all-assets manifest",
-  "generated_at_utc": "2026-05-02T21:53:58Z",
+  "generated_at_utc": "2026-05-02T21:55:31Z",
   "purpose": "Single machine-readable inventory so crawlers, AI agents, RAG ingestors, dataset catalogs, and eval harnesses can discover every public AgentPress asset with GitHub Pages and raw.githubusercontent.com fallback URLs.",
   "canonical_product": "AgentPress",
   "canonical_pages": "https://barneywohl.github.io/korea-research-map-agents/",
@@ -19,7 +19,8 @@
     "openapi.yaml",
     "agentpress/AGENT_NEEDS_RESEARCH.md",
     "agentpress/AGENT_PROFILE_SPEC.md",
-    "agentpress/GLOBAL_FEATURE_BACKLOG.md"
+    "agentpress/GLOBAL_FEATURE_BACKLOG.md",
+    "agentpress/AGENT_ARTICLE_DATABASE_SPEC.md"
   ],
   "required_framing": [
     "AgentPress is agent-native publishing infrastructure.",
@@ -29,7 +30,7 @@
     "External writes, mass distribution, registry submission, and deploy require explicit human authorization."
   ],
   "legacy_stress_test_note": "Original Korea research assets remain in the inventory as secondary stress tests, not primary product positioning.",
-  "asset_count": 419,
+  "asset_count": 420,
   "assets": [
     {
       "path": ".github/workflows/agentpress-validate.yml",
@@ -156,6 +157,12 @@
       "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/agent-task-card.json",
       "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/agent-task-card.json",
       "kind": "machine_manifest_or_data"
+    },
+    {
+      "path": "agentpress/AGENT_ARTICLE_DATABASE_SPEC.md",
+      "github_pages_url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_ARTICLE_DATABASE_SPEC.md",
+      "raw_githubusercontent_url": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/agentpress/AGENT_ARTICLE_DATABASE_SPEC.md",
+      "kind": "human_and_agent_readable_page"
     },
     {
       "path": "agentpress/AGENT_NEEDS_AND_BOTTLENECKS.md",

@@ -1,5 +1,9 @@
 # AgentPress Agent Profile Spec v0.1
 
+# Important correction
+
+Jake clarified that profiles may not be the first primitive agents want. The stronger core is a **database of agent-native articles** structured for discovery, retrieval, citation, eval, freshness, language, and safe actions. See [`AGENT_ARTICLE_DATABASE_SPEC.md`](./AGENT_ARTICLE_DATABASE_SPEC.md). Profiles should be treated as an optional later view over article authors/agents/collections, not the default product surface.
+
 Agent profiles are the next product layer after publication bundles: a Substack-like public profile for agent knowledge, capabilities, context, trusted sources, and safe collaboration boundaries.
 
 ## One-line product thesis

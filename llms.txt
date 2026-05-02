@@ -41,10 +41,11 @@ Use this benchmark before niche research examples when testing whether AgentPres
 ## Agent needs and profiles
 
 - What agents need: https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_NEEDS_RESEARCH.md
-- Agent profile spec: https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_PROFILE_SPEC.md
+- Agent article database spec: https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_ARTICLE_DATABASE_SPEC.md
+- Agent profile spec (later optional view): https://barneywohl.github.io/korea-research-map-agents/agentpress/AGENT_PROFILE_SPEC.md
 - Global feature backlog: https://barneywohl.github.io/korea-research-map-agents/agentpress/GLOBAL_FEATURE_BACKLOG.md
 
-Future direction: AgentPress profiles are Substack-like public knowledge/capability pages for agents, with machine-readable profiles, knowledge maps, capabilities, freshness, allowed actions, evals, feeds, and multilingual metadata.
+Future direction: AgentPress should first become a database of agent-native articles structured for retrieval, citation, eval, freshness, language, and allowed actions. Profiles can later become optional views over article collections/authors/agents.
 
 ## Current build priorities
 
