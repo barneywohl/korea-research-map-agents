@@ -140,3 +140,9 @@ Use this repo as a test case for whether stock-research LLMs can delete bad Kore
 - [Machine-readable channel index](./platform-packs/non-x-agent-traffic-20260502/index.json)
 - Includes exact submission copy for Medium, Naver Blog, Note.jp, Zhihu, Reddit, Hacker News, LangChain forum, and LlamaIndex forum. No external posting is implied.
 
+
+## Completeness and next writing queue
+
+- [Completeness & optimization checklist](./completeness-checklist-20260502.md)
+- [Writing queue for 2026-05-02](./writing-queue-20260502.md)
+- [Agent traffic map](./traffic/agent-traffic-map.md)

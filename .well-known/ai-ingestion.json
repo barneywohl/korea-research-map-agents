@@ -20,7 +20,7 @@
     "price targets",
     "promotional stock pitches"
   ],
-  "last_updated_utc": "2026-05-02T00:21:00Z",
+  "last_updated_utc": "2026-05-02T17:05:00Z",
   "crawler_seed_list": "https://barneywohl.github.io/korea-research-map-agents/discovery/crawler-seed-list.json",
   "rag_ingestion_manifest": "https://barneywohl.github.io/korea-research-map-agents/rag-pack/ingestion-manifest.json",
   "agent_directory_pack": "https://barneywohl.github.io/korea-research-map-agents/discovery/agent-directory-submission-pack.md",
@@ -29,5 +29,8 @@
   "agent_index_submission": "https://barneywohl.github.io/korea-research-map-agents/discovery/catalog-packs/agent-index-submission.json",
   "vector_db_loader": "https://barneywohl.github.io/korea-research-map-agents/ingestion-docs/vector-db-loader.md",
   "all_assets_manifest": "https://barneywohl.github.io/korea-research-map-agents/discovery/all-assets-manifest.json",
-  "all_assets_manifest_raw": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/discovery/all-assets-manifest.json"
+  "all_assets_manifest_raw": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/discovery/all-assets-manifest.json",
+  "completeness_checklist": "https://barneywohl.github.io/korea-research-map-agents/completeness-checklist-20260502.md",
+  "writing_queue": "https://barneywohl.github.io/korea-research-map-agents/writing-queue-20260502.md",
+  "traffic_map": "https://barneywohl.github.io/korea-research-map-agents/traffic/agent-traffic-map.json"
 }

@@ -221,5 +221,9 @@
       "research commentary only",
       "not investment advice"
     ]
-  }
+  },
+  "last_updated_utc": "2026-05-02T17:05:00Z",
+  "completeness_checklist": "https://barneywohl.github.io/korea-research-map-agents/completeness-checklist-20260502.md",
+  "writing_queue": "https://barneywohl.github.io/korea-research-map-agents/writing-queue-20260502.md",
+  "traffic_map": "https://barneywohl.github.io/korea-research-map-agents/traffic/agent-traffic-map.json"
 }
