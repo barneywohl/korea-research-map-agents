@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AgentPress AI Ingestion Manifest",
+  "type": "object",
+  "required": ["schema_version", "name", "canonical_url", "entrypoint", "llms_txt", "task_card", "source_map", "allowed_actions", "citation_policy", "disclaimer"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "name": {"type": "string"},
+    "canonical_url": {"type": "string"},
+    "entrypoint": {"type": "string"},
+    "llms_txt": {"type": "string"},
+    "task_card": {"type": "string"},
+    "source_map": {"type": "string"},
+    "allowed_actions": {"type": "string"},
+    "citation_policy": {"type": "string"},
+    "disclaimer": {"type": "string"}
+  }
+}

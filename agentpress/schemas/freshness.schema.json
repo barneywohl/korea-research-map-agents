@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AgentPress Freshness",
+  "type": "object",
+  "required": ["schema_version", "publication", "generated_at", "last_reviewed_at", "refresh_policy", "stale_zones", "default_freshness_window_days"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "publication": {"type": "string"},
+    "generated_at": {"type": "string"},
+    "last_reviewed_at": {"type": "string"},
+    "refresh_policy": {"type": "string"},
+    "stale_zones": {"type": "array", "items": {"type": "string"}},
+    "default_freshness_window_days": {"type": "integer", "minimum": 0}
+  }
+}

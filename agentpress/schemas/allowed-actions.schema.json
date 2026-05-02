@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AgentPress Allowed Actions",
+  "type": "object",
+  "required": ["schema_version", "allowed", "requires_human_approval", "prohibited"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "allowed": {"type": "array", "items": {"type": "string"}},
+    "requires_human_approval": {"type": "array", "items": {"type": "string"}},
+    "prohibited": {"type": "array", "items": {"type": "string"}}
+  }
+}

@@ -41,6 +41,18 @@ python3 scripts/validate_agentpress_assets.py
 
 Score emits a machine-readable report plus badge markdown, e.g. `![AgentPress score](https://img.shields.io/badge/AgentPress-100%2F100-blue)`.
 
+
+## Schemas and CI
+
+Machine-readable contracts live in [`schemas/`](./schemas/). The repository CI workflow runs:
+
+```bash
+python3 scripts/validate_agentpress_assets.py
+python3 scripts/agentpress.py build agentpress/examples/liquidity-trap --out /tmp/agentpress-liquidity
+```
+
+This keeps generated bundles parseable, auditable, scorable, and static-host deployable.
+
 ## Dogfood examples
 
 See the [examples mini-registry](./examples/README.md).

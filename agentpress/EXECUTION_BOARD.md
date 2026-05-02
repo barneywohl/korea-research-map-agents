@@ -46,3 +46,16 @@ Each agent output must include:
 - external posting,
 - new unrelated Korea theses unless directly improving AgentPress examples,
 - hidden/deceptive telemetry.
+
+
+## Post-ship audit backlog — 2026-05-02
+
+Source: [`reports/post_ship_audit_20260502.md`](reports/post_ship_audit_20260502.md)
+
+| Priority | Task | Status | Done Means |
+|---|---|---|---|
+| P0 | Schema docs | shipped | `agentpress/schemas/` documents required machine-readable files |
+| P0 | CI workflow | shipped | `.github/workflows/agentpress-validate.yml` validates assets and build smoke test |
+| P1 | README quickstart/CI link | shipped | README points to schemas and validation/build path |
+| P1 | Ticker-thesis AgentPress wrapper | next chunk | one Korea ticker thesis packaged as full AgentPress bundle |
+| P2 | Python package metadata | next chunk | installable CLI skeleton exists |

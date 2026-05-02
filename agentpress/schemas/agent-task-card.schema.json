@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AgentPress Task Card",
+  "type": "object",
+  "required": ["schema_version", "name", "task_type", "canonical_url", "target_agents", "objective", "input_contract", "output_contract", "scoring_rubric", "allowed_actions", "prohibited_actions", "disclaimer"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "name": {"type": "string"},
+    "title": {"type": "string"},
+    "task_type": {"type": "string"},
+    "canonical_url": {"type": "string"},
+    "target_agents": {"type": "array", "items": {"type": "string"}},
+    "objective": {"type": "string"},
+    "input_contract": {"type": "object"},
+    "output_contract": {"type": "object"},
+    "scoring_rubric": {"type": "object"},
+    "allowed_actions": {"type": "array", "items": {"type": "string"}},
+    "prohibited_actions": {"type": "array", "items": {"type": "string"}},
+    "disclaimer": {"type": "string"}
+  }
+}
