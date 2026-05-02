@@ -1,9 +1,10 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-05-02T22:12:36.455452+00:00",
+  "generated_at": "2026-05-02T22:27:48.785863+00:00",
   "topics": {
     "research-stress-test": [
       "innospace-thesis",
+      "kb-finrate",
       "liquidity-trap",
       "posco-green-steel",
       "samsung-hbm-margin",
@@ -12,6 +13,7 @@
     ],
     "finance-research": [
       "innospace-thesis",
+      "kb-finrate",
       "liquidity-trap",
       "posco-green-steel",
       "samsung-hbm-margin",
@@ -20,6 +22,7 @@
     ],
     "agent-native-article": [
       "innospace-thesis",
+      "kb-finrate",
       "liquidity-trap",
       "posco-green-steel",
       "samsung-hbm-margin",
@@ -29,6 +32,7 @@
     ],
     "research-agents": [
       "innospace-thesis",
+      "kb-finrate",
       "liquidity-trap",
       "posco-green-steel",
       "samsung-hbm-margin",
@@ -37,6 +41,7 @@
     ],
     "rag-systems": [
       "innospace-thesis",
+      "kb-finrate",
       "liquidity-trap",
       "posco-green-steel",
       "samsung-hbm-margin",
@@ -46,6 +51,7 @@
     ],
     "eval-harnesses": [
       "innospace-thesis",
+      "kb-finrate",
       "liquidity-trap",
       "posco-green-steel",
       "samsung-hbm-margin",
@@ -55,6 +61,7 @@
     ],
     "crawler-indexing-agents": [
       "innospace-thesis",
+      "kb-finrate",
       "liquidity-trap",
       "posco-green-steel",
       "samsung-hbm-margin",

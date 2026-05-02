@@ -17,11 +17,12 @@ Purpose: make AgentPress understandable and usable by any autonomous agent, craw
 - Registry/task-card language and region metadata present for current examples.
 - East/West source-adapter matrix documented.
 - Agent protocol integration notes/samples documented.
+- Package build/install smoke gate and release notes for 0.1.0.
 
 ## Missing / needs build
 1. **CI deployment gate** — add a GitHub Actions workflow that fails if registry URLs 404, JSON/XML invalid, required examples score <100, disclaimers are missing, or `.well-known` assets are not served.
 2. **Availability monitor** — promote the post-deploy curl check into a reusable script/cron that checks root, registry, llms, sitemap, representative task cards, and ingestion manifests.
-3. **Package/install distribution** — publishable Python package metadata is present but needs release notes, package build, and install smoke test in CI.
+3. **Package/install distribution** — release notes plus CI wheel build/install smoke test now exist; remaining work is external package publishing only after a passing release gate.
 4. **Cross-agent compatibility tests** — create fixture prompts and expected outputs for Codex/Claude/Gemini/GLM/open-source agents.
 5. **Protocol integration fixtures** — turn MCP/OpenAPI/RSS/Atom examples into machine-testable fixtures with expected discovery outputs.
 6. **Internationalization pass** — define explicit translation policy fields and add at least one non-English metadata fixture while preserving English canonical research text.

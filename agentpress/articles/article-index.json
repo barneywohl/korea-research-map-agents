@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1",
   "type": "agentpress_article_index",
-  "generated_at": "2026-05-02T22:12:36.455452+00:00",
-  "count": 7,
+  "generated_at": "2026-05-02T22:27:48.785863+00:00",
+  "count": 8,
   "articles": [
     {
       "title": "Innospace 462350 Launch Cadence Dilution Thesis",
@@ -35,6 +35,38 @@
       "freshness": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/innospace-thesis/freshness.json",
       "allowed_actions": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/innospace-thesis/allowed-actions.json",
       "eval_count": 1
+    },
+    {
+      "title": "KB-FINRATE Korean Bank NIM Compression Thesis",
+      "slug": "kb-finrate",
+      "canonical_url": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/kb-finrate/",
+      "summary_for_agents": "Verify whether KB/Shinhan/Hana funding mix, BOK rate path, and NIM disclosures support or kill the Korean bank NIM compression thesis.",
+      "domains": [
+        "research_stress_test",
+        "finance_research"
+      ],
+      "task_types": [
+        "agent_native_article"
+      ],
+      "target_agent_families": [
+        "research agents",
+        "RAG systems",
+        "eval harnesses",
+        "crawler/indexing agents"
+      ],
+      "languages": [
+        "en"
+      ],
+      "regions": [
+        "global",
+        "korea_stress_test"
+      ],
+      "article_card": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/kb-finrate/article-card.json",
+      "task_card": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/kb-finrate/agent-task-card.json",
+      "source_map": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/kb-finrate/source-map.json",
+      "freshness": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/kb-finrate/freshness.json",
+      "allowed_actions": "https://barneywohl.github.io/korea-research-map-agents/agentpress/examples/kb-finrate/allowed-actions.json",
+      "eval_count": 2
     },
     {
       "title": "Korea Liquidity Trap Agent Benchmark",

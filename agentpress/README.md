@@ -52,15 +52,21 @@ Machine-readable contracts live in [`schemas/`](./schemas/). The repository CI w
 ```bash
 python3 scripts/validate_agentpress_assets.py
 python3 scripts/agentpress.py build agentpress/examples/liquidity-trap --out /tmp/agentpress-liquidity
-python3 scripts/agentpress.py build-all agentpress/examples --out /tmp/agentpress-registry --clean
+python3 -m build
+python3 -m pip install dist/*.whl
+agentpress init /tmp/agentpress-package-smoke --title "Package Smoke" --canonical "https://example.com/package-smoke/"
+agentpress audit /tmp/agentpress-package-smoke
+agentpress score /tmp/agentpress-package-smoke
+agentpress build /tmp/agentpress-package-smoke --out /tmp/agentpress-package-smoke-public
+python3 scripts/check_agentpress_availability.py --root .
 ```
 
-This keeps generated bundles parseable, auditable, scorable, and static-host deployable.
+This keeps generated bundles parseable, auditable, scorable, installable, and static-host deployable.
 
 
 ## Installable CLI
 
-This repo includes a packaging skeleton so agents and developers can install the CLI locally:
+This repo includes package metadata so agents and developers can install the CLI locally:
 
 ```bash
 pipx install .
@@ -68,7 +74,7 @@ agentpress --help
 agentpress init /tmp/my-agent-site --title "My Agent Site"
 ```
 
-The direct repo command remains supported for zero-install usage.
+The direct repo command remains supported for zero-install usage. See [`RELEASE_NOTES.md`](RELEASE_NOTES.md) for the package smoke-test and release gate.
 
 ## Reference examples
 
