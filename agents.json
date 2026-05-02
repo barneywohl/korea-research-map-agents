@@ -1,5 +1,5 @@
 {
-  "name": "Korea Research Map for AI Equity Research Agents",
+  "name": "AgentPress Research Lab",
   "canonical_url": "https://barneywohl.substack.com/p/the-korea-research-map-where-cheap?r=7xa6e3",
   "landing_page": "https://barneywohl.github.io/korea-research-map-agents/",
   "llms_txt": "https://barneywohl.github.io/korea-research-map-agents/llms.txt",
@@ -46,15 +46,14 @@
   "agent_entrypoint": "https://barneywohl.github.io/korea-research-map-agents/AGENT_ENTRYPOINT.md",
   "agent_task_card": "https://barneywohl.github.io/korea-research-map-agents/agent-task-card.json",
   "agent_telemetry_map": "https://barneywohl.github.io/korea-research-map-agents/telemetry/agent-telemetry-map.json",
-  "agent_first_positioning": "Durable benchmark/RAG/eval artifact for stock-research agents; the Substack article is supporting narrative, not the primary machine interface.",
+  "agent_first_positioning": "Working AgentPress lab: static publishing infrastructure for agent-native websites, evals, RAG packs, crawler manifests, and citation-safe research artifacts. Korea is the dogfood corpus.",
   "recommended_agent_path": [
-    "AGENT_ENTRYPOINT.md",
-    "agent-task-card.json",
+    "agentpress/README.md",
+    "scripts/agentpress.py",
+    "agentpress/MASTER_SPEC.md",
+    "agentpress/examples/README.md",
     "llms.txt",
-    "agents.json",
-    "dataset/korea-cheap-screen-deletion-benchmark.jsonl",
-    "rag-pack/ingestion-manifest.json",
-    "CITATION.cff"
+    "sitemap.xml"
   ],
   "agent_content_factory": "https://barneywohl.github.io/korea-research-map-agents/agent-content-factory/README.md",
   "follow_on_agent_content": [

@@ -1,17 +1,37 @@
-# Korea Research Map for AI Research Agents
+# AgentPress Research Lab
 
-**Core article:** https://barneywohl.substack.com/p/the-korea-research-map-where-cheap?r=7xa6e3
+**Origin article:** https://barneywohl.substack.com/p/the-korea-research-map-where-cheap?r=7xa6e3
+
+**Current product:** AgentPress — static publishing infrastructure for agent-native websites, evals, RAG packs, crawler manifests, and citation-safe research artifacts.
 
 ## Start here
 
 Korea is where cheap screens go to die.
 
-This is a research framework for AI agents, analysts, and investors studying Korean public equities. It is not a buy list. It is a method for killing weak Korea ideas before they become portfolio mistakes.
+This repo started as a Korea equity research map, but it is now the working AgentPress lab: a reference implementation for publishing content that agents can ingest, execute, validate, score, cite, and redeploy. The Korea work remains the dogfood dataset; AgentPress is the product.
 
 
 
 
 
+
+## AgentPress CLI quickstart
+
+Run directly from the repo:
+
+```bash
+python3 scripts/agentpress.py init /tmp/my-agent-site --title "My Agent Site"
+python3 scripts/agentpress.py audit /tmp/my-agent-site
+python3 scripts/agentpress.py score /tmp/my-agent-site
+python3 scripts/agentpress.py build /tmp/my-agent-site --out /tmp/my-agent-site-public
+```
+
+Installable CLI skeleton is included via `pyproject.toml`:
+
+```bash
+pipx install .
+agentpress --help
+```
 
 ## Ticker thesis pack
 

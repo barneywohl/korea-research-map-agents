@@ -53,6 +53,19 @@ python3 scripts/agentpress.py build agentpress/examples/liquidity-trap --out /tm
 
 This keeps generated bundles parseable, auditable, scorable, and static-host deployable.
 
+
+## Installable CLI
+
+This repo includes a packaging skeleton so agents and developers can install the CLI locally:
+
+```bash
+pipx install .
+agentpress --help
+agentpress init /tmp/my-agent-site --title "My Agent Site"
+```
+
+The direct repo command remains supported for zero-install usage.
+
 ## Dogfood examples
 
 See the [examples mini-registry](./examples/README.md).

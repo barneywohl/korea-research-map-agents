@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentpress-static"
+version = "0.1.0"
+description = "Static generator, validator, scorer, and builder for agent-native publications."
+readme = "agentpress/README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Barney Wohl"}]
+keywords = ["agents", "llms", "publishing", "rag", "evals", "static-site"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Text Processing :: Markup",
+  "Topic :: Internet :: WWW/HTTP :: Site Management"
+]
+
+[project.scripts]
+agentpress = "agentpress_cli.cli:main"
+
+[tool.setuptools]
+packages = ["agentpress_cli", "scripts"]
+
+[tool.setuptools.package-data]
+"*" = ["*.md", "*.json", "*.tmpl", "*.xml"]

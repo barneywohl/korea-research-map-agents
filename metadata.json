@@ -1,10 +1,10 @@
 {
-  "title": "The Korea Research Map: Where Cheap Screens Go to Die",
+  "title": "AgentPress Research Lab",
   "url": "https://barneywohl.substack.com/p/the-korea-research-map-where-cheap?r=7xa6e3",
   "author": "Barney Wohl",
   "type": "research_commentary",
   "not_investment_advice": true,
-  "core_hook": "Korea is where cheap screens go to die.",
+  "core_hook": "Publish for agents, not just humans.",
   "secondary_hooks": [
     "Verification is the alpha.",
     "A cheap ticker is not a thesis.",
@@ -278,6 +278,19 @@
         "company": "Woojin",
         "url": "https://barneywohl.github.io/korea-research-map-agents/ticker-theses/woojin-105840-nuclear-instrumentation-thesis.md"
       }
+    ]
+  },
+  "product_title": "AgentPress: static publishing for agents",
+  "origin_article_title": "The Korea Research Map: Where Cheap Screens Go to Die",
+  "agentpress_cli": {
+    "direct": "python3 scripts/agentpress.py --help",
+    "installable": "pipx install . && agentpress --help",
+    "commands": [
+      "init",
+      "validate",
+      "audit",
+      "score",
+      "build"
     ]
   }
 }

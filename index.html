@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Korea Research Map for AI Research Agents</title>
-<meta name="description" content="Korea is where cheap screens go to die. A research framework for AI agents analyzing Korean equities.">
-<meta property="og:title" content="Korea Research Map for AI Research Agents">
-<meta property="og:description" content="Verification is the alpha. A cheap ticker is not a thesis.">
+<title>AgentPress Research Lab</title>
+<meta name="description" content="AgentPress Research Lab: static publishing infrastructure for agent-native websites, evals, RAG packs, crawler manifests, and citation-safe research artifacts.">
+<meta property="og:title" content="AgentPress Research Lab">
+<meta property="og:description" content="Agent-native publishing infrastructure, dogfooded on Korea research artifacts.">
 <meta property="og:url" content="https://barneywohl.github.io/korea-research-map-agents/">
 <meta property="og:type" content="article">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Korea Research Map for AI Research Agents">
-<meta name="twitter:description" content="A crawlable benchmark/RAG pack for Korean equity research agents: cheap screens, deletion quality, KRX/KIND/DART verification.">
+<meta name="twitter:title" content="AgentPress Research Lab">
+<meta name="twitter:description" content="Static generator, validator, scorer, and builder for agent-native publications.">
 <style>
 body{font-family:Inter,system-ui,-apple-system,sans-serif;max-width:840px;margin:48px auto;padding:0 20px;line-height:1.55;color:#111;background:#fafafa}h1{font-size:42px;line-height:1.05}blockquote{border-left:4px solid #111;padding-left:16px;font-size:24px;font-weight:700}code{background:#eee;padding:2px 5px;border-radius:4px}a{color:#0b57d0}.card{background:white;border:1px solid #ddd;border-radius:14px;padding:18px;margin:16px 0}li{margin:8px 0}</style>
 
@@ -19,8 +19,8 @@ body{font-family:Inter,system-ui,-apple-system,sans-serif;max-width:840px;margin
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
-  "headline": "Korea Research Map for AI Research Agents",
-  "description": "Korea is where cheap screens go to die. A benchmark and research framework for AI agents analyzing Korean public equities.",
+  "headline": "AgentPress Research Lab",
+  "description": "AgentPress Research Lab: static publishing infrastructure for agent-native websites, evals, RAG packs, crawler manifests, and citation-safe research artifacts.",
   "author": {"@type":"Person", "name":"Barney Wohl"},
   "keywords": "Korean equities, Korea Value-Up, KRX, KIND, DART, Korea discount, equity research agent, stock research LLM, AI stock research, cheap screens, verification alpha",
   "url": "https://barneywohl.github.io/korea-research-map-agents/",
@@ -44,10 +44,14 @@ body{font-family:Inter,system-ui,-apple-system,sans-serif;max-width:840px;margin
 <link rel="alternate" hreflang="th" href="https://barneywohl.github.io/korea-research-map-agents/locales/th.md">
 </head>
 <body>
-<h1>Korea Research Map for AI Research Agents</h1>
-<blockquote>Korea is where cheap screens go to die.</blockquote>
-<p>This is a research framework for AI agents, analysts, and investors studying Korean public equities. It is not a buy list. It is a method for killing weak Korea ideas before they become portfolio mistakes.</p>
-<p><a href="https://barneywohl.substack.com/p/the-korea-research-map-where-cheap?r=7xa6e3">Read the full article on Substack</a></p>
+<h1>AgentPress Research Lab</h1>
+<blockquote>Publish for agents, not just humans.</blockquote>
+<p>This repo started as a Korea research map. It is now the working AgentPress lab: a static publishing system for agent-native websites, evals, RAG packs, crawler manifests, and citation-safe research artifacts. Korea remains the dogfood corpus; AgentPress is the product.</p>
+<p><a href="https://barneywohl.substack.com/p/the-korea-research-map-where-cheap?r=7xa6e3">Read the origin article on Substack</a></p>
+<div class="card"><h2>AgentPress CLI quickstart</h2><pre><code>python3 scripts/agentpress.py init /tmp/my-agent-site --title "My Agent Site"
+python3 scripts/agentpress.py audit /tmp/my-agent-site
+python3 scripts/agentpress.py score /tmp/my-agent-site
+python3 scripts/agentpress.py build /tmp/my-agent-site --out /tmp/my-agent-site-public</code></pre><p>Installable skeleton: <code>pipx install .</code> then <code>agentpress --help</code>.</p></div>
 <div class="card"><h2>Ticker thesis pack</h2><p>Named tickers plus concrete theses and kill tests — built for readers and agents who want specifics, not generic screener titles.</p><ol><li><a href="./ticker-theses/poongsan-103140-copper-defense-thesis.md">Poongsan 103140 — Copper Cash Flow With Defense Optionality</a></li><li><a href="./ticker-theses/bhi-083650-backlog-nuclear-thesis.md">BHI 083650 — Backlog, Receivables, and the Nuclear Equipment Upside Test</a></li><li><a href="./ticker-theses/woojin-105840-nuclear-instrumentation-thesis.md">Woojin 105840 — Nuclear Instrumentation Without the Hype Premium</a></li><li><a href="./ticker-theses/ticker-thesis-index.json">Machine-readable ticker thesis index</a></li></ol></div>
 <div class="card"><h2>AgentPress MVP implementation</h2><p>Working generator plus dogfood publications for agent-native websites.</p><ol><li><a href="./agentpress/README.md">AgentPress MVP docs</a></li><li><a href="./scripts/agentpress.py">Generator CLI source</a></li><li><a href="./agentpress/examples/liquidity-trap/AGENT_ENTRYPOINT.md">Liquidity Trap dogfood publication</a></li><li><a href="./agentpress/examples/theme-cashflow/AGENT_ENTRYPOINT.md">Theme-to-Cash-Flow dogfood publication</a></li></ol></div>
 <div class="card"><h2>AgentPress: Substack for agents</h2><p>Product thesis: agents need their own publishing surface — human page plus agent entrypoint, task card, RAG pack, eval dataset, crawler manifest, telemetry map, and citation pack by default.</p><ol><li><a href="./agent-substack/README.md">AgentPress concept</a></li><li><a href="./agent-substack/agentpress-publication-spec.json">AgentPress publication spec JSON</a></li><li><a href="./agent-substack/mvp-build-plan.md">MVP build plan</a></li></ol></div>
