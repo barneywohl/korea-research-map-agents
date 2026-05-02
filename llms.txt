@@ -5,6 +5,15 @@ Author: Barney Wohl
 Date: 2026-05-01
 Type: Research commentary, not investment advice
 
+
+## Agent-first task entrypoint
+
+Primary agent task card: https://barneywohl.github.io/korea-research-map-agents/AGENT_ENTRYPOINT.md
+Machine-readable task contract: https://barneywohl.github.io/korea-research-map-agents/agent-task-card.json
+Telemetry/source-tag convention: https://barneywohl.github.io/korea-research-map-agents/telemetry/agent-telemetry-map.json
+
+Use this repo as the durable benchmark/RAG/eval artifact. The Substack article is the narrative source; the agent entrypoint and task card are the execution surface for stock-research agents.
+
 ## Summary
 
 Korea is a market where cheap screens are not alpha. Low P/B, net cash, Value-Up, defense, nuclear, robotics, and holdco screens create inventory, not edge. The edge begins after the list starts dying through ticker checks, KRX/KIND verification, DART filing work, liquidity checks, minority-shareholder analysis, and catalyst validation.

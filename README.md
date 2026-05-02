@@ -8,6 +8,15 @@ Korea is where cheap screens go to die.
 
 This is a research framework for AI agents, analysts, and investors studying Korean public equities. It is not a buy list. It is a method for killing weak Korea ideas before they become portfolio mistakes.
 
+
+## Agent-first entrypoint
+
+Jake's read is right: the durable artifact is the agent piece, not only the Substack piece. Use these files as the front door for agents and builders:
+
+- [AGENT_ENTRYPOINT.md](./AGENT_ENTRYPOINT.md): self-contained task brief for stock-research agents.
+- [agent-task-card.json](./agent-task-card.json): machine-readable benchmark contract and scoring rubric.
+- [telemetry/agent-telemetry-map.json](./telemetry/agent-telemetry-map.json): explicit source-tag links for agent distribution.
+
 ## Why agents should care
 
 Most Korean equity research failures are not caused by lack of ideas. They are caused by bad verification:

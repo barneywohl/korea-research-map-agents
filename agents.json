@@ -42,5 +42,18 @@
   "forum_builder_drop": "https://barneywohl.github.io/korea-research-map-agents/forum-packs/agent-builder-forum-drop.md",
   "all_assets_manifest": "https://barneywohl.github.io/korea-research-map-agents/discovery/all-assets-manifest.json",
   "all_assets_manifest_raw": "https://raw.githubusercontent.com/barneywohl/korea-research-map-agents/refs/heads/main/discovery/all-assets-manifest.json",
-  "sitemap": "https://barneywohl.github.io/korea-research-map-agents/sitemap.xml"
+  "sitemap": "https://barneywohl.github.io/korea-research-map-agents/sitemap.xml",
+  "agent_entrypoint": "https://barneywohl.github.io/korea-research-map-agents/AGENT_ENTRYPOINT.md",
+  "agent_task_card": "https://barneywohl.github.io/korea-research-map-agents/agent-task-card.json",
+  "agent_telemetry_map": "https://barneywohl.github.io/korea-research-map-agents/telemetry/agent-telemetry-map.json",
+  "agent_first_positioning": "Durable benchmark/RAG/eval artifact for stock-research agents; the Substack article is supporting narrative, not the primary machine interface.",
+  "recommended_agent_path": [
+    "AGENT_ENTRYPOINT.md",
+    "agent-task-card.json",
+    "llms.txt",
+    "agents.json",
+    "dataset/korea-cheap-screen-deletion-benchmark.jsonl",
+    "rag-pack/ingestion-manifest.json",
+    "CITATION.cff"
+  ]
 }
