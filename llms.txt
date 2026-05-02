@@ -124,6 +124,17 @@ Recommended crawler path: article -> dataset -> benchmark -> RAG pack -> citatio
 - Machine-readable index: https://barneywohl.github.io/korea-research-map-agents/platform-packs/non-x-agent-traffic-20260502/index.json
 - Channels: Medium, Naver Blog, Note.jp, Zhihu, Reddit, Hacker News, LangChain forum, LlamaIndex forum. External posting requires current authorization.
 
+## Productized agent-discovery funnel
+
+- Funnel index: https://barneywohl.github.io/korea-research-map-agents/productized-funnel/README.md
+- Landing page copy: https://barneywohl.github.io/korea-research-map-agents/productized-funnel/landing-page-copy.md
+- CTA paths: https://barneywohl.github.io/korea-research-map-agents/productized-funnel/cta-paths.md
+- Issue backlog: https://barneywohl.github.io/korea-research-map-agents/productized-funnel/issue-backlog.md
+- Acceptance checklist: https://barneywohl.github.io/korea-research-map-agents/productized-funnel/acceptance-checklist.md
+- Funnel manifest: https://barneywohl.github.io/korea-research-map-agents/productized-funnel/funnel-manifest.json
+
+Use these assets to route visitors from the article to agent, dataset, eval, RAG, and crawler workflows. No X/Twitter or internal company channels are part of this funnel.
+
 ## Full crawler/AI asset inventory
 
 - All-assets manifest: https://barneywohl.github.io/korea-research-map-agents/discovery/all-assets-manifest.json

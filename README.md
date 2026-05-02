@@ -60,6 +60,18 @@ Jake explicitly paused Twitter/X on 2026-05-01. Current discoverability work sho
 Drafts and dataset metadata live in [`share-kit/`](./share-kit/). External posting/account activity still requires a fresh directive; repo-hosted artifacts are safe to prepare and publish.
 
 
+
+## Productized agent-discovery funnel
+
+The article is now packaged as a builder funnel with landing-page copy, CTA paths, an issue backlog, and an acceptance checklist.
+
+- [Productized funnel index](./productized-funnel/README.md)
+- [Landing page copy](./productized-funnel/landing-page-copy.md)
+- [CTA paths for agents/datasets/evals/RAG/crawlers](./productized-funnel/cta-paths.md)
+- [Issue backlog](./productized-funnel/issue-backlog.md)
+- [Acceptance checklist](./productized-funnel/acceptance-checklist.md)
+- [Machine-readable funnel manifest](./productized-funnel/funnel-manifest.json)
+
 ## Productized builder funnel
 
 - [Landing-path checklist](./landing-path-checklist.md): article → dataset → benchmark → RAG pack → citation.
